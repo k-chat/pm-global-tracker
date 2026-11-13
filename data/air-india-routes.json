@@ -1,0 +1,5222 @@
+{
+  "source": "https://www.flightpaths.com",
+  "note": "Commercial passenger comparison for the same airport pair. Air India One and Indian Air Force flights are not included. Closing return legs without a commercial record are marked estimated and use the great-circle distance.",
+  "generated_at": "2026-11-09T11:33:37.072Z",
+  "pairs": {
+    "DEL-PBH": {
+      "url": "https://www.flightpaths.com/DEL-PBH",
+      "recorded_flights": 6,
+      "km_min": 1382,
+      "km_max": 1450,
+      "great_circle_km": 1215,
+      "air_india": [],
+      "airspace": [
+        {
+          "country": "Bhutan",
+          "flights_in": 6,
+          "flights_total": 6
+        },
+        {
+          "country": "India",
+          "flights_in": 6,
+          "flights_total": 6
+        }
+      ],
+      "matched_direction": "same"
+    },
+    "PBH-DEL": {
+      "url": "https://www.flightpaths.com/DEL-PBH",
+      "recorded_flights": 6,
+      "km_min": 1382,
+      "km_max": 1450,
+      "great_circle_km": 1215,
+      "air_india": [],
+      "airspace": [
+        {
+          "country": "Bhutan",
+          "flights_in": 6,
+          "flights_total": 6
+        },
+        {
+          "country": "India",
+          "flights_in": 6,
+          "flights_total": 6
+        }
+      ],
+      "matched_direction": "reverse"
+    },
+    "DEL-FOR": null,
+    "FOR-BSB": null,
+    "BSB-DEL": {
+      "url": null,
+      "estimated": true,
+      "recorded_flights": null,
+      "km_min": 14232,
+      "km_max": 14232,
+      "great_circle_km": 14232,
+      "air_india": [],
+      "airspace": [],
+      "matched_direction": "same"
+    },
+    "DEL-KTM": {
+      "url": "https://www.flightpaths.com/DEL-KTM",
+      "recorded_flights": 40,
+      "km_min": 882,
+      "km_max": 1104,
+      "great_circle_km": 814,
+      "air_india": [
+        {
+          "airline": "Air India",
+          "recorded_from": "2025-01-03",
+          "recorded_to": "2026-06-03",
+          "flight_numbers": [
+            "AI213",
+            "AI215",
+            "AI223",
+            "AI219",
+            "AI217"
+          ]
+        }
+      ],
+      "airspace": [
+        {
+          "country": "India",
+          "flights_in": 20,
+          "flights_total": 20
+        },
+        {
+          "country": "Nepal",
+          "flights_in": 20,
+          "flights_total": 20
+        }
+      ],
+      "matched_direction": "same"
+    },
+    "KTM-DEL": {
+      "url": "https://www.flightpaths.com/KTM-DEL",
+      "recorded_flights": 12,
+      "km_min": 845,
+      "km_max": 951,
+      "great_circle_km": 814,
+      "air_india": [
+        {
+          "airline": "Air India",
+          "recorded_from": "2026-02-24",
+          "recorded_to": "2026-03-01",
+          "flight_numbers": [
+            "AI214",
+            "AI216",
+            "AI218",
+            "AI220",
+            "AI224",
+            "AI212"
+          ]
+        }
+      ],
+      "airspace": [
+        {
+          "country": "India",
+          "flights_in": 12,
+          "flights_total": 12
+        },
+        {
+          "country": "Nepal",
+          "flights_in": 12,
+          "flights_total": 12
+        }
+      ],
+      "matched_direction": "same"
+    },
+    "DEL-KIX": null,
+    "KIX-HND": null,
+    "HND-DEL": {
+      "url": "https://www.flightpaths.com/HND-DEL",
+      "recorded_flights": 12,
+      "km_min": 6465,
+      "km_max": 6825,
+      "great_circle_km": 5861,
+      "air_india": [
+        {
+          "airline": "Air India",
+          "recorded_from": "2026-03-27",
+          "recorded_to": "2026-04-01",
+          "flight_numbers": [
+            "AI357"
+          ]
+        }
+      ],
+      "airspace": [
+        {
+          "country": "Bangladesh",
+          "flights_in": 12,
+          "flights_total": 12
+        },
+        {
+          "country": "China",
+          "flights_in": 12,
+          "flights_total": 12
+        },
+        {
+          "country": "India",
+          "flights_in": 12,
+          "flights_total": 12
+        },
+        {
+          "country": "Japan",
+          "flights_in": 12,
+          "flights_total": 12
+        },
+        {
+          "country": "Over water",
+          "flights_in": 12,
+          "flights_total": 12
+        }
+      ],
+      "matched_direction": "same"
+    },
+    "DEL-JFK": {
+      "url": "https://www.flightpaths.com/DEL-JFK",
+      "recorded_flights": 162,
+      "km_min": 1550,
+      "km_max": 13885,
+      "great_circle_km": 11756,
+      "air_india": [
+        {
+          "airline": "Air India",
+          "recorded_from": "2026-01-11",
+          "recorded_to": "2026-10-04",
+          "flight_numbers": [
+            "AI101"
+          ]
+        }
+      ],
+      "airspace": [
+        {
+          "country": "India",
+          "flights_in": 20,
+          "flights_total": 20
+        },
+        {
+          "country": "Over water",
+          "flights_in": 19,
+          "flights_total": 20
+        },
+        {
+          "country": "Canada",
+          "flights_in": 14,
+          "flights_total": 20
+        },
+        {
+          "country": "Hungary",
+          "flights_in": 14,
+          "flights_total": 20
+        },
+        {
+          "country": "Romania",
+          "flights_in": 14,
+          "flights_total": 20
+        },
+        {
+          "country": "Slovakia",
+          "flights_in": 12,
+          "flights_total": 20
+        },
+        {
+          "country": "Bulgaria",
+          "flights_in": 11,
+          "flights_total": 20
+        },
+        {
+          "country": "Germany",
+          "flights_in": 11,
+          "flights_total": 20
+        },
+        {
+          "country": "Azerbaijan",
+          "flights_in": 10,
+          "flights_total": 20
+        },
+        {
+          "country": "Pakistan",
+          "flights_in": 10,
+          "flights_total": 20
+        },
+        {
+          "country": "Turkey",
+          "flights_in": 9,
+          "flights_total": 20
+        },
+        {
+          "country": "Georgia",
+          "flights_in": 8,
+          "flights_total": 20
+        },
+        {
+          "country": "Czech Republic",
+          "flights_in": 8,
+          "flights_total": 20
+        },
+        {
+          "country": "United Kingdom",
+          "flights_in": 8,
+          "flights_total": 20
+        },
+        {
+          "country": "Iraq",
+          "flights_in": 6,
+          "flights_total": 20
+        },
+        {
+          "country": "Kuwait",
+          "flights_in": 6,
+          "flights_total": 20
+        },
+        {
+          "country": "United Arab Emirates",
+          "flights_in": 6,
+          "flights_total": 20
+        },
+        {
+          "country": "Denmark",
+          "flights_in": 6,
+          "flights_total": 20
+        },
+        {
+          "country": "Poland",
+          "flights_in": 6,
+          "flights_total": 20
+        },
+        {
+          "country": "Norway",
+          "flights_in": 5,
+          "flights_total": 20
+        },
+        {
+          "country": "Italy",
+          "flights_in": 5,
+          "flights_total": 20
+        },
+        {
+          "country": "Bosnia and Herzegovina",
+          "flights_in": 4,
+          "flights_total": 20
+        },
+        {
+          "country": "France",
+          "flights_in": 4,
+          "flights_total": 20
+        },
+        {
+          "country": "Croatia",
+          "flights_in": 4,
+          "flights_total": 20
+        },
+        {
+          "country": "Serbia",
+          "flights_in": 4,
+          "flights_total": 20
+        },
+        {
+          "country": "Netherlands",
+          "flights_in": 4,
+          "flights_total": 20
+        },
+        {
+          "country": "Sweden",
+          "flights_in": 3,
+          "flights_total": 20
+        },
+        {
+          "country": "Faroe Islands",
+          "flights_in": 2,
+          "flights_total": 20
+        },
+        {
+          "country": "Iceland",
+          "flights_in": 2,
+          "flights_total": 20
+        },
+        {
+          "country": "Austria",
+          "flights_in": 2,
+          "flights_total": 20
+        },
+        {
+          "country": "Ireland",
+          "flights_in": 2,
+          "flights_total": 20
+        },
+        {
+          "country": "Iran",
+          "flights_in": 2,
+          "flights_total": 20
+        },
+        {
+          "country": "Armenia",
+          "flights_in": 1,
+          "flights_total": 20
+        },
+        {
+          "country": "Egypt",
+          "flights_in": 1,
+          "flights_total": 20
+        },
+        {
+          "country": "Greece",
+          "flights_in": 1,
+          "flights_total": 20
+        }
+      ],
+      "matched_direction": "same"
+    },
+    "JFK-IAD": null,
+    "IAD-DEL": {
+      "url": null,
+      "estimated": true,
+      "recorded_flights": null,
+      "km_min": 12058,
+      "km_max": 12058,
+      "great_circle_km": 12058,
+      "air_india": [],
+      "airspace": [],
+      "matched_direction": "same"
+    },
+    "DEL-NYT": null,
+    "NYT-BNE": null,
+    "BNE-SYD": null,
+    "SYD-SUV": null,
+    "SUV-DEL": {
+      "url": null,
+      "estimated": true,
+      "recorded_flights": null,
+      "km_min": 12042,
+      "km_max": 12042,
+      "great_circle_km": 12042,
+      "air_india": [],
+      "airspace": [],
+      "matched_direction": "same"
+    },
+    "DEL-SEZ": null,
+    "SEZ-MRU": null,
+    "MRU-CMB": null,
+    "CMB-ACJ": null,
+    "ACJ-DEL": {
+      "url": null,
+      "estimated": true,
+      "recorded_flights": null,
+      "km_min": 2280,
+      "km_max": 2280,
+      "great_circle_km": 2280,
+      "air_india": [],
+      "airspace": [],
+      "matched_direction": "same"
+    },
+    "DEL-SIN": {
+      "url": "https://www.flightpaths.com/DEL-SIN",
+      "recorded_flights": 18,
+      "km_min": 4292,
+      "km_max": 4574,
+      "great_circle_km": 4157,
+      "air_india": [
+        {
+          "airline": "Air India",
+          "recorded_from": "2024-07-02",
+          "recorded_to": "2024-07-05",
+          "flight_numbers": [
+            "AI382",
+            "AI380"
+          ]
+        }
+      ],
+      "airspace": [
+        {
+          "country": "India",
+          "flights_in": 12,
+          "flights_total": 12
+        },
+        {
+          "country": "Malaysia",
+          "flights_in": 12,
+          "flights_total": 12
+        },
+        {
+          "country": "Thailand",
+          "flights_in": 12,
+          "flights_total": 12
+        },
+        {
+          "country": "Over water",
+          "flights_in": 12,
+          "flights_total": 12
+        },
+        {
+          "country": "Singapore",
+          "flights_in": 8,
+          "flights_total": 12
+        },
+        {
+          "country": "Indonesia",
+          "flights_in": 7,
+          "flights_total": 12
+        },
+        {
+          "country": "Bangladesh",
+          "flights_in": 3,
+          "flights_total": 12
+        }
+      ],
+      "matched_direction": "same"
+    },
+    "SIN-DEL": {
+      "url": "https://www.flightpaths.com/SIN-DEL",
+      "recorded_flights": 176,
+      "km_min": 4323,
+      "km_max": 4608,
+      "great_circle_km": 4157,
+      "air_india": [
+        {
+          "airline": "Air India",
+          "recorded_from": "2026-08-03",
+          "recorded_to": "2026-09-16",
+          "flight_numbers": [
+            "AI2116",
+            "AI2381"
+          ]
+        }
+      ],
+      "airspace": [
+        {
+          "country": "India",
+          "flights_in": 20,
+          "flights_total": 20
+        },
+        {
+          "country": "Malaysia",
+          "flights_in": 20,
+          "flights_total": 20
+        },
+        {
+          "country": "Over water",
+          "flights_in": 20,
+          "flights_total": 20
+        },
+        {
+          "country": "Thailand",
+          "flights_in": 11,
+          "flights_total": 20
+        },
+        {
+          "country": "Indonesia",
+          "flights_in": 7,
+          "flights_total": 20
+        },
+        {
+          "country": "Singapore",
+          "flights_in": 1,
+          "flights_total": 20
+        }
+      ],
+      "matched_direction": "same"
+    },
+    "DEL-ORY": null,
+    "ORY-LIL": null,
+    "LIL-HAJ": null,
+    "HAJ-TXL": null,
+    "TXL-YOW": null,
+    "YOW-YVR": {
+      "url": "https://www.flightpaths.com/YVR-YOW",
+      "recorded_flights": 12,
+      "km_min": 3579,
+      "km_max": 3898,
+      "great_circle_km": 3552,
+      "air_india": [],
+      "airspace": [
+        {
+          "country": "Canada",
+          "flights_in": 12,
+          "flights_total": 12
+        },
+        {
+          "country": "Over water",
+          "flights_in": 7,
+          "flights_total": 12
+        }
+      ],
+      "matched_direction": "reverse"
+    },
+    "YVR-DEL": {
+      "url": "https://www.flightpaths.com/YVR-DEL",
+      "recorded_flights": 49,
+      "km_min": 13177,
+      "km_max": 13678,
+      "great_circle_km": 11138,
+      "air_india": [
+        {
+          "airline": "Air India",
+          "recorded_from": "2026-09-05",
+          "recorded_to": "2026-10-12",
+          "flight_numbers": [
+            "AI186"
+          ]
+        }
+      ],
+      "airspace": [
+        {
+          "country": "Bangladesh",
+          "flights_in": 10,
+          "flights_total": 10
+        },
+        {
+          "country": "Canada",
+          "flights_in": 10,
+          "flights_total": 10
+        },
+        {
+          "country": "India",
+          "flights_in": 10,
+          "flights_total": 10
+        },
+        {
+          "country": "Mongolia",
+          "flights_in": 10,
+          "flights_total": 10
+        },
+        {
+          "country": "Russia",
+          "flights_in": 10,
+          "flights_total": 10
+        },
+        {
+          "country": "Over water",
+          "flights_in": 10,
+          "flights_total": 10
+        },
+        {
+          "country": "China",
+          "flights_in": 2,
+          "flights_total": 10
+        }
+      ],
+      "matched_direction": "same"
+    },
+    "DEL-XIY": null,
+    "XIY-PVG": null,
+    "PVG-ULN": null,
+    "ULN-SSN": null,
+    "SSN-PUS": null,
+    "PUS-DEL": {
+      "url": null,
+      "estimated": true,
+      "recorded_flights": null,
+      "km_min": 4895,
+      "km_max": 4895,
+      "great_circle_km": 4895,
+      "air_india": [],
+      "airspace": [],
+      "matched_direction": "same"
+    },
+    "DEL-DAC": {
+      "url": "https://www.flightpaths.com/DAC-DEL",
+      "recorded_flights": 18,
+      "km_min": 1458,
+      "km_max": 1650,
+      "great_circle_km": 1426,
+      "air_india": [
+        {
+          "airline": "Air India",
+          "recorded_from": "2024-06-29",
+          "recorded_to": "2024-07-04",
+          "flight_numbers": [
+            "AI228",
+            "AI238"
+          ]
+        }
+      ],
+      "airspace": [
+        {
+          "country": "Bangladesh",
+          "flights_in": 12,
+          "flights_total": 12
+        },
+        {
+          "country": "India",
+          "flights_in": 12,
+          "flights_total": 12
+        }
+      ],
+      "matched_direction": "reverse"
+    },
+    "DAC-DEL": {
+      "url": "https://www.flightpaths.com/DAC-DEL",
+      "recorded_flights": 18,
+      "km_min": 1458,
+      "km_max": 1650,
+      "great_circle_km": 1426,
+      "air_india": [
+        {
+          "airline": "Air India",
+          "recorded_from": "2024-06-29",
+          "recorded_to": "2024-07-04",
+          "flight_numbers": [
+            "AI228",
+            "AI238"
+          ]
+        }
+      ],
+      "airspace": [
+        {
+          "country": "Bangladesh",
+          "flights_in": 12,
+          "flights_total": 12
+        },
+        {
+          "country": "India",
+          "flights_in": 12,
+          "flights_total": 12
+        }
+      ],
+      "matched_direction": "same"
+    },
+    "DEL-TAS": {
+      "url": "https://www.flightpaths.com/DEL-TAS",
+      "recorded_flights": 10,
+      "km_min": 1711,
+      "km_max": 1986,
+      "great_circle_km": 1580,
+      "air_india": [],
+      "airspace": [
+        {
+          "country": "India",
+          "flights_in": 10,
+          "flights_total": 10
+        },
+        {
+          "country": "Pakistan",
+          "flights_in": 10,
+          "flights_total": 10
+        },
+        {
+          "country": "Tajikistan",
+          "flights_in": 10,
+          "flights_total": 10
+        },
+        {
+          "country": "Uzbekistan",
+          "flights_in": 10,
+          "flights_total": 10
+        },
+        {
+          "country": "Kazakhstan",
+          "flights_in": 8,
+          "flights_total": 10
+        },
+        {
+          "country": "Kyrgyzstan",
+          "flights_in": 7,
+          "flights_total": 10
+        },
+        {
+          "country": "Over water",
+          "flights_in": 4,
+          "flights_total": 10
+        }
+      ],
+      "matched_direction": "same"
+    },
+    "TAS-NQZ": null,
+    "NQZ-UFA": null,
+    "UFA-ASB": null,
+    "ASB-FRU": null,
+    "FRU-DYU": null,
+    "DYU-DEL": {
+      "url": "https://www.flightpaths.com/DYU-DEL",
+      "recorded_flights": 3,
+      "km_min": 1556,
+      "km_max": 1582,
+      "great_circle_km": 1349,
+      "air_india": [],
+      "airspace": [
+        {
+          "country": "India",
+          "flights_in": 3,
+          "flights_total": 3
+        },
+        {
+          "country": "Pakistan",
+          "flights_in": 3,
+          "flights_total": 3
+        },
+        {
+          "country": "Tajikistan",
+          "flights_in": 3,
+          "flights_total": 3
+        }
+      ],
+      "matched_direction": "same"
+    },
+    "DEL-AUH": {
+      "url": "https://www.flightpaths.com/DEL-AUH",
+      "recorded_flights": 125,
+      "km_min": 2361,
+      "km_max": 2776,
+      "great_circle_km": 2277,
+      "air_india": [
+        {
+          "airline": "Air India Express",
+          "recorded_from": "2026-07-21",
+          "recorded_to": "2026-10-08",
+          "flight_numbers": [
+            "IX179",
+            "IX177"
+          ]
+        }
+      ],
+      "airspace": [
+        {
+          "country": "India",
+          "flights_in": 20,
+          "flights_total": 20
+        },
+        {
+          "country": "Over water",
+          "flights_in": 20,
+          "flights_total": 20
+        },
+        {
+          "country": "Oman",
+          "flights_in": 19,
+          "flights_total": 20
+        },
+        {
+          "country": "United Arab Emirates",
+          "flights_in": 18,
+          "flights_total": 20
+        },
+        {
+          "country": "Pakistan",
+          "flights_in": 10,
+          "flights_total": 20
+        }
+      ],
+      "matched_direction": "same"
+    },
+    "AUH-DXB": null,
+    "DXB-DEL": {
+      "url": "https://www.flightpaths.com/DXB-DEL",
+      "recorded_flights": 456,
+      "km_min": 2221,
+      "km_max": 2734,
+      "great_circle_km": 2182,
+      "air_india": [
+        {
+          "airline": "Air India",
+          "recorded_from": "2026-08-05",
+          "recorded_to": "2026-09-16",
+          "flight_numbers": [
+            "AI4210",
+            "AI4306",
+            "AI4308",
+            "AI4310"
+          ]
+        }
+      ],
+      "airspace": [
+        {
+          "country": "Over water",
+          "flights_in": 40,
+          "flights_total": 40
+        },
+        {
+          "country": "United Arab Emirates",
+          "flights_in": 39,
+          "flights_total": 40
+        },
+        {
+          "country": "India",
+          "flights_in": 39,
+          "flights_total": 40
+        },
+        {
+          "country": "Pakistan",
+          "flights_in": 19,
+          "flights_total": 40
+        },
+        {
+          "country": "Iran",
+          "flights_in": 1,
+          "flights_total": 40
+        }
+      ],
+      "matched_direction": "same"
+    },
+    "DEL-DUB": null,
+    "DUB-JFK": {
+      "url": "https://www.flightpaths.com/DUB-JFK",
+      "recorded_flights": 211,
+      "km_min": 5226,
+      "km_max": 5609,
+      "great_circle_km": 5105,
+      "air_india": [],
+      "airspace": [
+        {
+          "country": "Canada",
+          "flights_in": 20,
+          "flights_total": 20
+        },
+        {
+          "country": "Ireland",
+          "flights_in": 20,
+          "flights_total": 20
+        },
+        {
+          "country": "Over water",
+          "flights_in": 20,
+          "flights_total": 20
+        }
+      ],
+      "matched_direction": "same"
+    },
+    "JFK-SFO": {
+      "url": "https://www.flightpaths.com/JFK-SFO",
+      "recorded_flights": 342,
+      "km_min": 4220,
+      "km_max": 4630,
+      "great_circle_km": 4152,
+      "air_india": [],
+      "airspace": [
+        {
+          "country": "Over water",
+          "flights_in": 30,
+          "flights_total": 30
+        },
+        {
+          "country": "Canada",
+          "flights_in": 10,
+          "flights_total": 30
+        }
+      ],
+      "matched_direction": "same"
+    },
+    "SFO-DEL": {
+      "url": "https://www.flightpaths.com/DEL-SFO",
+      "recorded_flights": 120,
+      "km_min": 14903,
+      "km_max": 15268,
+      "great_circle_km": 12382,
+      "air_india": [
+        {
+          "airline": "Air India",
+          "recorded_from": "2026-05-28",
+          "recorded_to": "2026-11-01",
+          "flight_numbers": [
+            "AI183",
+            "AI173"
+          ]
+        }
+      ],
+      "airspace": [
+        {
+          "country": "Bangladesh",
+          "flights_in": 10,
+          "flights_total": 10
+        },
+        {
+          "country": "China",
+          "flights_in": 10,
+          "flights_total": 10
+        },
+        {
+          "country": "India",
+          "flights_in": 10,
+          "flights_total": 10
+        },
+        {
+          "country": "Japan",
+          "flights_in": 10,
+          "flights_total": 10
+        },
+        {
+          "country": "Over water",
+          "flights_in": 10,
+          "flights_total": 10
+        }
+      ],
+      "matched_direction": "reverse"
+    },
+    "DEL-LHR": {
+      "url": "https://www.flightpaths.com/DEL-LHR",
+      "recorded_flights": 630,
+      "km_min": 7115,
+      "km_max": 8336,
+      "great_circle_km": 6732,
+      "air_india": [
+        {
+          "airline": "Air India",
+          "recorded_from": "2026-09-25",
+          "recorded_to": "2026-10-28",
+          "flight_numbers": [
+            "AI2015",
+            "AI2017",
+            "AI111",
+            "AI161"
+          ]
+        }
+      ],
+      "airspace": [
+        {
+          "country": "India",
+          "flights_in": 30,
+          "flights_total": 30
+        },
+        {
+          "country": "United Kingdom",
+          "flights_in": 30,
+          "flights_total": 30
+        },
+        {
+          "country": "Over water",
+          "flights_in": 30,
+          "flights_total": 30
+        },
+        {
+          "country": "Germany",
+          "flights_in": 27,
+          "flights_total": 30
+        },
+        {
+          "country": "Hungary",
+          "flights_in": 27,
+          "flights_total": 30
+        },
+        {
+          "country": "Romania",
+          "flights_in": 27,
+          "flights_total": 30
+        },
+        {
+          "country": "Netherlands",
+          "flights_in": 26,
+          "flights_total": 30
+        },
+        {
+          "country": "Austria",
+          "flights_in": 25,
+          "flights_total": 30
+        },
+        {
+          "country": "Belgium",
+          "flights_in": 23,
+          "flights_total": 30
+        },
+        {
+          "country": "Turkey",
+          "flights_in": 21,
+          "flights_total": 30
+        },
+        {
+          "country": "Azerbaijan",
+          "flights_in": 20,
+          "flights_total": 30
+        },
+        {
+          "country": "Pakistan",
+          "flights_in": 20,
+          "flights_total": 30
+        },
+        {
+          "country": "Bulgaria",
+          "flights_in": 19,
+          "flights_total": 30
+        },
+        {
+          "country": "Georgia",
+          "flights_in": 13,
+          "flights_total": 30
+        },
+        {
+          "country": "Czech Republic",
+          "flights_in": 11,
+          "flights_total": 30
+        },
+        {
+          "country": "United Arab Emirates",
+          "flights_in": 10,
+          "flights_total": 30
+        },
+        {
+          "country": "Iraq",
+          "flights_in": 7,
+          "flights_total": 30
+        },
+        {
+          "country": "Kuwait",
+          "flights_in": 7,
+          "flights_total": 30
+        },
+        {
+          "country": "Armenia",
+          "flights_in": 5,
+          "flights_total": 30
+        },
+        {
+          "country": "Slovakia",
+          "flights_in": 4,
+          "flights_total": 30
+        },
+        {
+          "country": "France",
+          "flights_in": 4,
+          "flights_total": 30
+        },
+        {
+          "country": "Switzerland",
+          "flights_in": 4,
+          "flights_total": 30
+        },
+        {
+          "country": "Oman",
+          "flights_in": 3,
+          "flights_total": 30
+        },
+        {
+          "country": "Bosnia and Herzegovina",
+          "flights_in": 3,
+          "flights_total": 30
+        },
+        {
+          "country": "Croatia",
+          "flights_in": 3,
+          "flights_total": 30
+        },
+        {
+          "country": "Italy",
+          "flights_in": 3,
+          "flights_total": 30
+        },
+        {
+          "country": "Saudi Arabia",
+          "flights_in": 3,
+          "flights_total": 30
+        },
+        {
+          "country": "Serbia",
+          "flights_in": 3,
+          "flights_total": 30
+        },
+        {
+          "country": "Greece",
+          "flights_in": 2,
+          "flights_total": 30
+        },
+        {
+          "country": "Macedonia",
+          "flights_in": 2,
+          "flights_total": 30
+        },
+        {
+          "country": "Montenegro",
+          "flights_in": 2,
+          "flights_total": 30
+        },
+        {
+          "country": "Slovenia",
+          "flights_in": 1,
+          "flights_total": 30
+        }
+      ],
+      "matched_direction": "same"
+    },
+    "LHR-AYT": null,
+    "AYT-DEL": {
+      "url": null,
+      "estimated": true,
+      "recorded_flights": null,
+      "km_min": 4385,
+      "km_max": 4385,
+      "great_circle_km": 4385,
+      "air_india": [],
+      "airspace": [],
+      "matched_direction": "same"
+    },
+    "DEL-KUL": {
+      "url": "https://www.flightpaths.com/DEL-KUL",
+      "recorded_flights": 228,
+      "km_min": 3922,
+      "km_max": 4310,
+      "great_circle_km": 3877,
+      "air_india": [
+        {
+          "airline": "Air India",
+          "recorded_from": "2026-08-21",
+          "recorded_to": "2026-10-24",
+          "flight_numbers": [
+            "AI2384",
+            "AI2386"
+          ]
+        }
+      ],
+      "airspace": [
+        {
+          "country": "India",
+          "flights_in": 30,
+          "flights_total": 30
+        },
+        {
+          "country": "Malaysia",
+          "flights_in": 30,
+          "flights_total": 30
+        },
+        {
+          "country": "Over water",
+          "flights_in": 30,
+          "flights_total": 30
+        },
+        {
+          "country": "Thailand",
+          "flights_in": 28,
+          "flights_total": 30
+        },
+        {
+          "country": "Bangladesh",
+          "flights_in": 5,
+          "flights_total": 30
+        }
+      ],
+      "matched_direction": "same"
+    },
+    "KUL-SIN": null,
+    "ORY-DEL": {
+      "url": null,
+      "estimated": true,
+      "recorded_flights": null,
+      "km_min": 6583,
+      "km_max": 6583,
+      "great_circle_km": 6583,
+      "air_india": [],
+      "airspace": [],
+      "matched_direction": "same"
+    },
+    "DEL-VKO": null,
+    "VKO-KBL": null,
+    "KBL-LHE": null,
+    "LHE-DEL": {
+      "url": null,
+      "estimated": true,
+      "recorded_flights": null,
+      "km_min": 419,
+      "km_max": 419,
+      "great_circle_km": 419,
+      "air_india": [],
+      "airspace": [],
+      "matched_direction": "same"
+    },
+    "DEL-BRU": null,
+    "BRU-IAD": {
+      "url": "https://www.flightpaths.com/BRU-IAD",
+      "recorded_flights": 6,
+      "km_min": 6322,
+      "km_max": 6816,
+      "great_circle_km": 6246,
+      "air_india": [],
+      "airspace": [
+        {
+          "country": "Belgium",
+          "flights_in": 6,
+          "flights_total": 6
+        },
+        {
+          "country": "Canada",
+          "flights_in": 6,
+          "flights_total": 6
+        },
+        {
+          "country": "United Kingdom",
+          "flights_in": 6,
+          "flights_total": 6
+        },
+        {
+          "country": "Over water",
+          "flights_in": 6,
+          "flights_total": 6
+        },
+        {
+          "country": "Ireland",
+          "flights_in": 5,
+          "flights_total": 6
+        },
+        {
+          "country": "Greenland",
+          "flights_in": 1,
+          "flights_total": 6
+        }
+      ],
+      "matched_direction": "same"
+    },
+    "IAD-RUH": {
+      "url": "https://www.flightpaths.com/RUH-IAD",
+      "recorded_flights": 3,
+      "km_min": 11214,
+      "km_max": 11473,
+      "great_circle_km": 10842,
+      "air_india": [],
+      "airspace": [
+        {
+          "country": "Canada",
+          "flights_in": 3,
+          "flights_total": 3
+        },
+        {
+          "country": "Egypt",
+          "flights_in": 3,
+          "flights_total": 3
+        },
+        {
+          "country": "Saudi Arabia",
+          "flights_in": 3,
+          "flights_total": 3
+        },
+        {
+          "country": "Over water",
+          "flights_in": 3,
+          "flights_total": 3
+        },
+        {
+          "country": "Austria",
+          "flights_in": 2,
+          "flights_total": 3
+        },
+        {
+          "country": "Bosnia and Herzegovina",
+          "flights_in": 2,
+          "flights_total": 3
+        },
+        {
+          "country": "Germany",
+          "flights_in": 2,
+          "flights_total": 3
+        },
+        {
+          "country": "Greece",
+          "flights_in": 2,
+          "flights_total": 3
+        },
+        {
+          "country": "Croatia",
+          "flights_in": 2,
+          "flights_total": 3
+        },
+        {
+          "country": "Montenegro",
+          "flights_in": 2,
+          "flights_total": 3
+        },
+        {
+          "country": "Netherlands",
+          "flights_in": 2,
+          "flights_total": 3
+        },
+        {
+          "country": "Slovenia",
+          "flights_in": 2,
+          "flights_total": 3
+        },
+        {
+          "country": "United Kingdom",
+          "flights_in": 2,
+          "flights_total": 3
+        },
+        {
+          "country": "France",
+          "flights_in": 1,
+          "flights_total": 3
+        },
+        {
+          "country": "Italy",
+          "flights_in": 1,
+          "flights_total": 3
+        },
+        {
+          "country": "Albania",
+          "flights_in": 1,
+          "flights_total": 3
+        },
+        {
+          "country": "Ireland",
+          "flights_in": 1,
+          "flights_total": 3
+        },
+        {
+          "country": "Macedonia",
+          "flights_in": 1,
+          "flights_total": 3
+        },
+        {
+          "country": "Serbia",
+          "flights_in": 1,
+          "flights_total": 3
+        }
+      ],
+      "matched_direction": "reverse"
+    },
+    "RUH-DEL": {
+      "url": "https://www.flightpaths.com/RUH-DEL",
+      "recorded_flights": 19,
+      "km_min": 3315,
+      "km_max": 3458,
+      "great_circle_km": 3037,
+      "air_india": [],
+      "airspace": [
+        {
+          "country": "India",
+          "flights_in": 13,
+          "flights_total": 13
+        },
+        {
+          "country": "Oman",
+          "flights_in": 13,
+          "flights_total": 13
+        },
+        {
+          "country": "Saudi Arabia",
+          "flights_in": 13,
+          "flights_total": 13
+        },
+        {
+          "country": "Over water",
+          "flights_in": 13,
+          "flights_total": 13
+        },
+        {
+          "country": "Pakistan",
+          "flights_in": 12,
+          "flights_total": 13
+        }
+      ],
+      "matched_direction": "same"
+    },
+    "DEL-THR": null,
+    "THR-DEL": {
+      "url": null,
+      "estimated": true,
+      "recorded_flights": null,
+      "km_min": 2546,
+      "km_max": 2546,
+      "great_circle_km": 2546,
+      "air_india": [],
+      "airspace": [],
+      "matched_direction": "same"
+    },
+    "DEL-HEA": null,
+    "HEA-DOH": null,
+    "DOH-GVA": {
+      "url": "https://www.flightpaths.com/DOH-GVA",
+      "recorded_flights": 6,
+      "km_min": 1130,
+      "km_max": 4862,
+      "great_circle_km": 4637,
+      "air_india": [],
+      "airspace": [
+        {
+          "country": "Qatar",
+          "flights_in": 6,
+          "flights_total": 6
+        },
+        {
+          "country": "Over water",
+          "flights_in": 6,
+          "flights_total": 6
+        },
+        {
+          "country": "Bosnia and Herzegovina",
+          "flights_in": 5,
+          "flights_total": 6
+        },
+        {
+          "country": "Bulgaria",
+          "flights_in": 5,
+          "flights_total": 6
+        },
+        {
+          "country": "France",
+          "flights_in": 5,
+          "flights_total": 6
+        },
+        {
+          "country": "Croatia",
+          "flights_in": 5,
+          "flights_total": 6
+        },
+        {
+          "country": "Italy",
+          "flights_in": 5,
+          "flights_total": 6
+        },
+        {
+          "country": "Iraq",
+          "flights_in": 5,
+          "flights_total": 6
+        },
+        {
+          "country": "Kuwait",
+          "flights_in": 5,
+          "flights_total": 6
+        },
+        {
+          "country": "Serbia",
+          "flights_in": 5,
+          "flights_total": 6
+        },
+        {
+          "country": "Switzerland",
+          "flights_in": 5,
+          "flights_total": 6
+        },
+        {
+          "country": "Turkey",
+          "flights_in": 4,
+          "flights_total": 6
+        }
+      ],
+      "matched_direction": "same"
+    },
+    "GVA-IAD": null,
+    "IAD-MEX": null,
+    "MEX-DEL": {
+      "url": null,
+      "estimated": true,
+      "recorded_flights": null,
+      "km_min": 14662,
+      "km_max": 14662,
+      "great_circle_km": 14662,
+      "air_india": [],
+      "airspace": [],
+      "matched_direction": "same"
+    },
+    "TAS-DEL": {
+      "url": "https://www.flightpaths.com/TAS-DEL",
+      "recorded_flights": 5,
+      "km_min": 1791,
+      "km_max": 1901,
+      "great_circle_km": 1580,
+      "air_india": [],
+      "airspace": [
+        {
+          "country": "India",
+          "flights_in": 5,
+          "flights_total": 5
+        },
+        {
+          "country": "Kyrgyzstan",
+          "flights_in": 5,
+          "flights_total": 5
+        },
+        {
+          "country": "Pakistan",
+          "flights_in": 5,
+          "flights_total": 5
+        },
+        {
+          "country": "Uzbekistan",
+          "flights_in": 5,
+          "flights_total": 5
+        }
+      ],
+      "matched_direction": "same"
+    },
+    "DEL-MPM": null,
+    "MPM-DUR": null,
+    "DUR-JNB": null,
+    "JNB-DAR": null,
+    "DAR-NBO": null,
+    "NBO-DEL": {
+      "url": null,
+      "estimated": true,
+      "recorded_flights": null,
+      "km_min": 5416,
+      "km_max": 5416,
+      "great_circle_km": 5416,
+      "air_india": [],
+      "airspace": [],
+      "matched_direction": "same"
+    },
+    "DEL-HAN": {
+      "url": "https://www.flightpaths.com/DEL-HAN",
+      "recorded_flights": 17,
+      "km_min": 3127,
+      "km_max": 3664,
+      "great_circle_km": 3000,
+      "air_india": [
+        {
+          "airline": "Air India",
+          "recorded_from": "2026-07-17",
+          "recorded_to": "2026-07-26",
+          "flight_numbers": [
+            "AI2390"
+          ]
+        }
+      ],
+      "airspace": [
+        {
+          "country": "Bangladesh",
+          "flights_in": 17,
+          "flights_total": 17
+        },
+        {
+          "country": "India",
+          "flights_in": 17,
+          "flights_total": 17
+        },
+        {
+          "country": "Laos",
+          "flights_in": 17,
+          "flights_total": 17
+        },
+        {
+          "country": "Vietnam",
+          "flights_in": 17,
+          "flights_total": 17
+        },
+        {
+          "country": "Over water",
+          "flights_in": 17,
+          "flights_total": 17
+        }
+      ],
+      "matched_direction": "same"
+    },
+    "HAN-HGH": null,
+    "HGH-DEL": {
+      "url": null,
+      "estimated": true,
+      "recorded_flights": null,
+      "km_min": 4176,
+      "km_max": 4176,
+      "great_circle_km": 4176,
+      "air_india": [],
+      "airspace": [],
+      "matched_direction": "same"
+    },
+    "DEL-VTE": null,
+    "VTE-DEL": {
+      "url": null,
+      "estimated": true,
+      "recorded_flights": null,
+      "km_min": 2846,
+      "km_max": 2846,
+      "great_circle_km": 2846,
+      "air_india": [],
+      "airspace": [],
+      "matched_direction": "same"
+    },
+    "DEL-BKK": {
+      "url": "https://www.flightpaths.com/DEL-BKK",
+      "recorded_flights": 281,
+      "km_min": 2982,
+      "km_max": 3349,
+      "great_circle_km": 2948,
+      "air_india": [
+        {
+          "airline": "Air India",
+          "recorded_from": "2025-12-16",
+          "recorded_to": "2026-09-14",
+          "flight_numbers": [
+            "AI2304",
+            "AI2332",
+            "AI2336",
+            "AI2355"
+          ]
+        }
+      ],
+      "airspace": [
+        {
+          "country": "India",
+          "flights_in": 30,
+          "flights_total": 30
+        },
+        {
+          "country": "Thailand",
+          "flights_in": 30,
+          "flights_total": 30
+        },
+        {
+          "country": "Over water",
+          "flights_in": 30,
+          "flights_total": 30
+        },
+        {
+          "country": "Bangladesh",
+          "flights_in": 1,
+          "flights_total": 30
+        }
+      ],
+      "matched_direction": "same"
+    },
+    "BKK-HND": {
+      "url": "https://www.flightpaths.com/BKK-HND",
+      "recorded_flights": 24,
+      "km_min": 4783,
+      "km_max": 5139,
+      "great_circle_km": 4588,
+      "air_india": [],
+      "airspace": [
+        {
+          "country": "Thailand",
+          "flights_in": 19,
+          "flights_total": 19
+        },
+        {
+          "country": "Vietnam",
+          "flights_in": 19,
+          "flights_total": 19
+        },
+        {
+          "country": "Over water",
+          "flights_in": 19,
+          "flights_total": 19
+        },
+        {
+          "country": "Japan",
+          "flights_in": 18,
+          "flights_total": 19
+        },
+        {
+          "country": "Laos",
+          "flights_in": 16,
+          "flights_total": 19
+        },
+        {
+          "country": "Taiwan",
+          "flights_in": 7,
+          "flights_total": 19
+        },
+        {
+          "country": "Cambodia",
+          "flights_in": 3,
+          "flights_total": 19
+        }
+      ],
+      "matched_direction": "same"
+    },
+    "HND-KIX": null,
+    "KIX-DEL": {
+      "url": null,
+      "estimated": true,
+      "recorded_flights": null,
+      "km_min": 5477,
+      "km_max": 5477,
+      "great_circle_km": 5477,
+      "air_india": [],
+      "airspace": [],
+      "matched_direction": "same"
+    },
+    "DEL-CMB": {
+      "url": "https://www.flightpaths.com/DEL-CMB",
+      "recorded_flights": 10,
+      "km_min": 2429,
+      "km_max": 2477,
+      "great_circle_km": 2396,
+      "air_india": [
+        {
+          "airline": "Air India",
+          "recorded_from": "2026-03-05",
+          "recorded_to": "2026-03-08",
+          "flight_numbers": [
+            "AI281",
+            "AI277"
+          ]
+        }
+      ],
+      "airspace": [
+        {
+          "country": "Sri Lanka",
+          "flights_in": 10,
+          "flights_total": 10
+        },
+        {
+          "country": "India",
+          "flights_in": 10,
+          "flights_total": 10
+        },
+        {
+          "country": "Over water",
+          "flights_in": 10,
+          "flights_total": 10
+        }
+      ],
+      "matched_direction": "same"
+    },
+    "CMB-DEL": {
+      "url": "https://www.flightpaths.com/CMB-DEL",
+      "recorded_flights": 10,
+      "km_min": 2422,
+      "km_max": 2565,
+      "great_circle_km": 2396,
+      "air_india": [
+        {
+          "airline": "Air India",
+          "recorded_from": "2026-02-27",
+          "recorded_to": "2026-03-01",
+          "flight_numbers": [
+            "AI278",
+            "AI282"
+          ]
+        }
+      ],
+      "airspace": [
+        {
+          "country": "Sri Lanka",
+          "flights_in": 10,
+          "flights_total": 10
+        },
+        {
+          "country": "India",
+          "flights_in": 10,
+          "flights_total": 10
+        },
+        {
+          "country": "Over water",
+          "flights_in": 10,
+          "flights_total": 10
+        }
+      ],
+      "matched_direction": "same"
+    },
+    "DEL-TXL": null,
+    "TXL-MAD": null,
+    "MAD-LED": null,
+    "LED-ORY": null,
+    "DEL-NQZ": null,
+    "NQZ-DEL": {
+      "url": null,
+      "estimated": true,
+      "recorded_flights": null,
+      "km_min": 2542,
+      "km_max": 2542,
+      "great_circle_km": 2542,
+      "air_india": [],
+      "airspace": [],
+      "matched_direction": "same"
+    },
+    "DEL-LIS": null,
+    "LIS-IAD": {
+      "url": "https://www.flightpaths.com/LIS-IAD",
+      "recorded_flights": 12,
+      "km_min": 5895,
+      "km_max": 6209,
+      "great_circle_km": 5766,
+      "air_india": [],
+      "airspace": [
+        {
+          "country": "Portugal",
+          "flights_in": 12,
+          "flights_total": 12
+        },
+        {
+          "country": "Over water",
+          "flights_in": 12,
+          "flights_total": 12
+        }
+      ],
+      "matched_direction": "same"
+    },
+    "IAD-AMS": {
+      "url": "https://www.flightpaths.com/IAD-AMS",
+      "recorded_flights": 17,
+      "km_min": 6281,
+      "km_max": 6462,
+      "great_circle_km": 6206,
+      "air_india": [],
+      "airspace": [
+        {
+          "country": "Canada",
+          "flights_in": 17,
+          "flights_total": 17
+        },
+        {
+          "country": "Netherlands",
+          "flights_in": 17,
+          "flights_total": 17
+        },
+        {
+          "country": "United Kingdom",
+          "flights_in": 17,
+          "flights_total": 17
+        },
+        {
+          "country": "Over water",
+          "flights_in": 17,
+          "flights_total": 17
+        },
+        {
+          "country": "Ireland",
+          "flights_in": 13,
+          "flights_total": 17
+        }
+      ],
+      "matched_direction": "same"
+    },
+    "AMS-DEL": {
+      "url": "https://www.flightpaths.com/AMS-DEL",
+      "recorded_flights": 264,
+      "km_min": 6738,
+      "km_max": 8425,
+      "great_circle_km": 6365,
+      "air_india": [
+        {
+          "airline": "Air India",
+          "recorded_from": "2026-09-22",
+          "recorded_to": "2026-10-27",
+          "flight_numbers": [
+            "AI156"
+          ]
+        }
+      ],
+      "airspace": [
+        {
+          "country": "Germany",
+          "flights_in": 20,
+          "flights_total": 20
+        },
+        {
+          "country": "India",
+          "flights_in": 20,
+          "flights_total": 20
+        },
+        {
+          "country": "Netherlands",
+          "flights_in": 20,
+          "flights_total": 20
+        },
+        {
+          "country": "Over water",
+          "flights_in": 20,
+          "flights_total": 20
+        },
+        {
+          "country": "Hungary",
+          "flights_in": 19,
+          "flights_total": 20
+        },
+        {
+          "country": "Romania",
+          "flights_in": 19,
+          "flights_total": 20
+        },
+        {
+          "country": "Czech Republic",
+          "flights_in": 15,
+          "flights_total": 20
+        },
+        {
+          "country": "Slovakia",
+          "flights_in": 13,
+          "flights_total": 20
+        },
+        {
+          "country": "Turkey",
+          "flights_in": 13,
+          "flights_total": 20
+        },
+        {
+          "country": "Pakistan",
+          "flights_in": 10,
+          "flights_total": 20
+        },
+        {
+          "country": "Bulgaria",
+          "flights_in": 9,
+          "flights_total": 20
+        },
+        {
+          "country": "United Arab Emirates",
+          "flights_in": 9,
+          "flights_total": 20
+        },
+        {
+          "country": "Azerbaijan",
+          "flights_in": 8,
+          "flights_total": 20
+        },
+        {
+          "country": "Austria",
+          "flights_in": 8,
+          "flights_total": 20
+        },
+        {
+          "country": "Georgia",
+          "flights_in": 6,
+          "flights_total": 20
+        },
+        {
+          "country": "Jordan",
+          "flights_in": 6,
+          "flights_total": 20
+        },
+        {
+          "country": "Saudi Arabia",
+          "flights_in": 6,
+          "flights_total": 20
+        },
+        {
+          "country": "Iraq",
+          "flights_in": 4,
+          "flights_total": 20
+        },
+        {
+          "country": "Armenia",
+          "flights_in": 3,
+          "flights_total": 20
+        },
+        {
+          "country": "Oman",
+          "flights_in": 1,
+          "flights_total": 20
+        },
+        {
+          "country": "Kuwait",
+          "flights_in": 1,
+          "flights_total": 20
+        },
+        {
+          "country": "Bosnia and Herzegovina",
+          "flights_in": 1,
+          "flights_total": 20
+        },
+        {
+          "country": "Greece",
+          "flights_in": 1,
+          "flights_total": 20
+        },
+        {
+          "country": "Croatia",
+          "flights_in": 1,
+          "flights_total": 20
+        },
+        {
+          "country": "Macedonia",
+          "flights_in": 1,
+          "flights_total": 20
+        },
+        {
+          "country": "Slovenia",
+          "flights_in": 1,
+          "flights_total": 20
+        },
+        {
+          "country": "Serbia",
+          "flights_in": 1,
+          "flights_total": 20
+        }
+      ],
+      "matched_direction": "same"
+    },
+    "DEL-TLV": {
+      "url": "https://www.flightpaths.com/TLV-DEL",
+      "recorded_flights": 5,
+      "km_min": 4775,
+      "km_max": 4820,
+      "great_circle_km": 4048,
+      "air_india": [
+        {
+          "airline": "Air India",
+          "recorded_from": "2026-02-19",
+          "recorded_to": "2026-02-26",
+          "flight_numbers": [
+            "AI140"
+          ]
+        }
+      ],
+      "airspace": [
+        {
+          "country": "India",
+          "flights_in": 5,
+          "flights_total": 5
+        },
+        {
+          "country": "Israel",
+          "flights_in": 5,
+          "flights_total": 5
+        },
+        {
+          "country": "Jordan",
+          "flights_in": 5,
+          "flights_total": 5
+        },
+        {
+          "country": "Saudi Arabia",
+          "flights_in": 5,
+          "flights_total": 5
+        },
+        {
+          "country": "United Arab Emirates",
+          "flights_in": 5,
+          "flights_total": 5
+        },
+        {
+          "country": "Over water",
+          "flights_in": 5,
+          "flights_total": 5
+        }
+      ],
+      "matched_direction": "reverse"
+    },
+    "TLV-HAM": null,
+    "HAM-DEL": {
+      "url": null,
+      "estimated": true,
+      "recorded_flights": null,
+      "km_min": 6006,
+      "km_max": 6006,
+      "great_circle_km": 6006,
+      "air_india": [],
+      "airspace": [],
+      "matched_direction": "same"
+    },
+    "DEL-XMN": null,
+    "XMN-NYT": null,
+    "NYT-RGN": null,
+    "RGN-DEL": {
+      "url": null,
+      "estimated": true,
+      "recorded_flights": null,
+      "km_min": 2338,
+      "km_max": 2338,
+      "great_circle_km": 2338,
+      "air_india": [],
+      "airspace": [],
+      "matched_direction": "same"
+    },
+    "DEL-MNL": {
+      "url": "https://www.flightpaths.com/DEL-MNL",
+      "recorded_flights": 6,
+      "km_min": 5068,
+      "km_max": 5185,
+      "great_circle_km": 4773,
+      "air_india": [
+        {
+          "airline": "Air India",
+          "recorded_from": "2026-01-30",
+          "recorded_to": "2026-02-04",
+          "flight_numbers": [
+            "AI2362"
+          ]
+        }
+      ],
+      "airspace": [
+        {
+          "country": "Bangladesh",
+          "flights_in": 6,
+          "flights_total": 6
+        },
+        {
+          "country": "China",
+          "flights_in": 6,
+          "flights_total": 6
+        },
+        {
+          "country": "India",
+          "flights_in": 6,
+          "flights_total": 6
+        },
+        {
+          "country": "Philippines",
+          "flights_in": 6,
+          "flights_total": 6
+        },
+        {
+          "country": "Over water",
+          "flights_in": 6,
+          "flights_total": 6
+        }
+      ],
+      "matched_direction": "same"
+    },
+    "MNL-DEL": {
+      "url": "https://www.flightpaths.com/MNL-DEL",
+      "recorded_flights": 6,
+      "km_min": 5068,
+      "km_max": 5108,
+      "great_circle_km": 4773,
+      "air_india": [
+        {
+          "airline": "Air India",
+          "recorded_from": "2026-04-18",
+          "recorded_to": "2026-04-23",
+          "flight_numbers": [
+            "AI2361"
+          ]
+        }
+      ],
+      "airspace": [
+        {
+          "country": "Bangladesh",
+          "flights_in": 6,
+          "flights_total": 6
+        },
+        {
+          "country": "Cambodia",
+          "flights_in": 6,
+          "flights_total": 6
+        },
+        {
+          "country": "India",
+          "flights_in": 6,
+          "flights_total": 6
+        },
+        {
+          "country": "Laos",
+          "flights_in": 6,
+          "flights_total": 6
+        },
+        {
+          "country": "Philippines",
+          "flights_in": 6,
+          "flights_total": 6
+        },
+        {
+          "country": "Thailand",
+          "flights_in": 6,
+          "flights_total": 6
+        },
+        {
+          "country": "Vietnam",
+          "flights_in": 6,
+          "flights_total": 6
+        },
+        {
+          "country": "Over water",
+          "flights_in": 6,
+          "flights_total": 6
+        }
+      ],
+      "matched_direction": "same"
+    },
+    "DEL-ZRH": {
+      "url": "https://www.flightpaths.com/DEL-ZRH",
+      "recorded_flights": 105,
+      "km_min": 6341,
+      "km_max": 8060,
+      "great_circle_km": 6148,
+      "air_india": [
+        {
+          "airline": "Air India",
+          "recorded_from": "2026-04-27",
+          "recorded_to": "2026-08-30",
+          "flight_numbers": [
+            "AI151"
+          ]
+        }
+      ],
+      "airspace": [
+        {
+          "country": "India",
+          "flights_in": 20,
+          "flights_total": 20
+        },
+        {
+          "country": "Switzerland",
+          "flights_in": 20,
+          "flights_total": 20
+        },
+        {
+          "country": "Over water",
+          "flights_in": 20,
+          "flights_total": 20
+        },
+        {
+          "country": "Germany",
+          "flights_in": 19,
+          "flights_total": 20
+        },
+        {
+          "country": "Austria",
+          "flights_in": 13,
+          "flights_total": 20
+        },
+        {
+          "country": "Azerbaijan",
+          "flights_in": 10,
+          "flights_total": 20
+        },
+        {
+          "country": "Hungary",
+          "flights_in": 10,
+          "flights_total": 20
+        },
+        {
+          "country": "Pakistan",
+          "flights_in": 10,
+          "flights_total": 20
+        },
+        {
+          "country": "Romania",
+          "flights_in": 10,
+          "flights_total": 20
+        },
+        {
+          "country": "Turkey",
+          "flights_in": 10,
+          "flights_total": 20
+        },
+        {
+          "country": "Oman",
+          "flights_in": 10,
+          "flights_total": 20
+        },
+        {
+          "country": "Saudi Arabia",
+          "flights_in": 10,
+          "flights_total": 20
+        },
+        {
+          "country": "Greece",
+          "flights_in": 9,
+          "flights_total": 20
+        },
+        {
+          "country": "Italy",
+          "flights_in": 9,
+          "flights_total": 20
+        },
+        {
+          "country": "Georgia",
+          "flights_in": 8,
+          "flights_total": 20
+        },
+        {
+          "country": "Bulgaria",
+          "flights_in": 6,
+          "flights_total": 20
+        },
+        {
+          "country": "Croatia",
+          "flights_in": 6,
+          "flights_total": 20
+        },
+        {
+          "country": "Egypt",
+          "flights_in": 6,
+          "flights_total": 20
+        },
+        {
+          "country": "Albania",
+          "flights_in": 5,
+          "flights_total": 20
+        },
+        {
+          "country": "Bosnia and Herzegovina",
+          "flights_in": 4,
+          "flights_total": 20
+        },
+        {
+          "country": "Macedonia",
+          "flights_in": 4,
+          "flights_total": 20
+        },
+        {
+          "country": "Montenegro",
+          "flights_in": 4,
+          "flights_total": 20
+        },
+        {
+          "country": "Jordan",
+          "flights_in": 4,
+          "flights_total": 20
+        },
+        {
+          "country": "Serbia",
+          "flights_in": 3,
+          "flights_total": 20
+        },
+        {
+          "country": "Armenia",
+          "flights_in": 2,
+          "flights_total": 20
+        },
+        {
+          "country": "Slovenia",
+          "flights_in": 2,
+          "flights_total": 20
+        },
+        {
+          "country": "Uzbekistan",
+          "flights_in": 1,
+          "flights_total": 20
+        },
+        {
+          "country": "Liechtenstein",
+          "flights_in": 1,
+          "flights_total": 20
+        }
+      ],
+      "matched_direction": "same"
+    },
+    "ZRH-DEL": {
+      "url": "https://www.flightpaths.com/ZRH-DEL",
+      "recorded_flights": 81,
+      "km_min": 6331,
+      "km_max": 8175,
+      "great_circle_km": 6148,
+      "air_india": [
+        {
+          "airline": "Air India",
+          "recorded_from": "2026-05-03",
+          "recorded_to": "2026-10-10",
+          "flight_numbers": [
+            "AI152"
+          ]
+        }
+      ],
+      "airspace": [
+        {
+          "country": "India",
+          "flights_in": 20,
+          "flights_total": 20
+        },
+        {
+          "country": "Switzerland",
+          "flights_in": 20,
+          "flights_total": 20
+        },
+        {
+          "country": "Over water",
+          "flights_in": 20,
+          "flights_total": 20
+        },
+        {
+          "country": "Turkey",
+          "flights_in": 18,
+          "flights_total": 20
+        },
+        {
+          "country": "Austria",
+          "flights_in": 13,
+          "flights_total": 20
+        },
+        {
+          "country": "Slovenia",
+          "flights_in": 12,
+          "flights_total": 20
+        },
+        {
+          "country": "Italy",
+          "flights_in": 11,
+          "flights_total": 20
+        },
+        {
+          "country": "Azerbaijan",
+          "flights_in": 10,
+          "flights_total": 20
+        },
+        {
+          "country": "Armenia",
+          "flights_in": 10,
+          "flights_total": 20
+        },
+        {
+          "country": "Pakistan",
+          "flights_in": 10,
+          "flights_total": 20
+        },
+        {
+          "country": "Greece",
+          "flights_in": 10,
+          "flights_total": 20
+        },
+        {
+          "country": "Saudi Arabia",
+          "flights_in": 10,
+          "flights_total": 20
+        },
+        {
+          "country": "Hungary",
+          "flights_in": 9,
+          "flights_total": 20
+        },
+        {
+          "country": "Romania",
+          "flights_in": 9,
+          "flights_total": 20
+        },
+        {
+          "country": "Germany",
+          "flights_in": 9,
+          "flights_total": 20
+        },
+        {
+          "country": "Bulgaria",
+          "flights_in": 9,
+          "flights_total": 20
+        },
+        {
+          "country": "Croatia",
+          "flights_in": 9,
+          "flights_total": 20
+        },
+        {
+          "country": "Jordan",
+          "flights_in": 9,
+          "flights_total": 20
+        },
+        {
+          "country": "Bosnia and Herzegovina",
+          "flights_in": 8,
+          "flights_total": 20
+        },
+        {
+          "country": "Serbia",
+          "flights_in": 8,
+          "flights_total": 20
+        },
+        {
+          "country": "United Arab Emirates",
+          "flights_in": 5,
+          "flights_total": 20
+        },
+        {
+          "country": "Oman",
+          "flights_in": 5,
+          "flights_total": 20
+        },
+        {
+          "country": "Montenegro",
+          "flights_in": 3,
+          "flights_total": 20
+        },
+        {
+          "country": "Macedonia",
+          "flights_in": 2,
+          "flights_total": 20
+        },
+        {
+          "country": "Egypt",
+          "flights_in": 2,
+          "flights_total": 20
+        },
+        {
+          "country": "Liechtenstein",
+          "flights_in": 1,
+          "flights_total": 20
+        },
+        {
+          "country": "Albania",
+          "flights_in": 1,
+          "flights_total": 20
+        }
+      ],
+      "matched_direction": "same"
+    },
+    "DEL-AMM": null,
+    "AMM-TLV": null,
+    "TLV-AUH": {
+      "url": "https://www.flightpaths.com/TLV-AUH",
+      "recorded_flights": 6,
+      "km_min": 2211,
+      "km_max": 2438,
+      "great_circle_km": 2108,
+      "air_india": [],
+      "airspace": [
+        {
+          "country": "Israel",
+          "flights_in": 6,
+          "flights_total": 6
+        },
+        {
+          "country": "Jordan",
+          "flights_in": 6,
+          "flights_total": 6
+        },
+        {
+          "country": "Saudi Arabia",
+          "flights_in": 6,
+          "flights_total": 6
+        },
+        {
+          "country": "United Arab Emirates",
+          "flights_in": 6,
+          "flights_total": 6
+        },
+        {
+          "country": "Over water",
+          "flights_in": 6,
+          "flights_total": 6
+        }
+      ],
+      "matched_direction": "same"
+    },
+    "DXB-MCT": null,
+    "MCT-DEL": {
+      "url": "https://www.flightpaths.com/MCT-DEL",
+      "recorded_flights": 12,
+      "km_min": 2073,
+      "km_max": 2301,
+      "great_circle_km": 1955,
+      "air_india": [
+        {
+          "airline": "Air India Express",
+          "recorded_from": "2026-02-24",
+          "recorded_to": "2026-03-05",
+          "flight_numbers": [
+            "IX164"
+          ]
+        }
+      ],
+      "airspace": [
+        {
+          "country": "India",
+          "flights_in": 12,
+          "flights_total": 12
+        },
+        {
+          "country": "Oman",
+          "flights_in": 12,
+          "flights_total": 12
+        },
+        {
+          "country": "Over water",
+          "flights_in": 12,
+          "flights_total": 12
+        },
+        {
+          "country": "Pakistan",
+          "flights_in": 6,
+          "flights_total": 12
+        }
+      ],
+      "matched_direction": "same"
+    },
+    "DEL-ARN": null,
+    "ARN-LHR": {
+      "url": "https://www.flightpaths.com/ARN-LHR",
+      "recorded_flights": 103,
+      "km_min": 1527,
+      "km_max": 1661,
+      "great_circle_km": 1463,
+      "air_india": [],
+      "airspace": [
+        {
+          "country": "Denmark",
+          "flights_in": 20,
+          "flights_total": 20
+        },
+        {
+          "country": "Sweden",
+          "flights_in": 20,
+          "flights_total": 20
+        },
+        {
+          "country": "United Kingdom",
+          "flights_in": 20,
+          "flights_total": 20
+        },
+        {
+          "country": "Over water",
+          "flights_in": 20,
+          "flights_total": 20
+        },
+        {
+          "country": "Germany",
+          "flights_in": 3,
+          "flights_total": 20
+        },
+        {
+          "country": "Netherlands",
+          "flights_in": 3,
+          "flights_total": 20
+        }
+      ],
+      "matched_direction": "same"
+    },
+    "LHR-TXL": null,
+    "TXL-DEL": {
+      "url": null,
+      "estimated": true,
+      "recorded_flights": null,
+      "km_min": 5785,
+      "km_max": 5785,
+      "great_circle_km": 5785,
+      "air_india": [],
+      "airspace": [],
+      "matched_direction": "same"
+    },
+    "DEL-WUH": null,
+    "WUH-DEL": {
+      "url": null,
+      "estimated": true,
+      "recorded_flights": null,
+      "km_min": 3577,
+      "km_max": 3577,
+      "great_circle_km": 3577,
+      "air_india": [],
+      "airspace": [],
+      "matched_direction": "same"
+    },
+    "DEL-JKR": null,
+    "JKR-KTM": null,
+    "DEL-AER": null,
+    "AER-DEL": {
+      "url": null,
+      "estimated": true,
+      "recorded_flights": null,
+      "km_min": 3688,
+      "km_max": 3688,
+      "great_circle_km": 3688,
+      "air_india": [],
+      "airspace": [],
+      "matched_direction": "same"
+    },
+    "DEL-CGK": null,
+    "CGK-KUL": {
+      "url": "https://www.flightpaths.com/CGK-KUL",
+      "recorded_flights": 199,
+      "km_min": 1184,
+      "km_max": 1648,
+      "great_circle_km": 1130,
+      "air_india": [],
+      "airspace": [
+        {
+          "country": "Indonesia",
+          "flights_in": 80,
+          "flights_total": 80
+        },
+        {
+          "country": "Malaysia",
+          "flights_in": 80,
+          "flights_total": 80
+        },
+        {
+          "country": "Over water",
+          "flights_in": 80,
+          "flights_total": 80
+        },
+        {
+          "country": "Singapore",
+          "flights_in": 55,
+          "flights_total": 80
+        }
+      ],
+      "matched_direction": "same"
+    },
+    "DEL-TAO": null,
+    "TAO-DEL": {
+      "url": null,
+      "estimated": true,
+      "recorded_flights": null,
+      "km_min": 4116,
+      "km_max": 4116,
+      "great_circle_km": 4116,
+      "air_india": [],
+      "airspace": [],
+      "matched_direction": "same"
+    },
+    "DEL-KGL": null,
+    "KGL-EBB": null,
+    "EBB-WKF": null,
+    "WKF-DEL": {
+      "url": null,
+      "estimated": true,
+      "recorded_flights": null,
+      "km_min": 7989,
+      "km_max": 7989,
+      "great_circle_km": 7989,
+      "air_india": [],
+      "airspace": [],
+      "matched_direction": "same"
+    },
+    "DEL-HND": {
+      "url": "https://www.flightpaths.com/DEL-HND",
+      "recorded_flights": 36,
+      "km_min": 6490,
+      "km_max": 6669,
+      "great_circle_km": 5861,
+      "air_india": [
+        {
+          "airline": "Air India",
+          "recorded_from": "2026-05-09",
+          "recorded_to": "2026-09-16",
+          "flight_numbers": [
+            "AI358"
+          ]
+        }
+      ],
+      "airspace": [
+        {
+          "country": "Bangladesh",
+          "flights_in": 20,
+          "flights_total": 20
+        },
+        {
+          "country": "China",
+          "flights_in": 20,
+          "flights_total": 20
+        },
+        {
+          "country": "India",
+          "flights_in": 20,
+          "flights_total": 20
+        },
+        {
+          "country": "Japan",
+          "flights_in": 20,
+          "flights_total": 20
+        },
+        {
+          "country": "Over water",
+          "flights_in": 20,
+          "flights_total": 20
+        }
+      ],
+      "matched_direction": "same"
+    },
+    "DEL-MLE": {
+      "url": "https://www.flightpaths.com/MLE-DEL",
+      "recorded_flights": 3,
+      "km_min": 2849,
+      "km_max": 2923,
+      "great_circle_km": 2736,
+      "air_india": [
+        {
+          "airline": "Air India",
+          "recorded_from": "2026-03-25",
+          "recorded_to": "2026-03-27",
+          "flight_numbers": [
+            "AI2240"
+          ]
+        }
+      ],
+      "airspace": [
+        {
+          "country": "India",
+          "flights_in": 3,
+          "flights_total": 3
+        },
+        {
+          "country": "Over water",
+          "flights_in": 3,
+          "flights_total": 3
+        }
+      ],
+      "matched_direction": "reverse"
+    },
+    "MLE-DEL": {
+      "url": "https://www.flightpaths.com/MLE-DEL",
+      "recorded_flights": 3,
+      "km_min": 2849,
+      "km_max": 2923,
+      "great_circle_km": 2736,
+      "air_india": [
+        {
+          "airline": "Air India",
+          "recorded_from": "2026-03-25",
+          "recorded_to": "2026-03-27",
+          "flight_numbers": [
+            "AI2240"
+          ]
+        }
+      ],
+      "airspace": [
+        {
+          "country": "India",
+          "flights_in": 3,
+          "flights_total": 3
+        },
+        {
+          "country": "Over water",
+          "flights_in": 3,
+          "flights_total": 3
+        }
+      ],
+      "matched_direction": "same"
+    },
+    "DEL-EZE": null,
+    "EZE-DEL": {
+      "url": null,
+      "estimated": true,
+      "recorded_flights": null,
+      "km_min": 15795,
+      "km_max": 15795,
+      "great_circle_km": 15795,
+      "air_india": [],
+      "airspace": [],
+      "matched_direction": "same"
+    },
+    "DEL-ICN": {
+      "url": "https://www.flightpaths.com/DEL-ICN",
+      "recorded_flights": 12,
+      "km_min": 5388,
+      "km_max": 5853,
+      "great_circle_km": 4653,
+      "air_india": [
+        {
+          "airline": "Air India",
+          "recorded_from": "2026-03-02",
+          "recorded_to": "2026-03-09",
+          "flight_numbers": [
+            "AI312"
+          ]
+        }
+      ],
+      "airspace": [
+        {
+          "country": "Bangladesh",
+          "flights_in": 12,
+          "flights_total": 12
+        },
+        {
+          "country": "China",
+          "flights_in": 12,
+          "flights_total": 12
+        },
+        {
+          "country": "India",
+          "flights_in": 12,
+          "flights_total": 12
+        },
+        {
+          "country": "Over water",
+          "flights_in": 12,
+          "flights_total": 12
+        },
+        {
+          "country": "South Korea",
+          "flights_in": 6,
+          "flights_total": 12
+        }
+      ],
+      "matched_direction": "same"
+    },
+    "ICN-DEL": {
+      "url": "https://www.flightpaths.com/ICN-DEL",
+      "recorded_flights": 12,
+      "km_min": 5475,
+      "km_max": 5934,
+      "great_circle_km": 4653,
+      "air_india": [
+        {
+          "airline": "Air India",
+          "recorded_from": "2026-01-26",
+          "recorded_to": "2026-02-03",
+          "flight_numbers": [
+            "AI313"
+          ]
+        }
+      ],
+      "airspace": [
+        {
+          "country": "Bangladesh",
+          "flights_in": 12,
+          "flights_total": 12
+        },
+        {
+          "country": "China",
+          "flights_in": 12,
+          "flights_total": 12
+        },
+        {
+          "country": "India",
+          "flights_in": 12,
+          "flights_total": 12
+        },
+        {
+          "country": "Over water",
+          "flights_in": 12,
+          "flights_total": 12
+        },
+        {
+          "country": "South Korea",
+          "flights_in": 6,
+          "flights_total": 12
+        }
+      ],
+      "matched_direction": "same"
+    },
+    "MLE-CMB": null,
+    "DEL-FRU": null,
+    "FRU-DEL": {
+      "url": null,
+      "estimated": true,
+      "recorded_flights": null,
+      "km_min": 1629,
+      "km_max": 1629,
+      "great_circle_km": 1629,
+      "air_india": [],
+      "airspace": [],
+      "matched_direction": "same"
+    },
+    "ORY-AUH": null,
+    "AUH-BAH": null,
+    "BAH-BIQ": null,
+    "BIQ-DEL": {
+      "url": null,
+      "estimated": true,
+      "recorded_flights": null,
+      "km_min": 7001,
+      "km_max": 7001,
+      "great_circle_km": 7001,
+      "air_india": [],
+      "airspace": [],
+      "matched_direction": "same"
+    },
+    "DEL-VVO": null,
+    "VVO-DEL": {
+      "url": null,
+      "estimated": true,
+      "recorded_flights": null,
+      "km_min": 5119,
+      "km_max": 5119,
+      "great_circle_km": 5119,
+      "air_india": [],
+      "airspace": [],
+      "matched_direction": "same"
+    },
+    "JFK-ORD": {
+      "url": "https://www.flightpaths.com/JFK-ORD",
+      "recorded_flights": 13,
+      "km_min": 1315,
+      "km_max": 1331,
+      "great_circle_km": 1188,
+      "air_india": [],
+      "airspace": [
+        {
+          "country": "Canada",
+          "flights_in": 2,
+          "flights_total": 2
+        },
+        {
+          "country": "Over water",
+          "flights_in": 2,
+          "flights_total": 2
+        }
+      ],
+      "matched_direction": "same"
+    },
+    "ORD-DEL": {
+      "url": null,
+      "estimated": true,
+      "recorded_flights": null,
+      "km_min": 12021,
+      "km_max": 12021,
+      "great_circle_km": 12021,
+      "air_india": [],
+      "airspace": [],
+      "matched_direction": "same"
+    },
+    "DEL-RUH": {
+      "url": "https://www.flightpaths.com/RUH-DEL",
+      "recorded_flights": 19,
+      "km_min": 3315,
+      "km_max": 3458,
+      "great_circle_km": 3037,
+      "air_india": [],
+      "airspace": [
+        {
+          "country": "India",
+          "flights_in": 13,
+          "flights_total": 13
+        },
+        {
+          "country": "Oman",
+          "flights_in": 13,
+          "flights_total": 13
+        },
+        {
+          "country": "Saudi Arabia",
+          "flights_in": 13,
+          "flights_total": 13
+        },
+        {
+          "country": "Over water",
+          "flights_in": 13,
+          "flights_total": 13
+        },
+        {
+          "country": "Pakistan",
+          "flights_in": 12,
+          "flights_total": 13
+        }
+      ],
+      "matched_direction": "reverse"
+    },
+    "BKK-DEL": {
+      "url": "https://www.flightpaths.com/BKK-DEL",
+      "recorded_flights": 12,
+      "km_min": 3029,
+      "km_max": 3238,
+      "great_circle_km": 2948,
+      "air_india": [
+        {
+          "airline": "Air India",
+          "recorded_from": "2026-08-23",
+          "recorded_to": "2026-08-25",
+          "flight_numbers": [
+            "AI2333",
+            "AI2303",
+            "AI2335"
+          ]
+        }
+      ],
+      "airspace": [
+        {
+          "country": "India",
+          "flights_in": 12,
+          "flights_total": 12
+        },
+        {
+          "country": "Thailand",
+          "flights_in": 12,
+          "flights_total": 12
+        },
+        {
+          "country": "Over water",
+          "flights_in": 12,
+          "flights_total": 12
+        }
+      ],
+      "matched_direction": "same"
+    },
+    "DEL-BSB": null,
+    "DEL-FCO": {
+      "url": "https://www.flightpaths.com/DEL-FCO",
+      "recorded_flights": 6,
+      "km_min": 6355,
+      "km_max": 6423,
+      "great_circle_km": 5932,
+      "air_india": [],
+      "airspace": [
+        {
+          "country": "Bosnia and Herzegovina",
+          "flights_in": 6,
+          "flights_total": 6
+        },
+        {
+          "country": "Bulgaria",
+          "flights_in": 6,
+          "flights_total": 6
+        },
+        {
+          "country": "India",
+          "flights_in": 6,
+          "flights_total": 6
+        },
+        {
+          "country": "Italy",
+          "flights_in": 6,
+          "flights_total": 6
+        },
+        {
+          "country": "Montenegro",
+          "flights_in": 6,
+          "flights_total": 6
+        },
+        {
+          "country": "Pakistan",
+          "flights_in": 6,
+          "flights_total": 6
+        },
+        {
+          "country": "Serbia",
+          "flights_in": 6,
+          "flights_total": 6
+        },
+        {
+          "country": "Tajikistan",
+          "flights_in": 6,
+          "flights_total": 6
+        },
+        {
+          "country": "Uzbekistan",
+          "flights_in": 6,
+          "flights_total": 6
+        },
+        {
+          "country": "Over water",
+          "flights_in": 6,
+          "flights_total": 6
+        },
+        {
+          "country": "Croatia",
+          "flights_in": 5,
+          "flights_total": 6
+        },
+        {
+          "country": "Georgia",
+          "flights_in": 5,
+          "flights_total": 6
+        },
+        {
+          "country": "Azerbaijan",
+          "flights_in": 4,
+          "flights_total": 6
+        },
+        {
+          "country": "Turkey",
+          "flights_in": 1,
+          "flights_total": 6
+        }
+      ],
+      "matched_direction": "same"
+    },
+    "FCO-GLA": {
+      "url": "https://www.flightpaths.com/GLA-FCO",
+      "recorded_flights": 3,
+      "km_min": 2062,
+      "km_max": 2157,
+      "great_circle_km": 1973,
+      "air_india": [],
+      "airspace": [
+        {
+          "country": "Italy",
+          "flights_in": 3,
+          "flights_total": 3
+        },
+        {
+          "country": "United Kingdom",
+          "flights_in": 3,
+          "flights_total": 3
+        },
+        {
+          "country": "Over water",
+          "flights_in": 3,
+          "flights_total": 3
+        },
+        {
+          "country": "France",
+          "flights_in": 2,
+          "flights_total": 3
+        },
+        {
+          "country": "Austria",
+          "flights_in": 1,
+          "flights_total": 3
+        },
+        {
+          "country": "Germany",
+          "flights_in": 1,
+          "flights_total": 3
+        },
+        {
+          "country": "Netherlands",
+          "flights_in": 1,
+          "flights_total": 3
+        }
+      ],
+      "matched_direction": "reverse"
+    },
+    "GLA-DEL": {
+      "url": null,
+      "estimated": true,
+      "recorded_flights": null,
+      "km_min": 6902,
+      "km_max": 6902,
+      "great_circle_km": 6902,
+      "air_india": [],
+      "airspace": [],
+      "matched_direction": "same"
+    },
+    "DEL-BER": null,
+    "BER-CPH": null,
+    "CPH-ORY": null,
+    "DEL-BWA": null,
+    "BWA-DEL": {
+      "url": null,
+      "estimated": true,
+      "recorded_flights": null,
+      "km_min": 631,
+      "km_max": 631,
+      "great_circle_km": 631,
+      "air_india": [],
+      "airspace": [],
+      "matched_direction": "same"
+    },
+    "DEL-MUC": {
+      "url": "https://www.flightpaths.com/DEL-MUC",
+      "recorded_flights": 24,
+      "km_min": 6074,
+      "km_max": 6568,
+      "great_circle_km": 5900,
+      "air_india": [],
+      "airspace": [
+        {
+          "country": "Azerbaijan",
+          "flights_in": 10,
+          "flights_total": 10
+        },
+        {
+          "country": "Austria",
+          "flights_in": 10,
+          "flights_total": 10
+        },
+        {
+          "country": "Bulgaria",
+          "flights_in": 10,
+          "flights_total": 10
+        },
+        {
+          "country": "Germany",
+          "flights_in": 10,
+          "flights_total": 10
+        },
+        {
+          "country": "Hungary",
+          "flights_in": 10,
+          "flights_total": 10
+        },
+        {
+          "country": "India",
+          "flights_in": 10,
+          "flights_total": 10
+        },
+        {
+          "country": "Pakistan",
+          "flights_in": 10,
+          "flights_total": 10
+        },
+        {
+          "country": "Romania",
+          "flights_in": 10,
+          "flights_total": 10
+        },
+        {
+          "country": "Over water",
+          "flights_in": 10,
+          "flights_total": 10
+        },
+        {
+          "country": "Georgia",
+          "flights_in": 9,
+          "flights_total": 10
+        },
+        {
+          "country": "Turkey",
+          "flights_in": 8,
+          "flights_total": 10
+        },
+        {
+          "country": "Armenia",
+          "flights_in": 1,
+          "flights_total": 10
+        },
+        {
+          "country": "Russia",
+          "flights_in": 1,
+          "flights_total": 10
+        },
+        {
+          "country": "Uzbekistan",
+          "flights_in": 1,
+          "flights_total": 10
+        }
+      ],
+      "matched_direction": "same"
+    },
+    "MUC-AUH": {
+      "url": "https://www.flightpaths.com/MUC-AUH",
+      "recorded_flights": 30,
+      "km_min": 4810,
+      "km_max": 5665,
+      "great_circle_km": 4580,
+      "air_india": [],
+      "airspace": [
+        {
+          "country": "Austria",
+          "flights_in": 10,
+          "flights_total": 10
+        },
+        {
+          "country": "Germany",
+          "flights_in": 10,
+          "flights_total": 10
+        },
+        {
+          "country": "Croatia",
+          "flights_in": 10,
+          "flights_total": 10
+        },
+        {
+          "country": "Slovenia",
+          "flights_in": 10,
+          "flights_total": 10
+        },
+        {
+          "country": "United Arab Emirates",
+          "flights_in": 10,
+          "flights_total": 10
+        },
+        {
+          "country": "Over water",
+          "flights_in": 10,
+          "flights_total": 10
+        },
+        {
+          "country": "Saudi Arabia",
+          "flights_in": 9,
+          "flights_total": 10
+        },
+        {
+          "country": "Greece",
+          "flights_in": 9,
+          "flights_total": 10
+        },
+        {
+          "country": "Bosnia and Herzegovina",
+          "flights_in": 8,
+          "flights_total": 10
+        },
+        {
+          "country": "Montenegro",
+          "flights_in": 7,
+          "flights_total": 10
+        },
+        {
+          "country": "Macedonia",
+          "flights_in": 6,
+          "flights_total": 10
+        },
+        {
+          "country": "Egypt",
+          "flights_in": 5,
+          "flights_total": 10
+        },
+        {
+          "country": "Albania",
+          "flights_in": 5,
+          "flights_total": 10
+        },
+        {
+          "country": "Oman",
+          "flights_in": 4,
+          "flights_total": 10
+        },
+        {
+          "country": "Serbia",
+          "flights_in": 4,
+          "flights_total": 10
+        },
+        {
+          "country": "Israel",
+          "flights_in": 3,
+          "flights_total": 10
+        },
+        {
+          "country": "Jordan",
+          "flights_in": 3,
+          "flights_total": 10
+        },
+        {
+          "country": "Qatar",
+          "flights_in": 3,
+          "flights_total": 10
+        },
+        {
+          "country": "Italy",
+          "flights_in": 2,
+          "flights_total": 10
+        },
+        {
+          "country": "Turkey",
+          "flights_in": 2,
+          "flights_total": 10
+        },
+        {
+          "country": "Cyprus",
+          "flights_in": 1,
+          "flights_total": 10
+        },
+        {
+          "country": "Iraq",
+          "flights_in": 1,
+          "flights_total": 10
+        },
+        {
+          "country": "Lebanon",
+          "flights_in": 1,
+          "flights_total": 10
+        }
+      ],
+      "matched_direction": "same"
+    },
+    "AUH-DEL": {
+      "url": "https://www.flightpaths.com/AUH-DEL",
+      "recorded_flights": 13,
+      "km_min": 2472,
+      "km_max": 2742,
+      "great_circle_km": 2277,
+      "air_india": [
+        {
+          "airline": "Air India Express",
+          "recorded_from": "2026-02-18",
+          "recorded_to": "2026-02-27",
+          "flight_numbers": [
+            "IX182"
+          ]
+        }
+      ],
+      "airspace": [
+        {
+          "country": "India",
+          "flights_in": 13,
+          "flights_total": 13
+        },
+        {
+          "country": "United Arab Emirates",
+          "flights_in": 13,
+          "flights_total": 13
+        },
+        {
+          "country": "Over water",
+          "flights_in": 13,
+          "flights_total": 13
+        },
+        {
+          "country": "Iran",
+          "flights_in": 7,
+          "flights_total": 13
+        },
+        {
+          "country": "Pakistan",
+          "flights_in": 7,
+          "flights_total": 13
+        },
+        {
+          "country": "Oman",
+          "flights_in": 6,
+          "flights_total": 13
+        }
+      ],
+      "matched_direction": "same"
+    },
+    "DEL-SKD": null,
+    "SKD-DEL": {
+      "url": null,
+      "estimated": true,
+      "recorded_flights": null,
+      "km_min": 1547,
+      "km_max": 1547,
+      "great_circle_km": 1547,
+      "air_india": [],
+      "airspace": [],
+      "matched_direction": "same"
+    },
+    "DEL-DPS": {
+      "url": "https://www.flightpaths.com/DEL-DPS",
+      "recorded_flights": 6,
+      "km_min": 6053,
+      "km_max": 6201,
+      "great_circle_km": 5821,
+      "air_india": [
+        {
+          "airline": "Air India",
+          "recorded_from": "2026-03-01",
+          "recorded_to": "2026-03-06",
+          "flight_numbers": [
+            "AI2145",
+            "AI2147"
+          ]
+        }
+      ],
+      "airspace": [
+        {
+          "country": "Indonesia",
+          "flights_in": 6,
+          "flights_total": 6
+        },
+        {
+          "country": "India",
+          "flights_in": 6,
+          "flights_total": 6
+        },
+        {
+          "country": "Malaysia",
+          "flights_in": 6,
+          "flights_total": 6
+        },
+        {
+          "country": "Thailand",
+          "flights_in": 6,
+          "flights_total": 6
+        },
+        {
+          "country": "Over water",
+          "flights_in": 6,
+          "flights_total": 6
+        }
+      ],
+      "matched_direction": "same"
+    },
+    "DPS-DEL": {
+      "url": "https://www.flightpaths.com/DEL-DPS",
+      "recorded_flights": 6,
+      "km_min": 6053,
+      "km_max": 6201,
+      "great_circle_km": 5821,
+      "air_india": [
+        {
+          "airline": "Air India",
+          "recorded_from": "2026-03-01",
+          "recorded_to": "2026-03-06",
+          "flight_numbers": [
+            "AI2145",
+            "AI2147"
+          ]
+        }
+      ],
+      "airspace": [
+        {
+          "country": "Indonesia",
+          "flights_in": 6,
+          "flights_total": 6
+        },
+        {
+          "country": "India",
+          "flights_in": 6,
+          "flights_total": 6
+        },
+        {
+          "country": "Malaysia",
+          "flights_in": 6,
+          "flights_total": 6
+        },
+        {
+          "country": "Thailand",
+          "flights_in": 6,
+          "flights_total": 6
+        },
+        {
+          "country": "Over water",
+          "flights_in": 6,
+          "flights_total": 6
+        }
+      ],
+      "matched_direction": "reverse"
+    },
+    "DEL-HIJ": null,
+    "HIJ-POM": null,
+    "POM-SYD": null,
+    "SYD-DEL": {
+      "url": "https://www.flightpaths.com/SYD-DEL",
+      "recorded_flights": 6,
+      "km_min": 10654,
+      "km_max": 10786,
+      "great_circle_km": 10435,
+      "air_india": [
+        {
+          "airline": "Air India",
+          "recorded_from": "2026-02-28",
+          "recorded_to": "2026-03-05",
+          "flight_numbers": [
+            "AI301"
+          ]
+        }
+      ],
+      "airspace": [
+        {
+          "country": "Australia",
+          "flights_in": 6,
+          "flights_total": 6
+        },
+        {
+          "country": "Indonesia",
+          "flights_in": 6,
+          "flights_total": 6
+        },
+        {
+          "country": "India",
+          "flights_in": 6,
+          "flights_total": 6
+        },
+        {
+          "country": "Over water",
+          "flights_in": 6,
+          "flights_total": 6
+        },
+        {
+          "country": "Malaysia",
+          "flights_in": 5,
+          "flights_total": 6
+        },
+        {
+          "country": "Singapore",
+          "flights_in": 1,
+          "flights_total": 6
+        },
+        {
+          "country": "Thailand",
+          "flights_in": 1,
+          "flights_total": 6
+        }
+      ],
+      "matched_direction": "same"
+    },
+    "IAD-CAI": {
+      "url": "https://www.flightpaths.com/IAD-CAI",
+      "recorded_flights": 4,
+      "km_min": 9585,
+      "km_max": 9653,
+      "great_circle_km": 9381,
+      "air_india": [],
+      "airspace": [
+        {
+          "country": "Egypt",
+          "flights_in": 4,
+          "flights_total": 4
+        },
+        {
+          "country": "Over water",
+          "flights_in": 4,
+          "flights_total": 4
+        },
+        {
+          "country": "France",
+          "flights_in": 3,
+          "flights_total": 4
+        },
+        {
+          "country": "Italy",
+          "flights_in": 3,
+          "flights_total": 4
+        },
+        {
+          "country": "Canada",
+          "flights_in": 3,
+          "flights_total": 4
+        },
+        {
+          "country": "Albania",
+          "flights_in": 1,
+          "flights_total": 4
+        },
+        {
+          "country": "Austria",
+          "flights_in": 1,
+          "flights_total": 4
+        },
+        {
+          "country": "Bosnia and Herzegovina",
+          "flights_in": 1,
+          "flights_total": 4
+        },
+        {
+          "country": "Germany",
+          "flights_in": 1,
+          "flights_total": 4
+        },
+        {
+          "country": "Greece",
+          "flights_in": 1,
+          "flights_total": 4
+        },
+        {
+          "country": "Croatia",
+          "flights_in": 1,
+          "flights_total": 4
+        },
+        {
+          "country": "Montenegro",
+          "flights_in": 1,
+          "flights_total": 4
+        },
+        {
+          "country": "Slovenia",
+          "flights_in": 1,
+          "flights_total": 4
+        },
+        {
+          "country": "Switzerland",
+          "flights_in": 1,
+          "flights_total": 4
+        },
+        {
+          "country": "Algeria",
+          "flights_in": 1,
+          "flights_total": 4
+        },
+        {
+          "country": "Portugal",
+          "flights_in": 1,
+          "flights_total": 4
+        },
+        {
+          "country": "Spain",
+          "flights_in": 1,
+          "flights_total": 4
+        },
+        {
+          "country": "Tunisia",
+          "flights_in": 1,
+          "flights_total": 4
+        }
+      ],
+      "matched_direction": "same"
+    },
+    "CAI-DEL": {
+      "url": "https://www.flightpaths.com/CAI-DEL",
+      "recorded_flights": 8,
+      "km_min": 5013,
+      "km_max": 5303,
+      "great_circle_km": 4403,
+      "air_india": [],
+      "airspace": [
+        {
+          "country": "Egypt",
+          "flights_in": 8,
+          "flights_total": 8
+        },
+        {
+          "country": "India",
+          "flights_in": 8,
+          "flights_total": 8
+        },
+        {
+          "country": "Saudi Arabia",
+          "flights_in": 8,
+          "flights_total": 8
+        },
+        {
+          "country": "Over water",
+          "flights_in": 8,
+          "flights_total": 8
+        },
+        {
+          "country": "Oman",
+          "flights_in": 7,
+          "flights_total": 8
+        },
+        {
+          "country": "Pakistan",
+          "flights_in": 7,
+          "flights_total": 8
+        }
+      ],
+      "matched_direction": "same"
+    },
+    "DEL-JNB": null,
+    "JNB-ATH": null,
+    "ATH-DEL": {
+      "url": null,
+      "estimated": true,
+      "recorded_flights": null,
+      "km_min": 4984,
+      "km_max": 4984,
+      "great_circle_km": 4984,
+      "air_india": [],
+      "airspace": [],
+      "matched_direction": "same"
+    },
+    "CGK-DEL": {
+      "url": null,
+      "estimated": true,
+      "recorded_flights": null,
+      "km_min": 4990,
+      "km_max": 4990,
+      "great_circle_km": 4990,
+      "air_india": [],
+      "airspace": [],
+      "matched_direction": "same"
+    },
+    "DEL-DXB": {
+      "url": "https://www.flightpaths.com/DEL-DXB",
+      "recorded_flights": 26,
+      "km_min": 2301,
+      "km_max": 2591,
+      "great_circle_km": 2182,
+      "air_india": [
+        {
+          "airline": "Air India",
+          "recorded_from": "2026-01-07",
+          "recorded_to": "2026-01-14",
+          "flight_numbers": [
+            "AI917",
+            "AI929",
+            "AI995",
+            "AI915"
+          ]
+        }
+      ],
+      "airspace": [
+        {
+          "country": "India",
+          "flights_in": 26,
+          "flights_total": 26
+        },
+        {
+          "country": "United Arab Emirates",
+          "flights_in": 26,
+          "flights_total": 26
+        },
+        {
+          "country": "Over water",
+          "flights_in": 26,
+          "flights_total": 26
+        },
+        {
+          "country": "Oman",
+          "flights_in": 16,
+          "flights_total": 26
+        },
+        {
+          "country": "Pakistan",
+          "flights_in": 13,
+          "flights_total": 26
+        },
+        {
+          "country": "Iran",
+          "flights_in": 7,
+          "flights_total": 26
+        }
+      ],
+      "matched_direction": "same"
+    },
+    "AUH-DOH": null,
+    "DOH-DEL": {
+      "url": "https://www.flightpaths.com/DOH-DEL",
+      "recorded_flights": 160,
+      "km_min": 2668,
+      "km_max": 3278,
+      "great_circle_km": 2549,
+      "air_india": [
+        {
+          "airline": "Air India",
+          "recorded_from": "2026-07-11",
+          "recorded_to": "2026-09-16",
+          "flight_numbers": [
+            "AI2284"
+          ]
+        }
+      ],
+      "airspace": [
+        {
+          "country": "India",
+          "flights_in": 20,
+          "flights_total": 20
+        },
+        {
+          "country": "Over water",
+          "flights_in": 20,
+          "flights_total": 20
+        },
+        {
+          "country": "United Arab Emirates",
+          "flights_in": 16,
+          "flights_total": 20
+        },
+        {
+          "country": "Pakistan",
+          "flights_in": 10,
+          "flights_total": 20
+        },
+        {
+          "country": "Oman",
+          "flights_in": 3,
+          "flights_total": 20
+        },
+        {
+          "country": "Saudi Arabia",
+          "flights_in": 3,
+          "flights_total": 20
+        }
+      ],
+      "matched_direction": "same"
+    },
+    "DEL-BRI": null,
+    "BRI-DEL": {
+      "url": null,
+      "estimated": true,
+      "recorded_flights": null,
+      "km_min": 5567,
+      "km_max": 5567,
+      "great_circle_km": 5567,
+      "air_india": [],
+      "airspace": [],
+      "matched_direction": "same"
+    },
+    "VKO-VIE": null,
+    "VIE-DEL": {
+      "url": "https://www.flightpaths.com/VIE-DEL",
+      "recorded_flights": 21,
+      "km_min": 6896,
+      "km_max": 7730,
+      "great_circle_km": 5547,
+      "air_india": [
+        {
+          "airline": "Air India",
+          "recorded_from": "2026-02-26",
+          "recorded_to": "2026-03-28",
+          "flight_numbers": [
+            "AI154",
+            "AI186",
+            "AI174"
+          ]
+        }
+      ],
+      "airspace": [
+        {
+          "country": "Austria",
+          "flights_in": 10,
+          "flights_total": 10
+        },
+        {
+          "country": "Hungary",
+          "flights_in": 10,
+          "flights_total": 10
+        },
+        {
+          "country": "India",
+          "flights_in": 10,
+          "flights_total": 10
+        },
+        {
+          "country": "Over water",
+          "flights_in": 10,
+          "flights_total": 10
+        },
+        {
+          "country": "Bosnia and Herzegovina",
+          "flights_in": 7,
+          "flights_total": 10
+        },
+        {
+          "country": "Greece",
+          "flights_in": 7,
+          "flights_total": 10
+        },
+        {
+          "country": "Croatia",
+          "flights_in": 7,
+          "flights_total": 10
+        },
+        {
+          "country": "Macedonia",
+          "flights_in": 7,
+          "flights_total": 10
+        },
+        {
+          "country": "Saudi Arabia",
+          "flights_in": 7,
+          "flights_total": 10
+        },
+        {
+          "country": "Serbia",
+          "flights_in": 7,
+          "flights_total": 10
+        },
+        {
+          "country": "United Arab Emirates",
+          "flights_in": 4,
+          "flights_total": 10
+        },
+        {
+          "country": "Oman",
+          "flights_in": 3,
+          "flights_total": 10
+        },
+        {
+          "country": "Bulgaria",
+          "flights_in": 3,
+          "flights_total": 10
+        },
+        {
+          "country": "Iraq",
+          "flights_in": 3,
+          "flights_total": 10
+        },
+        {
+          "country": "Slovakia",
+          "flights_in": 3,
+          "flights_total": 10
+        },
+        {
+          "country": "Romania",
+          "flights_in": 3,
+          "flights_total": 10
+        },
+        {
+          "country": "Turkey",
+          "flights_in": 3,
+          "flights_total": 10
+        },
+        {
+          "country": "Albania",
+          "flights_in": 2,
+          "flights_total": 10
+        },
+        {
+          "country": "Montenegro",
+          "flights_in": 2,
+          "flights_total": 10
+        },
+        {
+          "country": "Egypt",
+          "flights_in": 1,
+          "flights_total": 10
+        }
+      ],
+      "matched_direction": "same"
+    },
+    "DEL-WAW": {
+      "url": "https://www.flightpaths.com/DEL-WAW",
+      "recorded_flights": 6,
+      "km_min": 5935,
+      "km_max": 6222,
+      "great_circle_km": 5263,
+      "air_india": [],
+      "airspace": [
+        {
+          "country": "India",
+          "flights_in": 6,
+          "flights_total": 6
+        },
+        {
+          "country": "Pakistan",
+          "flights_in": 6,
+          "flights_total": 6
+        },
+        {
+          "country": "Poland",
+          "flights_in": 6,
+          "flights_total": 6
+        },
+        {
+          "country": "Romania",
+          "flights_in": 6,
+          "flights_total": 6
+        },
+        {
+          "country": "Over water",
+          "flights_in": 6,
+          "flights_total": 6
+        },
+        {
+          "country": "Hungary",
+          "flights_in": 5,
+          "flights_total": 6
+        },
+        {
+          "country": "Slovakia",
+          "flights_in": 5,
+          "flights_total": 6
+        },
+        {
+          "country": "Azerbaijan",
+          "flights_in": 5,
+          "flights_total": 6
+        },
+        {
+          "country": "Georgia",
+          "flights_in": 3,
+          "flights_total": 6
+        },
+        {
+          "country": "Armenia",
+          "flights_in": 2,
+          "flights_total": 6
+        },
+        {
+          "country": "Turkey",
+          "flights_in": 2,
+          "flights_total": 6
+        },
+        {
+          "country": "Russia",
+          "flights_in": 1,
+          "flights_total": 6
+        },
+        {
+          "country": "Ukraine",
+          "flights_in": 1,
+          "flights_total": 6
+        }
+      ],
+      "matched_direction": "same"
+    },
+    "WAW-DEL": {
+      "url": "https://www.flightpaths.com/WAW-DEL",
+      "recorded_flights": 6,
+      "km_min": 5903,
+      "km_max": 6021,
+      "great_circle_km": 5263,
+      "air_india": [],
+      "airspace": [
+        {
+          "country": "Hungary",
+          "flights_in": 6,
+          "flights_total": 6
+        },
+        {
+          "country": "India",
+          "flights_in": 6,
+          "flights_total": 6
+        },
+        {
+          "country": "Slovakia",
+          "flights_in": 6,
+          "flights_total": 6
+        },
+        {
+          "country": "Pakistan",
+          "flights_in": 6,
+          "flights_total": 6
+        },
+        {
+          "country": "Poland",
+          "flights_in": 6,
+          "flights_total": 6
+        },
+        {
+          "country": "Over water",
+          "flights_in": 6,
+          "flights_total": 6
+        },
+        {
+          "country": "Romania",
+          "flights_in": 5,
+          "flights_total": 6
+        }
+      ],
+      "matched_direction": "same"
+    },
+    "DEL-BWN": null,
+    "BWN-SIN": {
+      "url": "https://www.flightpaths.com/SIN-BWN",
+      "recorded_flights": 10,
+      "km_min": 1297,
+      "km_max": 1320,
+      "great_circle_km": 1278,
+      "air_india": [],
+      "airspace": [
+        {
+          "country": "Malaysia",
+          "flights_in": 10,
+          "flights_total": 10
+        },
+        {
+          "country": "Over water",
+          "flights_in": 10,
+          "flights_total": 10
+        }
+      ],
+      "matched_direction": "reverse"
+    },
+    "DEL-PHL": null,
+    "PHL-JFK": null,
+    "JFK-DEL": {
+      "url": "https://www.flightpaths.com/JFK-DEL",
+      "recorded_flights": 153,
+      "km_min": 12648,
+      "km_max": 14455,
+      "great_circle_km": 11756,
+      "air_india": [
+        {
+          "airline": "Air India",
+          "recorded_from": "2026-08-10",
+          "recorded_to": "2026-09-15",
+          "flight_numbers": [
+            "AI102"
+          ]
+        }
+      ],
+      "airspace": [
+        {
+          "country": "India",
+          "flights_in": 20,
+          "flights_total": 20
+        },
+        {
+          "country": "Over water",
+          "flights_in": 20,
+          "flights_total": 20
+        },
+        {
+          "country": "Canada",
+          "flights_in": 14,
+          "flights_total": 20
+        },
+        {
+          "country": "Azerbaijan",
+          "flights_in": 10,
+          "flights_total": 20
+        },
+        {
+          "country": "Pakistan",
+          "flights_in": 10,
+          "flights_total": 20
+        },
+        {
+          "country": "Germany",
+          "flights_in": 10,
+          "flights_total": 20
+        },
+        {
+          "country": "United Kingdom",
+          "flights_in": 10,
+          "flights_total": 20
+        },
+        {
+          "country": "France",
+          "flights_in": 10,
+          "flights_total": 20
+        },
+        {
+          "country": "Italy",
+          "flights_in": 10,
+          "flights_total": 20
+        },
+        {
+          "country": "Egypt",
+          "flights_in": 10,
+          "flights_total": 20
+        },
+        {
+          "country": "Saudi Arabia",
+          "flights_in": 10,
+          "flights_total": 20
+        },
+        {
+          "country": "Hungary",
+          "flights_in": 9,
+          "flights_total": 20
+        },
+        {
+          "country": "Romania",
+          "flights_in": 9,
+          "flights_total": 20
+        },
+        {
+          "country": "Greece",
+          "flights_in": 9,
+          "flights_total": 20
+        },
+        {
+          "country": "Armenia",
+          "flights_in": 8,
+          "flights_total": 20
+        },
+        {
+          "country": "Ireland",
+          "flights_in": 7,
+          "flights_total": 20
+        },
+        {
+          "country": "United Arab Emirates",
+          "flights_in": 7,
+          "flights_total": 20
+        },
+        {
+          "country": "Czech Republic",
+          "flights_in": 6,
+          "flights_total": 20
+        },
+        {
+          "country": "Austria",
+          "flights_in": 6,
+          "flights_total": 20
+        },
+        {
+          "country": "Bulgaria",
+          "flights_in": 5,
+          "flights_total": 20
+        },
+        {
+          "country": "Netherlands",
+          "flights_in": 5,
+          "flights_total": 20
+        },
+        {
+          "country": "Slovakia",
+          "flights_in": 4,
+          "flights_total": 20
+        },
+        {
+          "country": "Turkey",
+          "flights_in": 3,
+          "flights_total": 20
+        },
+        {
+          "country": "Belgium",
+          "flights_in": 3,
+          "flights_total": 20
+        },
+        {
+          "country": "Croatia",
+          "flights_in": 3,
+          "flights_total": 20
+        },
+        {
+          "country": "Albania",
+          "flights_in": 3,
+          "flights_total": 20
+        },
+        {
+          "country": "Oman",
+          "flights_in": 3,
+          "flights_total": 20
+        },
+        {
+          "country": "Bosnia and Herzegovina",
+          "flights_in": 2,
+          "flights_total": 20
+        },
+        {
+          "country": "Switzerland",
+          "flights_in": 2,
+          "flights_total": 20
+        },
+        {
+          "country": "Georgia",
+          "flights_in": 1,
+          "flights_total": 20
+        },
+        {
+          "country": "Serbia",
+          "flights_in": 1,
+          "flights_total": 20
+        },
+        {
+          "country": "Montenegro",
+          "flights_in": 1,
+          "flights_total": 20
+        },
+        {
+          "country": "Slovenia",
+          "flights_in": 1,
+          "flights_total": 20
+        },
+        {
+          "country": "Spain",
+          "flights_in": 1,
+          "flights_total": 20
+        }
+      ],
+      "matched_direction": "same"
+    },
+    "DEL-KZN": null,
+    "KZN-DEL": {
+      "url": null,
+      "estimated": true,
+      "recorded_flights": null,
+      "km_min": 3731,
+      "km_max": 3731,
+      "great_circle_km": 3731,
+      "air_india": [],
+      "airspace": [],
+      "matched_direction": "same"
+    },
+    "DEL-ABV": null,
+    "ABV-GIG": null,
+    "GIG-GEO": null,
+    "GEO-DEL": {
+      "url": null,
+      "estimated": true,
+      "recorded_flights": null,
+      "km_min": 13846,
+      "km_max": 13846,
+      "great_circle_km": 13846,
+      "air_india": [],
+      "airspace": [],
+      "matched_direction": "same"
+    },
+    "DEL-KWI": {
+      "url": "https://www.flightpaths.com/DEL-KWI",
+      "recorded_flights": 6,
+      "km_min": 2861,
+      "km_max": 2955,
+      "great_circle_km": 2829,
+      "air_india": [],
+      "airspace": [
+        {
+          "country": "India",
+          "flights_in": 6,
+          "flights_total": 6
+        },
+        {
+          "country": "Iran",
+          "flights_in": 6,
+          "flights_total": 6
+        },
+        {
+          "country": "Kuwait",
+          "flights_in": 6,
+          "flights_total": 6
+        },
+        {
+          "country": "Pakistan",
+          "flights_in": 6,
+          "flights_total": 6
+        },
+        {
+          "country": "Over water",
+          "flights_in": 6,
+          "flights_total": 6
+        }
+      ],
+      "matched_direction": "same"
+    },
+    "KWI-DEL": {
+      "url": "https://www.flightpaths.com/KWI-DEL",
+      "recorded_flights": 6,
+      "km_min": 2879,
+      "km_max": 2934,
+      "great_circle_km": 2829,
+      "air_india": [],
+      "airspace": [
+        {
+          "country": "India",
+          "flights_in": 6,
+          "flights_total": 6
+        },
+        {
+          "country": "Iran",
+          "flights_in": 6,
+          "flights_total": 6
+        },
+        {
+          "country": "Kuwait",
+          "flights_in": 6,
+          "flights_total": 6
+        },
+        {
+          "country": "Pakistan",
+          "flights_in": 6,
+          "flights_total": 6
+        },
+        {
+          "country": "Over water",
+          "flights_in": 6,
+          "flights_total": 6
+        }
+      ],
+      "matched_direction": "same"
+    },
+    "ORY-MRS": null,
+    "MRS-IAD": null,
+    "DEL-MRU": {
+      "url": "https://www.flightpaths.com/DEL-MRU",
+      "recorded_flights": 3,
+      "km_min": 5897,
+      "km_max": 5937,
+      "great_circle_km": 5832,
+      "air_india": [],
+      "airspace": [
+        {
+          "country": "India",
+          "flights_in": 3,
+          "flights_total": 3
+        },
+        {
+          "country": "Mauritius",
+          "flights_in": 3,
+          "flights_total": 3
+        },
+        {
+          "country": "Over water",
+          "flights_in": 3,
+          "flights_total": 3
+        }
+      ],
+      "matched_direction": "same"
+    },
+    "MRU-DEL": {
+      "url": "https://www.flightpaths.com/DEL-MRU",
+      "recorded_flights": 3,
+      "km_min": 5897,
+      "km_max": 5937,
+      "great_circle_km": 5832,
+      "air_india": [],
+      "airspace": [
+        {
+          "country": "India",
+          "flights_in": 3,
+          "flights_total": 3
+        },
+        {
+          "country": "Mauritius",
+          "flights_in": 3,
+          "flights_total": 3
+        },
+        {
+          "country": "Over water",
+          "flights_in": 3,
+          "flights_total": 3
+        }
+      ],
+      "matched_direction": "reverse"
+    },
+    "BKK-CMB": {
+      "url": "https://www.flightpaths.com/BKK-CMB",
+      "recorded_flights": 12,
+      "km_min": 2396,
+      "km_max": 2485,
+      "great_circle_km": 2393,
+      "air_india": [],
+      "airspace": [
+        {
+          "country": "Sri Lanka",
+          "flights_in": 12,
+          "flights_total": 12
+        },
+        {
+          "country": "Over water",
+          "flights_in": 12,
+          "flights_total": 12
+        },
+        {
+          "country": "Thailand",
+          "flights_in": 11,
+          "flights_total": 12
+        }
+      ],
+      "matched_direction": "same"
+    },
+    "DEL-JED": {
+      "url": "https://www.flightpaths.com/DEL-JED",
+      "recorded_flights": 17,
+      "km_min": 4006,
+      "km_max": 4638,
+      "great_circle_km": 3880,
+      "air_india": [
+        {
+          "airline": "Air India",
+          "recorded_from": "2026-02-23",
+          "recorded_to": "2026-10-24",
+          "flight_numbers": [
+            "AI2255"
+          ]
+        }
+      ],
+      "airspace": [
+        {
+          "country": "India",
+          "flights_in": 15,
+          "flights_total": 15
+        },
+        {
+          "country": "Oman",
+          "flights_in": 15,
+          "flights_total": 15
+        },
+        {
+          "country": "Over water",
+          "flights_in": 15,
+          "flights_total": 15
+        },
+        {
+          "country": "Saudi Arabia",
+          "flights_in": 13,
+          "flights_total": 15
+        },
+        {
+          "country": "Pakistan",
+          "flights_in": 6,
+          "flights_total": 15
+        },
+        {
+          "country": "United Arab Emirates",
+          "flights_in": 6,
+          "flights_total": 15
+        }
+      ],
+      "matched_direction": "same"
+    },
+    "JED-DEL": {
+      "url": "https://www.flightpaths.com/JED-DEL",
+      "recorded_flights": 14,
+      "km_min": 4059,
+      "km_max": 4413,
+      "great_circle_km": 3880,
+      "air_india": [
+        {
+          "airline": "Air India",
+          "recorded_from": "2026-04-15",
+          "recorded_to": "2026-10-24",
+          "flight_numbers": [
+            "AI2256"
+          ]
+        }
+      ],
+      "airspace": [
+        {
+          "country": "India",
+          "flights_in": 13,
+          "flights_total": 13
+        },
+        {
+          "country": "Oman",
+          "flights_in": 13,
+          "flights_total": 13
+        },
+        {
+          "country": "Saudi Arabia",
+          "flights_in": 13,
+          "flights_total": 13
+        },
+        {
+          "country": "Over water",
+          "flights_in": 13,
+          "flights_total": 13
+        },
+        {
+          "country": "Pakistan",
+          "flights_in": 3,
+          "flights_total": 13
+        }
+      ],
+      "matched_direction": "same"
+    },
+    "DEL-LCA": null,
+    "LCA-YYC": null,
+    "YYC-ZAG": null,
+    "ZAG-DEL": {
+      "url": null,
+      "estimated": true,
+      "recorded_flights": null,
+      "km_min": 5589,
+      "km_max": 5589,
+      "great_circle_km": 5589,
+      "air_india": [],
+      "airspace": [],
+      "matched_direction": "same"
+    },
+    "DEL-ACC": null,
+    "ACC-POS": null,
+    "POS-EZE": null,
+    "EZE-GIG": {
+      "url": "https://www.flightpaths.com/EZE-GIG",
+      "recorded_flights": 12,
+      "km_min": 2034,
+      "km_max": 2103,
+      "great_circle_km": 1996,
+      "air_india": [],
+      "airspace": [
+        {
+          "country": "Argentina",
+          "flights_in": 12,
+          "flights_total": 12
+        },
+        {
+          "country": "Brazil",
+          "flights_in": 12,
+          "flights_total": 12
+        },
+        {
+          "country": "Uruguay",
+          "flights_in": 12,
+          "flights_total": 12
+        },
+        {
+          "country": "Over water",
+          "flights_in": 12,
+          "flights_total": 12
+        }
+      ],
+      "matched_direction": "same"
+    },
+    "GIG-BSB": null,
+    "BSB-WDH": null,
+    "WDH-DEL": {
+      "url": null,
+      "estimated": true,
+      "recorded_flights": null,
+      "km_min": 8546,
+      "km_max": 8546,
+      "great_circle_km": 8546,
+      "air_india": [],
+      "airspace": [],
+      "matched_direction": "same"
+    },
+    "LHR-MLE": {
+      "url": "https://www.flightpaths.com/LHR-MLE",
+      "recorded_flights": 160,
+      "km_min": 9043,
+      "km_max": 9360,
+      "great_circle_km": 8538,
+      "air_india": [],
+      "airspace": [
+        {
+          "country": "Egypt",
+          "flights_in": 20,
+          "flights_total": 20
+        },
+        {
+          "country": "Saudi Arabia",
+          "flights_in": 20,
+          "flights_total": 20
+        },
+        {
+          "country": "United Kingdom",
+          "flights_in": 20,
+          "flights_total": 20
+        },
+        {
+          "country": "Over water",
+          "flights_in": 20,
+          "flights_total": 20
+        },
+        {
+          "country": "Oman",
+          "flights_in": 19,
+          "flights_total": 20
+        },
+        {
+          "country": "Austria",
+          "flights_in": 13,
+          "flights_total": 20
+        },
+        {
+          "country": "Belgium",
+          "flights_in": 13,
+          "flights_total": 20
+        },
+        {
+          "country": "Germany",
+          "flights_in": 13,
+          "flights_total": 20
+        },
+        {
+          "country": "Greece",
+          "flights_in": 13,
+          "flights_total": 20
+        },
+        {
+          "country": "France",
+          "flights_in": 12,
+          "flights_total": 20
+        },
+        {
+          "country": "Croatia",
+          "flights_in": 12,
+          "flights_total": 20
+        },
+        {
+          "country": "Bosnia and Herzegovina",
+          "flights_in": 11,
+          "flights_total": 20
+        },
+        {
+          "country": "Slovenia",
+          "flights_in": 11,
+          "flights_total": 20
+        },
+        {
+          "country": "Italy",
+          "flights_in": 10,
+          "flights_total": 20
+        },
+        {
+          "country": "Macedonia",
+          "flights_in": 10,
+          "flights_total": 20
+        },
+        {
+          "country": "Serbia",
+          "flights_in": 9,
+          "flights_total": 20
+        },
+        {
+          "country": "Montenegro",
+          "flights_in": 9,
+          "flights_total": 20
+        },
+        {
+          "country": "Turkey",
+          "flights_in": 6,
+          "flights_total": 20
+        },
+        {
+          "country": "Luxembourg",
+          "flights_in": 5,
+          "flights_total": 20
+        },
+        {
+          "country": "Albania",
+          "flights_in": 4,
+          "flights_total": 20
+        },
+        {
+          "country": "Jordan",
+          "flights_in": 3,
+          "flights_total": 20
+        },
+        {
+          "country": "Bulgaria",
+          "flights_in": 1,
+          "flights_total": 20
+        },
+        {
+          "country": "Hungary",
+          "flights_in": 1,
+          "flights_total": 20
+        }
+      ],
+      "matched_direction": "same"
+    },
+    "HND-SDJ": null,
+    "SDJ-TSN": null,
+    "TSN-DEL": {
+      "url": null,
+      "estimated": true,
+      "recorded_flights": null,
+      "km_min": 3862,
+      "km_max": 3862,
+      "great_circle_km": 3862,
+      "air_india": [],
+      "airspace": [],
+      "matched_direction": "same"
+    },
+    "JNB-DEL": {
+      "url": null,
+      "estimated": true,
+      "recorded_flights": null,
+      "km_min": 8012,
+      "km_max": 8012,
+      "great_circle_km": 8012,
+      "air_india": [],
+      "airspace": [],
+      "matched_direction": "same"
+    },
+    "AMM-ADD": null,
+    "ADD-MCT": null,
+    "KUL-DEL": {
+      "url": "https://www.flightpaths.com/KUL-DEL",
+      "recorded_flights": 27,
+      "km_min": 3990,
+      "km_max": 4226,
+      "great_circle_km": 3877,
+      "air_india": [
+        {
+          "airline": "Air India",
+          "recorded_from": "2026-07-12",
+          "recorded_to": "2026-07-21",
+          "flight_numbers": [
+            "AI2385"
+          ]
+        }
+      ],
+      "airspace": [
+        {
+          "country": "India",
+          "flights_in": 27,
+          "flights_total": 27
+        },
+        {
+          "country": "Malaysia",
+          "flights_in": 27,
+          "flights_total": 27
+        },
+        {
+          "country": "Over water",
+          "flights_in": 27,
+          "flights_total": 27
+        },
+        {
+          "country": "Thailand",
+          "flights_in": 23,
+          "flights_total": 27
+        }
+      ],
+      "matched_direction": "same"
+    },
+    "TLV-DEL": {
+      "url": "https://www.flightpaths.com/TLV-DEL",
+      "recorded_flights": 5,
+      "km_min": 4775,
+      "km_max": 4820,
+      "great_circle_km": 4048,
+      "air_india": [
+        {
+          "airline": "Air India",
+          "recorded_from": "2026-02-19",
+          "recorded_to": "2026-02-26",
+          "flight_numbers": [
+            "AI140"
+          ]
+        }
+      ],
+      "airspace": [
+        {
+          "country": "India",
+          "flights_in": 5,
+          "flights_total": 5
+        },
+        {
+          "country": "Israel",
+          "flights_in": 5,
+          "flights_total": 5
+        },
+        {
+          "country": "Jordan",
+          "flights_in": 5,
+          "flights_total": 5
+        },
+        {
+          "country": "Saudi Arabia",
+          "flights_in": 5,
+          "flights_total": 5
+        },
+        {
+          "country": "United Arab Emirates",
+          "flights_in": 5,
+          "flights_total": 5
+        },
+        {
+          "country": "Over water",
+          "flights_in": 5,
+          "flights_total": 5
+        }
+      ],
+      "matched_direction": "same"
+    },
+    "AUH-AMS": {
+      "url": "https://www.flightpaths.com/AUH-AMS",
+      "recorded_flights": 6,
+      "km_min": 5311,
+      "km_max": 5404,
+      "great_circle_km": 5192,
+      "air_india": [],
+      "airspace": [
+        {
+          "country": "Bulgaria",
+          "flights_in": 6,
+          "flights_total": 6
+        },
+        {
+          "country": "Czech Republic",
+          "flights_in": 6,
+          "flights_total": 6
+        },
+        {
+          "country": "Germany",
+          "flights_in": 6,
+          "flights_total": 6
+        },
+        {
+          "country": "Hungary",
+          "flights_in": 6,
+          "flights_total": 6
+        },
+        {
+          "country": "Iraq",
+          "flights_in": 6,
+          "flights_total": 6
+        },
+        {
+          "country": "Kuwait",
+          "flights_in": 6,
+          "flights_total": 6
+        },
+        {
+          "country": "Netherlands",
+          "flights_in": 6,
+          "flights_total": 6
+        },
+        {
+          "country": "Romania",
+          "flights_in": 6,
+          "flights_total": 6
+        },
+        {
+          "country": "United Arab Emirates",
+          "flights_in": 6,
+          "flights_total": 6
+        },
+        {
+          "country": "Turkey",
+          "flights_in": 6,
+          "flights_total": 6
+        },
+        {
+          "country": "Over water",
+          "flights_in": 6,
+          "flights_total": 6
+        },
+        {
+          "country": "Austria",
+          "flights_in": 5,
+          "flights_total": 6
+        },
+        {
+          "country": "Slovakia",
+          "flights_in": 1,
+          "flights_total": 6
+        }
+      ],
+      "matched_direction": "same"
+    },
+    "AMS-GOT": null,
+    "GOT-OSL": null,
+    "OSL-FCO": null,
+    "FCO-DEL": {
+      "url": "https://www.flightpaths.com/FCO-DEL",
+      "recorded_flights": 23,
+      "km_min": 6373,
+      "km_max": 7654,
+      "great_circle_km": 5932,
+      "air_india": [
+        {
+          "airline": "Air India",
+          "recorded_from": "2026-03-24",
+          "recorded_to": "2026-07-29",
+          "flight_numbers": [
+            "AI122"
+          ]
+        }
+      ],
+      "airspace": [
+        {
+          "country": "India",
+          "flights_in": 15,
+          "flights_total": 15
+        },
+        {
+          "country": "Italy",
+          "flights_in": 15,
+          "flights_total": 15
+        },
+        {
+          "country": "Over water",
+          "flights_in": 15,
+          "flights_total": 15
+        },
+        {
+          "country": "Azerbaijan",
+          "flights_in": 10,
+          "flights_total": 15
+        },
+        {
+          "country": "Pakistan",
+          "flights_in": 10,
+          "flights_total": 15
+        },
+        {
+          "country": "Tajikistan",
+          "flights_in": 10,
+          "flights_total": 15
+        },
+        {
+          "country": "Uzbekistan",
+          "flights_in": 10,
+          "flights_total": 15
+        },
+        {
+          "country": "Bulgaria",
+          "flights_in": 9,
+          "flights_total": 15
+        },
+        {
+          "country": "Georgia",
+          "flights_in": 8,
+          "flights_total": 15
+        },
+        {
+          "country": "Bosnia and Herzegovina",
+          "flights_in": 8,
+          "flights_total": 15
+        },
+        {
+          "country": "Montenegro",
+          "flights_in": 8,
+          "flights_total": 15
+        },
+        {
+          "country": "Serbia",
+          "flights_in": 8,
+          "flights_total": 15
+        },
+        {
+          "country": "Croatia",
+          "flights_in": 6,
+          "flights_total": 15
+        },
+        {
+          "country": "Greece",
+          "flights_in": 6,
+          "flights_total": 15
+        },
+        {
+          "country": "Oman",
+          "flights_in": 5,
+          "flights_total": 15
+        },
+        {
+          "country": "Saudi Arabia",
+          "flights_in": 5,
+          "flights_total": 15
+        },
+        {
+          "country": "Egypt",
+          "flights_in": 4,
+          "flights_total": 15
+        },
+        {
+          "country": "Albania",
+          "flights_in": 2,
+          "flights_total": 15
+        },
+        {
+          "country": "Macedonia",
+          "flights_in": 2,
+          "flights_total": 15
+        },
+        {
+          "country": "Turkey",
+          "flights_in": 2,
+          "flights_total": 15
+        }
+      ],
+      "matched_direction": "same"
+    },
+    "DEL-NCE": null,
+    "NCE-BTS": null,
+    "BTS-GVA": null,
+    "GVA-ORY": null,
+    "SEZ-DEL": {
+      "url": null,
+      "estimated": true,
+      "recorded_flights": null,
+      "km_min": 4358,
+      "km_max": 4358,
+      "great_circle_km": 4358,
+      "air_india": [],
+      "airspace": [],
+      "matched_direction": "same"
+    },
+    "CGK-YIA": null,
+    "YIA-MEL": null,
+    "MEL-AKL": {
+      "url": "https://www.flightpaths.com/MEL-AKL",
+      "recorded_flights": 20,
+      "km_min": 2657,
+      "km_max": 2861,
+      "great_circle_km": 2636,
+      "air_india": [],
+      "airspace": [
+        {
+          "country": "Australia",
+          "flights_in": 20,
+          "flights_total": 20
+        },
+        {
+          "country": "New Zealand",
+          "flights_in": 20,
+          "flights_total": 20
+        },
+        {
+          "country": "Over water",
+          "flights_in": 20,
+          "flights_total": 20
+        }
+      ],
+      "matched_direction": "same"
+    },
+    "AKL-DEL": {
+      "url": null,
+      "estimated": true,
+      "recorded_flights": null,
+      "km_min": 12502,
+      "km_max": 12502,
+      "great_circle_km": 12502,
+      "air_india": [],
+      "airspace": [],
+      "matched_direction": "same"
+    },
+    "TAS-FRU": null
+  }
+}

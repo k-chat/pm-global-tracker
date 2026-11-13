@@ -1,0 +1,19 @@
+{
+  "name": "prime-minister-global-tracker",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Interactive map of the Prime Minister's foreign tours",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js",
+    "import:flights": "node scripts/import-flightpaths.mjs",
+    "import:paths": "node scripts/import-flight-paths.mjs",
+    "scrape:costs": "node scripts/scrape-visit-costs.mjs"
+  },
+  "dependencies": {
+    "d3": "7.8.5",
+    "express": "4.22.3",
+    "three": "0.128.0",
+    "topojson-client": "3.1.0"
+  }
+}

@@ -1,0 +1,2965 @@
+{
+  "source": "https://www.pmindia.gov.in/en/previous-foreign-visits/",
+  "title": "Previous Foreign visits — expenses incurred on chartered flights",
+  "currency": "INR",
+  "fetched_at": "2026-11-09T15:07:55.333Z",
+  "fetched_live": true,
+  "note": "The Prime Minister's Office publishes one chartered-flight amount per visit, not per leg. Amounts below are the published visit totals; per-leg figures in the tracker are distance-allocated estimates. 'IAF BBJ Aircraft' rows disclose no rupee amount. Visits after 2019 are not listed on that page, so visit expenditure for 2021–2026 comes from the MEA dataset in data/visit-costs-2021-2026.csv. Multi-country visits are summed; the per-country breakdown is kept under components.",
+  "table_range": {
+    "first_year": 2014,
+    "last_year": 2019,
+    "source_rows": 58
+  },
+  "additional_source": "Ministry of External Affairs (MEA) visit-expenditure data",
+  "additional_range": {
+    "first_year": 2021,
+    "last_year": 2026,
+    "source_rows": 78,
+    "visits": 44
+  },
+  "totals": {
+    "tours": 104,
+    "published": 94,
+    "iaf": 8,
+    "unpublished": 2,
+    "published_inr": 11151754781.56,
+    "pmo_published": 50,
+    "pmo_published_inr": 5736120763,
+    "additional_published": 44,
+    "additional_published_inr": 5415634018.56
+  },
+  "rows": [
+    {
+      "s_no": 58,
+      "place": "Bhutan",
+      "period": "15 June – 16 June, 2014",
+      "cost_text": "2,45,27,465",
+      "cost_inr": 24527465,
+      "cost_type": "amount",
+      "tour_n": 1
+    },
+    {
+      "s_no": 57,
+      "place": "Brazil",
+      "period": "13 July – 17 July, 2014",
+      "cost_text": "20,35,48,000",
+      "cost_inr": 203548000,
+      "cost_type": "amount",
+      "tour_n": 2
+    },
+    {
+      "s_no": 56,
+      "place": "Nepal",
+      "period": "3 Aug – 5 Aug, 2014",
+      "cost_text": "IAF BBJ Aircraft",
+      "cost_inr": null,
+      "cost_type": "iaf",
+      "tour_n": 3
+    },
+    {
+      "s_no": 55,
+      "place": "Japan",
+      "period": "30 Aug – 3 Sept, 2014",
+      "cost_text": "13,47,58,000",
+      "cost_inr": 134758000,
+      "cost_type": "amount",
+      "tour_n": 4
+    },
+    {
+      "s_no": 54,
+      "place": "USA",
+      "period": "25 Sept – 1 Oct, 2014",
+      "cost_text": "19,04,60,000",
+      "cost_inr": 190460000,
+      "cost_type": "amount",
+      "tour_n": 5
+    },
+    {
+      "s_no": 53,
+      "place": "Myanmar, Australia & Fiji",
+      "period": "11 Nov – 20 Nov, 2014",
+      "cost_text": "22,58,65,000",
+      "cost_inr": 225865000,
+      "cost_type": "amount",
+      "tour_n": 6
+    },
+    {
+      "s_no": 52,
+      "place": "Nepal",
+      "period": "25 Nov – 27 Nov, 2014",
+      "cost_text": "IAF BBJ Aircraft",
+      "cost_inr": null,
+      "cost_type": "iaf",
+      "tour_n": 7
+    },
+    {
+      "s_no": 51,
+      "place": "Seychelles, Mauritius & Sri Lanka",
+      "period": "10 March – 14 March, 2015",
+      "cost_text": "15,85,25,000",
+      "cost_inr": 158525000,
+      "cost_type": "amount",
+      "tour_n": 8
+    },
+    {
+      "s_no": 50,
+      "place": "Singapore",
+      "period": "28 March – 29 March, 2015",
+      "cost_text": "IAF BBJ Aircraft",
+      "cost_inr": null,
+      "cost_type": "iaf",
+      "tour_n": 9
+    },
+    {
+      "s_no": 49,
+      "place": "France, Germany & Canada",
+      "period": "9 April – 17 April, 2015",
+      "cost_text": "31,25,78,000",
+      "cost_inr": 312578000,
+      "cost_type": "amount",
+      "tour_n": 10
+    },
+    {
+      "s_no": 48,
+      "place": "China, Mongolia & South Korea",
+      "period": "14 April – 19 May, 2015",
+      "cost_text": "15,15,43,000",
+      "cost_inr": 151543000,
+      "cost_type": "amount",
+      "tour_n": 11
+    },
+    {
+      "s_no": 47,
+      "place": "Bangladesh",
+      "period": "6 June – 7 June, 2015",
+      "cost_text": "IAF BBJ Aircraft",
+      "cost_inr": null,
+      "cost_type": "iaf",
+      "tour_n": 12
+    },
+    {
+      "s_no": 46,
+      "place": "Uzbekistan, Kazakhstan, Russia, Turkmenistan, Kyrgyzstan & Tajikistan",
+      "period": "6 July – 14 July, 2015",
+      "cost_text": "15,78,39,000",
+      "cost_inr": 157839000,
+      "cost_type": "amount",
+      "tour_n": 13
+    },
+    {
+      "s_no": 45,
+      "place": "United Arab Emirates",
+      "period": "16 Aug – 17 Aug, 2015",
+      "cost_text": "5,90,66,000",
+      "cost_inr": 59066000,
+      "cost_type": "amount",
+      "tour_n": 14
+    },
+    {
+      "s_no": 44,
+      "place": "Ireland and USA",
+      "period": "23 Sept – 29 Sept, 2015",
+      "cost_text": "18,46,95,000",
+      "cost_inr": 184695000,
+      "cost_type": "amount",
+      "tour_n": 15
+    },
+    {
+      "s_no": 43,
+      "place": "UK and Turkey",
+      "period": "12Nov – 16 Nov, 2015",
+      "cost_text": "9,30,93,000",
+      "cost_inr": 93093000,
+      "cost_type": "amount",
+      "tour_n": 16
+    },
+    {
+      "s_no": 42,
+      "place": "Malaysia and Singapore",
+      "period": "20 Nov – 24 Nov, 2015",
+      "cost_text": "7,04,93,000",
+      "cost_inr": 70493000,
+      "cost_type": "amount",
+      "tour_n": 17
+    },
+    {
+      "s_no": 41,
+      "place": "France",
+      "period": "29 Nov – 30 Nov, 2015",
+      "cost_text": "6,82,81,000",
+      "cost_inr": 68281000,
+      "cost_type": "amount",
+      "tour_n": 18
+    },
+    {
+      "s_no": 40,
+      "place": "Russia, Afghanistan & Pakistan",
+      "period": "23 Dec – 25 Dec, 2015",
+      "cost_text": "8,14,11,000",
+      "cost_inr": 81411000,
+      "cost_type": "amount",
+      "tour_n": 19
+    },
+    {
+      "s_no": 39,
+      "place": "Belgium, USA and Saudi Arabia",
+      "period": "30 Mar – 03 Apr, 2016",
+      "cost_text": "15,85,02,000",
+      "cost_inr": 158502000,
+      "cost_type": "amount",
+      "tour_n": 20
+    },
+    {
+      "s_no": 38,
+      "place": "Iran",
+      "period": "22 May – 23 May, 2016",
+      "cost_text": "IAF BBJ Aircraft",
+      "cost_inr": null,
+      "cost_type": "iaf",
+      "tour_n": 21
+    },
+    {
+      "s_no": 37,
+      "place": "Afghanistan, Qatar, Switzerland, USA and Mexico",
+      "period": "4 June – 9 June, 2016",
+      "cost_text": "13,91,66,000",
+      "cost_inr": 139166000,
+      "cost_type": "amount",
+      "tour_n": 22
+    },
+    {
+      "s_no": 36,
+      "place": "Uzbekistan",
+      "period": "23 June – 24 June, 2016",
+      "cost_text": "6,32,78,000",
+      "cost_inr": 63278000,
+      "cost_type": "amount",
+      "tour_n": 23
+    },
+    {
+      "s_no": 35,
+      "place": "Mozambique, South Africa, Tanzania and Kenya",
+      "period": "7 July – 11 July, 2016",
+      "cost_text": "12,80,94,000",
+      "cost_inr": 128094000,
+      "cost_type": "amount",
+      "tour_n": 24
+    },
+    {
+      "s_no": 34,
+      "place": "Vietnam and China",
+      "period": "2 Sept – 5 Sept, 2016",
+      "cost_text": "9,53,91,000",
+      "cost_inr": 95391000,
+      "cost_type": "amount",
+      "tour_n": 25
+    },
+    {
+      "s_no": 33,
+      "place": "Laos",
+      "period": "7 Sept – 8 Sept, 2016",
+      "cost_text": "4,77,51,000",
+      "cost_inr": 47751000,
+      "cost_type": "amount",
+      "tour_n": 26
+    },
+    {
+      "s_no": 32,
+      "place": "Japan",
+      "period": "10 Nov-12 Nov, 2016",
+      "cost_text": "13,05,86,000",
+      "cost_inr": 130586000,
+      "cost_type": "amount",
+      "tour_n": 27
+    },
+    {
+      "s_no": 31,
+      "place": "Sri Lanka",
+      "period": "11 May-12 May, 2017",
+      "cost_text": "5,24,04,000",
+      "cost_inr": 52404000,
+      "cost_type": "amount",
+      "tour_n": 28
+    },
+    {
+      "s_no": 30,
+      "place": "Germany, Spain, Russia & France",
+      "period": "29 May-3 June, 2017",
+      "cost_text": "16,51,95,000",
+      "cost_inr": 165195000,
+      "cost_type": "amount",
+      "tour_n": 29
+    },
+    {
+      "s_no": 29,
+      "place": "Kazakhstan",
+      "period": "8 June-9 June, 2017",
+      "cost_text": "5,65,08,000",
+      "cost_inr": 56508000,
+      "cost_type": "amount",
+      "tour_n": 30
+    },
+    {
+      "s_no": 28,
+      "place": "Portugal, USA and Netherlands",
+      "period": "24 June-27 June, 2017",
+      "cost_text": "13,82,81,000",
+      "cost_inr": 138281000,
+      "cost_type": "amount",
+      "tour_n": 31
+    },
+    {
+      "s_no": 27,
+      "place": "Israel and Germany",
+      "period": "4 July-8 July, 2017",
+      "cost_text": "11,28,48,000",
+      "cost_inr": 112848000,
+      "cost_type": "amount",
+      "tour_n": 32
+    },
+    {
+      "s_no": 26,
+      "place": "China and Myanmar",
+      "period": "3 Sept-7 Sept, 2017",
+      "cost_text": "13,87,80,000",
+      "cost_inr": 138780000,
+      "cost_type": "amount",
+      "tour_n": 33
+    },
+    {
+      "s_no": 25,
+      "place": "Philippines",
+      "period": "12 Nov-14 Nov,2017",
+      "cost_text": "10,11,68,000",
+      "cost_inr": 101168000,
+      "cost_type": "amount",
+      "tour_n": 34
+    },
+    {
+      "s_no": 24,
+      "place": "Switzerland",
+      "period": "22 Jan-23 Jan,2018",
+      "cost_text": "13,20,83,000",
+      "cost_inr": 132083000,
+      "cost_type": "amount",
+      "tour_n": 35
+    },
+    {
+      "s_no": 23,
+      "place": "Jordan, Palestine, UAE & Oman",
+      "period": "09 Feb-12 Feb,2018",
+      "cost_text": "9,59,64,000",
+      "cost_inr": 95964000,
+      "cost_type": "amount",
+      "tour_n": 36
+    },
+    {
+      "s_no": 22,
+      "place": "Sweden, UK & Germany",
+      "period": "16 April-20 April,2018",
+      "cost_text": "10,62,57,000",
+      "cost_inr": 106257000,
+      "cost_type": "amount",
+      "tour_n": 37
+    },
+    {
+      "s_no": 21,
+      "place": "China",
+      "period": "26 April-28 April,2018",
+      "cost_text": "6,07,46,000",
+      "cost_inr": 60746000,
+      "cost_type": "amount",
+      "tour_n": 38
+    },
+    {
+      "s_no": 20,
+      "place": "Nepal",
+      "period": "11 May-12 May,2018",
+      "cost_text": "1,61,09,298",
+      "cost_inr": 16109298,
+      "cost_type": "amount",
+      "tour_n": 39
+    },
+    {
+      "s_no": 19,
+      "place": "Russia",
+      "period": "21 May-22 May,2018",
+      "cost_text": "7,26,38,000",
+      "cost_inr": 72638000,
+      "cost_type": "amount",
+      "tour_n": 40
+    },
+    {
+      "s_no": 18,
+      "place": "Indonesia, Malaysia & Singapore",
+      "period": "29 May-2 June,2018",
+      "cost_text": "10,21,84,000",
+      "cost_inr": 102184000,
+      "cost_type": "amount",
+      "tour_n": 41
+    },
+    {
+      "s_no": 17,
+      "place": "China",
+      "period": "09 June-10 June,2018",
+      "cost_text": "7,83,56,000",
+      "cost_inr": 78356000,
+      "cost_type": "amount",
+      "tour_n": 42
+    },
+    {
+      "s_no": 16,
+      "place": "Rwanda, Uganda & South Africa",
+      "period": "23 July-28 July,2018",
+      "cost_text": "14,11,76,000",
+      "cost_inr": 141176000,
+      "cost_type": "amount",
+      "tour_n": 43
+    },
+    {
+      "s_no": 15,
+      "place": "Nepal",
+      "period": "30 Aug – 31 Aug, 2018",
+      "cost_text": "IAF BBJ Aircraft",
+      "cost_inr": null,
+      "cost_type": "iaf",
+      "tour_n": 44
+    },
+    {
+      "s_no": 14,
+      "place": "Japan",
+      "period": "27 Oct – 30 Oct, 2018",
+      "cost_text": "8,51,10,000",
+      "cost_inr": 85110000,
+      "cost_type": "amount",
+      "tour_n": 45
+    },
+    {
+      "s_no": 13,
+      "place": "Singapore",
+      "period": "13 Nov – 15 Nov, 2018",
+      "cost_text": "5,20,40,000",
+      "cost_inr": 52040000,
+      "cost_type": "amount",
+      "tour_n": 46
+    },
+    {
+      "s_no": 12,
+      "place": "Maldives",
+      "period": "17 Nov – 17 Nov, 2018",
+      "cost_text": "3,48,42,000",
+      "cost_inr": 34842000,
+      "cost_type": "amount",
+      "tour_n": 47
+    },
+    {
+      "s_no": 11,
+      "place": "Argentina",
+      "period": "28 Nov – 3 Dec, 2018",
+      "cost_text": "15,59,83,000",
+      "cost_inr": 155983000,
+      "cost_type": "amount",
+      "tour_n": 48
+    },
+    {
+      "s_no": 10,
+      "place": "South Korea",
+      "period": "21 Feb – 22 Feb, 2019",
+      "cost_text": "9,48,38,000",
+      "cost_inr": 94838000,
+      "cost_type": "amount",
+      "tour_n": 49
+    },
+    {
+      "s_no": 9,
+      "place": "Maldives & Sri Lanka",
+      "period": "08 June – 09 June, 2019",
+      "cost_text": "IAF BBJ Aircraft",
+      "cost_inr": null,
+      "cost_type": "iaf",
+      "tour_n": 50
+    },
+    {
+      "s_no": 8,
+      "place": "Kyrgyzstan",
+      "period": "13 June – 14 June, 2019",
+      "cost_text": "9,37,11,000",
+      "cost_inr": 93711000,
+      "cost_type": "amount",
+      "tour_n": 51
+    },
+    {
+      "s_no": 7,
+      "place": "Japan",
+      "period": "27 June – 29 June, 2019",
+      "cost_text": "9,91,62,000",
+      "cost_inr": 99162000,
+      "cost_type": "amount",
+      "tour_n": 52
+    },
+    {
+      "s_no": 6,
+      "place": "Bhutan",
+      "period": "17 August – 18 August, 2019",
+      "cost_text": "IAF BBJ Aircraft",
+      "cost_inr": null,
+      "cost_type": "iaf",
+      "tour_n": 53
+    },
+    {
+      "s_no": 5,
+      "place": "Russia",
+      "period": "04 September – 05 September , 2019",
+      "cost_text": "12,02,80,000",
+      "cost_inr": 120280000,
+      "cost_type": "amount",
+      "tour_n": 55
+    },
+    {
+      "s_no": 4,
+      "place": "USA",
+      "period": "21 September – 28 September , 2019",
+      "cost_text": "23,27,09,000",
+      "cost_inr": 232709000,
+      "cost_type": "amount",
+      "tour_n": 56
+    },
+    {
+      "s_no": 3,
+      "place": "Saudi Arabia",
+      "period": "28 October – 29 October, 2019",
+      "cost_text": "5,03,03,000",
+      "cost_inr": 50303000,
+      "cost_type": "amount",
+      "tour_n": 57
+    },
+    {
+      "s_no": 2,
+      "place": "Thailand",
+      "period": "02 November- 04 November, 2019",
+      "cost_text": "6,68,34,000",
+      "cost_inr": 66834000,
+      "cost_type": "amount",
+      "tour_n": 58
+    },
+    {
+      "s_no": 1,
+      "place": "Brazil",
+      "period": "13 November- 15 November, 2019",
+      "cost_text": "20,01,61,000",
+      "cost_inr": 200161000,
+      "cost_type": "amount",
+      "tour_n": 59
+    }
+  ],
+  "additional_rows": [
+    {
+      "year": 2021,
+      "place": "Bangladesh",
+      "period": "2021-03-26 to 2021-03-27",
+      "cost_text": "1,00,71,288",
+      "cost_inr": 10071288,
+      "cost_type": "amount",
+      "note": null,
+      "tour_n": 60
+    },
+    {
+      "year": 2021,
+      "place": "United States of America",
+      "period": "2021-09-22 to 2021-09-26",
+      "cost_text": "19,63,27,806",
+      "cost_inr": 196327806,
+      "cost_type": "amount",
+      "note": null,
+      "tour_n": 61
+    },
+    {
+      "year": 2021,
+      "place": "Italy",
+      "period": "2021-10-29 to 2021-11-02",
+      "cost_text": "6,90,49,376",
+      "cost_inr": 69049376,
+      "cost_type": "amount",
+      "note": null,
+      "tour_n": 62
+    },
+    {
+      "year": 2021,
+      "place": "United Kingdom",
+      "period": "2021-10-29 to 2021-11-02",
+      "cost_text": "8,57,41,408",
+      "cost_inr": 85741408,
+      "cost_type": "amount",
+      "note": null,
+      "tour_n": 62
+    },
+    {
+      "year": 2022,
+      "place": "Germany",
+      "period": "2022-05-02 to 2022-05-04",
+      "cost_text": "9,44,41,562",
+      "cost_inr": 94441562,
+      "cost_type": "amount",
+      "note": null,
+      "tour_n": 63
+    },
+    {
+      "year": 2022,
+      "place": "Denmark",
+      "period": "2022-05-02 to 2022-05-04",
+      "cost_text": "5,47,46,921",
+      "cost_inr": 54746921,
+      "cost_type": "amount",
+      "note": null,
+      "tour_n": 63
+    },
+    {
+      "year": 2022,
+      "place": "France",
+      "period": "2022-05-02 to 2022-05-04",
+      "cost_text": "1,95,03,918",
+      "cost_inr": 19503918,
+      "cost_type": "amount",
+      "note": null,
+      "tour_n": 63
+    },
+    {
+      "year": 2022,
+      "place": "Nepal",
+      "period": "2022-05-16",
+      "cost_text": "80,01,483",
+      "cost_inr": 8001483,
+      "cost_type": "amount",
+      "note": null,
+      "tour_n": 64
+    },
+    {
+      "year": 2022,
+      "place": "Japan",
+      "period": "2022-05-22 to 2022-05-25",
+      "cost_text": "8,68,99,372",
+      "cost_inr": 86899372,
+      "cost_type": "amount",
+      "note": null,
+      "tour_n": 65
+    },
+    {
+      "year": 2022,
+      "place": "Germany",
+      "period": "2022-06-26 to 2022-06-28",
+      "cost_text": "14,47,24,416",
+      "cost_inr": 144724416,
+      "cost_type": "amount",
+      "note": null,
+      "tour_n": 66
+    },
+    {
+      "year": 2022,
+      "place": "UAE",
+      "period": "2022-06-26 to 2022-06-28",
+      "cost_text": "1,64,92,605",
+      "cost_inr": 16492605,
+      "cost_type": "amount",
+      "note": null,
+      "tour_n": 66
+    },
+    {
+      "year": 2022,
+      "place": "Uzbekistan",
+      "period": "2022-09-15 to 2022-09-16",
+      "cost_text": "1,57,26,709",
+      "cost_inr": 15726709,
+      "cost_type": "amount",
+      "note": null,
+      "tour_n": 67
+    },
+    {
+      "year": 2022,
+      "place": "Japan",
+      "period": "2022-09-26 to 2022-09-28",
+      "cost_text": "7,08,03,411",
+      "cost_inr": 70803411,
+      "cost_type": "amount",
+      "note": null,
+      "tour_n": 68
+    },
+    {
+      "year": 2022,
+      "place": "Indonesia",
+      "period": "2022-11-14 to 2022-11-16",
+      "cost_text": "4,69,52,964",
+      "cost_inr": 46952964,
+      "cost_type": "amount",
+      "note": null,
+      "tour_n": 69
+    },
+    {
+      "year": 2023,
+      "place": "Japan",
+      "period": "2023-05-19 to 2023-05-25",
+      "cost_text": "17,19,33,356",
+      "cost_inr": 171933356,
+      "cost_type": "amount",
+      "note": null,
+      "tour_n": 70
+    },
+    {
+      "year": 2023,
+      "place": "Australia",
+      "period": "2023-05-19 to 2023-05-25",
+      "cost_text": "6,06,92,057",
+      "cost_inr": 60692057,
+      "cost_type": "amount",
+      "note": null,
+      "tour_n": 70
+    },
+    {
+      "year": 2023,
+      "place": "Papua New Guinea",
+      "period": "2023-05-19 to 2023-05-25",
+      "cost_text": "8,58,04,677",
+      "cost_inr": 85804677,
+      "cost_type": "amount",
+      "note": null,
+      "tour_n": 70
+    },
+    {
+      "year": 2023,
+      "place": "United States of America",
+      "period": "2023-06-19 to 2023-06-25",
+      "cost_text": "22,89,68,509",
+      "cost_inr": 228968509,
+      "cost_type": "amount",
+      "note": null,
+      "tour_n": 71
+    },
+    {
+      "year": 2023,
+      "place": "Egypt",
+      "period": "2023-06-19 to 2023-06-25",
+      "cost_text": "2,69,04,059",
+      "cost_inr": 26904059,
+      "cost_type": "amount",
+      "note": null,
+      "tour_n": 71
+    },
+    {
+      "year": 2023,
+      "place": "France",
+      "period": "2023-07-13 to 2023-07-15",
+      "cost_text": "13,74,81,530",
+      "cost_inr": 137481530,
+      "cost_type": "amount",
+      "note": null,
+      "tour_n": 72
+    },
+    {
+      "year": 2023,
+      "place": "UAE",
+      "period": "2023-07-13 to 2023-07-15",
+      "cost_text": "1,45,06,965",
+      "cost_inr": 14506965,
+      "cost_type": "amount",
+      "note": null,
+      "tour_n": 72
+    },
+    {
+      "year": 2023,
+      "place": "South Africa",
+      "period": "2023-08-22 to 2023-08-25",
+      "cost_text": "6,11,37,355",
+      "cost_inr": 61137355,
+      "cost_type": "amount",
+      "note": null,
+      "tour_n": 73
+    },
+    {
+      "year": 2023,
+      "place": "Greece",
+      "period": "2023-08-22 to 2023-08-25",
+      "cost_text": "6,97,75,753",
+      "cost_inr": 69775753,
+      "cost_type": "amount",
+      "note": null,
+      "tour_n": 73
+    },
+    {
+      "year": 2023,
+      "place": "Indonesia",
+      "period": "2023-09-06 to 2023-09-07",
+      "cost_text": "3,62,21,843",
+      "cost_inr": 36221843,
+      "cost_type": "amount",
+      "note": null,
+      "tour_n": 74
+    },
+    {
+      "year": 2023,
+      "place": "UAE",
+      "period": "2023-11-30 to 2023-12-01",
+      "cost_text": "4,28,88,197",
+      "cost_inr": 42888197,
+      "cost_type": "amount",
+      "note": null,
+      "tour_n": 75
+    },
+    {
+      "year": 2024,
+      "place": "UAE",
+      "period": "2024-02-13 to 2024-02-15",
+      "cost_text": "5,31,95,485",
+      "cost_inr": 53195485,
+      "cost_type": "amount",
+      "note": null,
+      "tour_n": 76
+    },
+    {
+      "year": 2024,
+      "place": "Qatar",
+      "period": "2024-02-13 to 2024-02-15",
+      "cost_text": "3,14,30,607",
+      "cost_inr": 31430607,
+      "cost_type": "amount",
+      "note": null,
+      "tour_n": 76
+    },
+    {
+      "year": 2024,
+      "place": "Bhutan",
+      "period": "2024-03-22 to 2024-03-23",
+      "cost_text": "4,50,27,271",
+      "cost_inr": 45027271,
+      "cost_type": "amount",
+      "note": null,
+      "tour_n": 77
+    },
+    {
+      "year": 2024,
+      "place": "Italy",
+      "period": "2024-06-13 to 2024-06-14",
+      "cost_text": "14,36,55,289",
+      "cost_inr": 143655289,
+      "cost_type": "amount",
+      "note": null,
+      "tour_n": 78
+    },
+    {
+      "year": 2024,
+      "place": "Russia",
+      "period": "2024-07-08 to 2024-07-10",
+      "cost_text": "5,34,71,726",
+      "cost_inr": 53471726,
+      "cost_type": "amount",
+      "note": null,
+      "tour_n": 79
+    },
+    {
+      "year": 2024,
+      "place": "Austria",
+      "period": "2024-07-08 to 2024-07-10",
+      "cost_text": "4,35,35,765",
+      "cost_inr": 43535765,
+      "cost_type": "amount",
+      "note": null,
+      "tour_n": 79
+    },
+    {
+      "year": 2024,
+      "place": "Poland",
+      "period": "2024-08-21 to 2024-08-23",
+      "cost_text": "10,10,18,686",
+      "cost_inr": 101018686,
+      "cost_type": "amount",
+      "note": null,
+      "tour_n": 80
+    },
+    {
+      "year": 2024,
+      "place": "Ukraine",
+      "period": "2024-08-21 to 2024-08-23",
+      "cost_text": "2,52,01,169",
+      "cost_inr": 25201169,
+      "cost_type": "amount",
+      "note": null,
+      "tour_n": 80
+    },
+    {
+      "year": 2024,
+      "place": "Brunei Darussalam",
+      "period": "2024-09-03 to 2024-09-05",
+      "cost_text": "5,02,47,410",
+      "cost_inr": 50247410,
+      "cost_type": "amount",
+      "note": null,
+      "tour_n": 81
+    },
+    {
+      "year": 2024,
+      "place": "Singapore",
+      "period": "2024-09-03 to 2024-09-05",
+      "cost_text": "7,75,21,329",
+      "cost_inr": 77521329,
+      "cost_type": "amount",
+      "note": null,
+      "tour_n": 81
+    },
+    {
+      "year": 2024,
+      "place": "United States of America",
+      "period": "2024-09-21 to 2024-09-23",
+      "cost_text": "15,33,76,348",
+      "cost_inr": 153376348,
+      "cost_type": "amount",
+      "note": null,
+      "tour_n": 82
+    },
+    {
+      "year": 2024,
+      "place": "Lao PDR",
+      "period": "2024-10-10 to 2024-10-11",
+      "cost_text": "3,00,73,096",
+      "cost_inr": 30073096,
+      "cost_type": "amount",
+      "note": null,
+      "tour_n": 83
+    },
+    {
+      "year": 2024,
+      "place": "Russia",
+      "period": "2024-10-22 to 2024-10-23",
+      "cost_text": "10,74,99,171",
+      "cost_inr": 107499171,
+      "cost_type": "amount",
+      "note": null,
+      "tour_n": 84
+    },
+    {
+      "year": 2024,
+      "place": "Nigeria",
+      "period": "2024-11-16 to 2024-11-21",
+      "cost_text": "4,46,09,640",
+      "cost_inr": 44609640,
+      "cost_type": "amount",
+      "note": null,
+      "tour_n": 85
+    },
+    {
+      "year": 2024,
+      "place": "Brazil",
+      "period": "2024-11-16 to 2024-11-21",
+      "cost_text": "5,51,86,592",
+      "cost_inr": 55186592,
+      "cost_type": "amount",
+      "note": null,
+      "tour_n": 85
+    },
+    {
+      "year": 2024,
+      "place": "Guyana",
+      "period": "2024-11-16 to 2024-11-21",
+      "cost_text": "5,45,91,495",
+      "cost_inr": 54591495,
+      "cost_type": "amount",
+      "note": null,
+      "tour_n": 85
+    },
+    {
+      "year": 2024,
+      "place": "Kuwait",
+      "period": "2024-12-21 to 2024-12-22",
+      "cost_text": "2,54,59,263",
+      "cost_inr": 25459263,
+      "cost_type": "amount",
+      "note": null,
+      "tour_n": 86
+    },
+    {
+      "year": 2025,
+      "place": "France",
+      "period": "2025-02-10 to 2025-02-13",
+      "cost_text": "25,59,82,902",
+      "cost_inr": 255982902,
+      "cost_type": "amount",
+      "note": null,
+      "tour_n": 87
+    },
+    {
+      "year": 2025,
+      "place": "United States of America",
+      "period": "2025-02-10 to 2025-02-13",
+      "cost_text": "16,54,84,302",
+      "cost_inr": 165484302,
+      "cost_type": "amount",
+      "note": null,
+      "tour_n": 87
+    },
+    {
+      "year": 2025,
+      "place": "Mauritius",
+      "period": "2025-03-11 to 2025-03-12",
+      "cost_text": "3,06,31,866",
+      "cost_inr": 30631866,
+      "cost_type": "amount",
+      "note": null,
+      "tour_n": 88
+    },
+    {
+      "year": 2025,
+      "place": "Thailand",
+      "period": "2025-04-03 to 2025-04-06",
+      "cost_text": "4,92,81,208",
+      "cost_inr": 49281208,
+      "cost_type": "amount",
+      "note": null,
+      "tour_n": 89
+    },
+    {
+      "year": 2025,
+      "place": "Sri Lanka",
+      "period": "2025-04-03 to 2025-04-06",
+      "cost_text": "4,46,21,690",
+      "cost_inr": 44621690,
+      "cost_type": "amount",
+      "note": null,
+      "tour_n": 89
+    },
+    {
+      "year": 2025,
+      "place": "Saudi Arabia",
+      "period": "2025-04-22 to 2025-04-23",
+      "cost_text": "15,54,03,792.47",
+      "cost_inr": 155403792.47,
+      "cost_type": "amount",
+      "note": null,
+      "tour_n": 90
+    },
+    {
+      "year": 2025,
+      "place": "Cyprus",
+      "period": "2025-06-15 to 2025-06-19",
+      "cost_text": "7,18,24,847",
+      "cost_inr": 71824847,
+      "cost_type": "amount",
+      "note": null,
+      "tour_n": 91
+    },
+    {
+      "year": 2025,
+      "place": "Canada",
+      "period": "2025-06-15 to 2025-06-19",
+      "cost_text": "5,31,02,671",
+      "cost_inr": 53102671,
+      "cost_type": "amount",
+      "note": null,
+      "tour_n": 91
+    },
+    {
+      "year": 2025,
+      "place": "Croatia",
+      "period": "2025-06-15 to 2025-06-19",
+      "cost_text": "4,64,60,485",
+      "cost_inr": 46460485,
+      "cost_type": "amount",
+      "note": null,
+      "tour_n": 91
+    },
+    {
+      "year": 2025,
+      "place": "Ghana",
+      "period": "2025-07-02 to 2025-07-09",
+      "cost_text": "4,69,04,976",
+      "cost_inr": 46904976,
+      "cost_type": "amount",
+      "note": null,
+      "tour_n": 92
+    },
+    {
+      "year": 2025,
+      "place": "Trinidad & Tobago",
+      "period": "2025-07-02 to 2025-07-09",
+      "cost_text": "4,80,00,229.7",
+      "cost_inr": 48000229.7,
+      "cost_type": "amount",
+      "note": null,
+      "tour_n": 92
+    },
+    {
+      "year": 2025,
+      "place": "Argentina",
+      "period": "2025-07-02 to 2025-07-09",
+      "cost_text": "6,64,64,031",
+      "cost_inr": 66464031,
+      "cost_type": "amount",
+      "note": null,
+      "tour_n": 92
+    },
+    {
+      "year": 2025,
+      "place": "Brazil",
+      "period": "2025-07-02 to 2025-07-09",
+      "cost_text": "1,77,22,144",
+      "cost_inr": 17722144,
+      "cost_type": "amount",
+      "note": null,
+      "tour_n": 92
+    },
+    {
+      "year": 2025,
+      "place": "Namibia",
+      "period": "2025-07-02 to 2025-07-09",
+      "cost_text": "4,20,47,925",
+      "cost_inr": 42047925,
+      "cost_type": "amount",
+      "note": null,
+      "tour_n": 92
+    },
+    {
+      "year": 2025,
+      "place": "United Kingdom",
+      "period": "2025-07-23 to 2025-07-26",
+      "cost_text": "9,91,55,061.39",
+      "cost_inr": 99155061.39,
+      "cost_type": "amount",
+      "note": null,
+      "tour_n": 93
+    },
+    {
+      "year": 2025,
+      "place": "Maldives",
+      "period": "2025-07-23 to 2025-07-26",
+      "cost_text": "8,63,05,336",
+      "cost_inr": 86305336,
+      "cost_type": "amount",
+      "note": null,
+      "tour_n": 93
+    },
+    {
+      "year": 2025,
+      "place": "China",
+      "period": "2025-08-29 to 2025-09-01",
+      "cost_text": "10,59,90,561",
+      "cost_inr": 105990561,
+      "cost_type": "amount",
+      "note": null,
+      "tour_n": 94
+    },
+    {
+      "year": 2025,
+      "place": "Japan",
+      "period": "2025-08-29 to 2025-09-01",
+      "cost_text": "8,55,41,926",
+      "cost_inr": 85541926,
+      "cost_type": "amount",
+      "note": null,
+      "tour_n": 94
+    },
+    {
+      "year": 2025,
+      "place": "Bhutan",
+      "period": "2025-11-11 to 2025-11-12",
+      "cost_text": "4,44,94,827",
+      "cost_inr": 44494827,
+      "cost_type": "amount",
+      "note": "MEA source prints 'Rs. 4,44,94827/-'; interpreted as Rs. 4,44,94,827",
+      "tour_n": 95
+    },
+    {
+      "year": 2025,
+      "place": "South Africa",
+      "period": "2025-11-21 to 2025-11-23",
+      "cost_text": "7,70,19,477",
+      "cost_inr": 77019477,
+      "cost_type": "amount",
+      "note": null,
+      "tour_n": 96
+    },
+    {
+      "year": 2025,
+      "place": "Jordan",
+      "period": "2025-12-15 to 2025-12-18",
+      "cost_text": "4,94,70,170",
+      "cost_inr": 49470170,
+      "cost_type": "amount",
+      "note": null,
+      "tour_n": 97
+    },
+    {
+      "year": 2025,
+      "place": "Oman",
+      "period": "2025-12-15 to 2025-12-18",
+      "cost_text": "4,57,88,643",
+      "cost_inr": 45788643,
+      "cost_type": "amount",
+      "note": null,
+      "tour_n": 97
+    },
+    {
+      "year": 2025,
+      "place": "Ethiopia",
+      "period": "2025-12-15 to 2025-12-18",
+      "cost_text": "3,11,43,269",
+      "cost_inr": 31143269,
+      "cost_type": "amount",
+      "note": null,
+      "tour_n": 97
+    },
+    {
+      "year": 2026,
+      "place": "Malaysia",
+      "period": "2026-02-07 to 2026-02-08",
+      "cost_text": "5,57,17,369",
+      "cost_inr": 55717369,
+      "cost_type": "amount",
+      "note": null,
+      "tour_n": 98
+    },
+    {
+      "year": 2026,
+      "place": "Israel",
+      "period": "2026-02-25 to 2026-02-26",
+      "cost_text": "11,92,25,938",
+      "cost_inr": 119225938,
+      "cost_type": "amount",
+      "note": null,
+      "tour_n": 99
+    },
+    {
+      "year": 2026,
+      "place": "UAE",
+      "period": "2026-05-15 to 2026-05-20",
+      "cost_text": "1,97,67,864",
+      "cost_inr": 19767864,
+      "cost_type": "amount",
+      "note": "Final figure pending settlement of bills",
+      "tour_n": 100
+    },
+    {
+      "year": 2026,
+      "place": "Netherlands",
+      "period": "2026-05-15 to 2026-05-20",
+      "cost_text": "3,59,99,358",
+      "cost_inr": 35999358,
+      "cost_type": "amount",
+      "note": null,
+      "tour_n": 100
+    },
+    {
+      "year": 2026,
+      "place": "Sweden",
+      "period": "2026-05-15 to 2026-05-20",
+      "cost_text": "6,32,90,593",
+      "cost_inr": 63290593,
+      "cost_type": "amount",
+      "note": "Final figure pending settlement of bills",
+      "tour_n": 100
+    },
+    {
+      "year": 2026,
+      "place": "Norway",
+      "period": "2026-05-15 to 2026-05-20",
+      "cost_text": "17,46,50,390",
+      "cost_inr": 174650390,
+      "cost_type": "amount",
+      "note": "Final figure pending settlement of bills",
+      "tour_n": 100
+    },
+    {
+      "year": 2026,
+      "place": "Italy",
+      "period": "2026-05-15 to 2026-05-20",
+      "cost_text": "4,23,88,557",
+      "cost_inr": 42388557,
+      "cost_type": "amount",
+      "note": "Final figure pending settlement of bills",
+      "tour_n": 100
+    },
+    {
+      "year": 2026,
+      "place": "Slovak Republic",
+      "period": "2026-06-13 to 2026-06-18",
+      "cost_text": "4,77,43,080",
+      "cost_inr": 47743080,
+      "cost_type": "amount",
+      "note": "Final figure pending settlement of bills",
+      "tour_n": 101
+    },
+    {
+      "year": 2026,
+      "place": "France",
+      "period": "2026-06-13 to 2026-06-18",
+      "cost_text": "",
+      "cost_inr": null,
+      "cost_type": "unpublished",
+      "note": "Compilation of bills still underway; no expenditure disclosed",
+      "tour_n": 101
+    },
+    {
+      "year": 2026,
+      "place": "Seychelles",
+      "period": "2026-06-27 to 2026-06-29",
+      "cost_text": "8,22,03,329",
+      "cost_inr": 82203329,
+      "cost_type": "amount",
+      "note": "Final figure pending settlement of bills",
+      "tour_n": 102
+    },
+    {
+      "year": 2026,
+      "place": "Indonesia",
+      "period": "2026-07-06 to 2026-07-11",
+      "cost_text": "3,87,13,468",
+      "cost_inr": 38713468,
+      "cost_type": "amount",
+      "note": "Final figure pending settlement of bills",
+      "tour_n": 103
+    },
+    {
+      "year": 2026,
+      "place": "Australia",
+      "period": "2026-07-06 to 2026-07-11",
+      "cost_text": "1,18,30,810",
+      "cost_inr": 11830810,
+      "cost_type": "amount",
+      "note": "Final figure pending settlement of bills",
+      "tour_n": 103
+    },
+    {
+      "year": 2026,
+      "place": "New Zealand",
+      "period": "2026-07-06 to 2026-07-11",
+      "cost_text": "5,43,63,041",
+      "cost_inr": 54363041,
+      "cost_type": "amount",
+      "note": "Final figure pending settlement of bills",
+      "tour_n": 103
+    }
+  ],
+  "by_tour": {
+    "1": {
+      "tour_n": 1,
+      "place": "Bhutan",
+      "period": "15 June – 16 June, 2014",
+      "cost_text": "2,45,27,465",
+      "cost_inr": 24527465,
+      "cost_type": "amount",
+      "source_row": 58
+    },
+    "2": {
+      "tour_n": 2,
+      "place": "Brazil",
+      "period": "13 July – 17 July, 2014",
+      "cost_text": "20,35,48,000",
+      "cost_inr": 203548000,
+      "cost_type": "amount",
+      "source_row": 57
+    },
+    "3": {
+      "tour_n": 3,
+      "place": "Nepal",
+      "period": "3 Aug – 5 Aug, 2014",
+      "cost_text": "IAF BBJ Aircraft",
+      "cost_inr": null,
+      "cost_type": "iaf",
+      "source_row": 56
+    },
+    "4": {
+      "tour_n": 4,
+      "place": "Japan",
+      "period": "30 Aug – 3 Sept, 2014",
+      "cost_text": "13,47,58,000",
+      "cost_inr": 134758000,
+      "cost_type": "amount",
+      "source_row": 55
+    },
+    "5": {
+      "tour_n": 5,
+      "place": "USA",
+      "period": "25 Sept – 1 Oct, 2014",
+      "cost_text": "19,04,60,000",
+      "cost_inr": 190460000,
+      "cost_type": "amount",
+      "source_row": 54
+    },
+    "6": {
+      "tour_n": 6,
+      "place": "Myanmar, Australia & Fiji",
+      "period": "11 Nov – 20 Nov, 2014",
+      "cost_text": "22,58,65,000",
+      "cost_inr": 225865000,
+      "cost_type": "amount",
+      "source_row": 53
+    },
+    "7": {
+      "tour_n": 7,
+      "place": "Nepal",
+      "period": "25 Nov – 27 Nov, 2014",
+      "cost_text": "IAF BBJ Aircraft",
+      "cost_inr": null,
+      "cost_type": "iaf",
+      "source_row": 52
+    },
+    "8": {
+      "tour_n": 8,
+      "place": "Seychelles, Mauritius & Sri Lanka",
+      "period": "10 March – 14 March, 2015",
+      "cost_text": "15,85,25,000",
+      "cost_inr": 158525000,
+      "cost_type": "amount",
+      "source_row": 51
+    },
+    "9": {
+      "tour_n": 9,
+      "place": "Singapore",
+      "period": "28 March – 29 March, 2015",
+      "cost_text": "IAF BBJ Aircraft",
+      "cost_inr": null,
+      "cost_type": "iaf",
+      "source_row": 50
+    },
+    "10": {
+      "tour_n": 10,
+      "place": "France, Germany & Canada",
+      "period": "9 April – 17 April, 2015",
+      "cost_text": "31,25,78,000",
+      "cost_inr": 312578000,
+      "cost_type": "amount",
+      "source_row": 49
+    },
+    "11": {
+      "tour_n": 11,
+      "place": "China, Mongolia & South Korea",
+      "period": "14 April – 19 May, 2015",
+      "cost_text": "15,15,43,000",
+      "cost_inr": 151543000,
+      "cost_type": "amount",
+      "source_row": 48
+    },
+    "12": {
+      "tour_n": 12,
+      "place": "Bangladesh",
+      "period": "6 June – 7 June, 2015",
+      "cost_text": "IAF BBJ Aircraft",
+      "cost_inr": null,
+      "cost_type": "iaf",
+      "source_row": 47
+    },
+    "13": {
+      "tour_n": 13,
+      "place": "Uzbekistan, Kazakhstan, Russia, Turkmenistan, Kyrgyzstan & Tajikistan",
+      "period": "6 July – 14 July, 2015",
+      "cost_text": "15,78,39,000",
+      "cost_inr": 157839000,
+      "cost_type": "amount",
+      "source_row": 46
+    },
+    "14": {
+      "tour_n": 14,
+      "place": "United Arab Emirates",
+      "period": "16 Aug – 17 Aug, 2015",
+      "cost_text": "5,90,66,000",
+      "cost_inr": 59066000,
+      "cost_type": "amount",
+      "source_row": 45
+    },
+    "15": {
+      "tour_n": 15,
+      "place": "Ireland and USA",
+      "period": "23 Sept – 29 Sept, 2015",
+      "cost_text": "18,46,95,000",
+      "cost_inr": 184695000,
+      "cost_type": "amount",
+      "source_row": 44
+    },
+    "16": {
+      "tour_n": 16,
+      "place": "UK and Turkey",
+      "period": "12Nov – 16 Nov, 2015",
+      "cost_text": "9,30,93,000",
+      "cost_inr": 93093000,
+      "cost_type": "amount",
+      "source_row": 43
+    },
+    "17": {
+      "tour_n": 17,
+      "place": "Malaysia and Singapore",
+      "period": "20 Nov – 24 Nov, 2015",
+      "cost_text": "7,04,93,000",
+      "cost_inr": 70493000,
+      "cost_type": "amount",
+      "source_row": 42
+    },
+    "18": {
+      "tour_n": 18,
+      "place": "France",
+      "period": "29 Nov – 30 Nov, 2015",
+      "cost_text": "6,82,81,000",
+      "cost_inr": 68281000,
+      "cost_type": "amount",
+      "source_row": 41
+    },
+    "19": {
+      "tour_n": 19,
+      "place": "Russia, Afghanistan & Pakistan",
+      "period": "23 Dec – 25 Dec, 2015",
+      "cost_text": "8,14,11,000",
+      "cost_inr": 81411000,
+      "cost_type": "amount",
+      "source_row": 40
+    },
+    "20": {
+      "tour_n": 20,
+      "place": "Belgium, USA and Saudi Arabia",
+      "period": "30 Mar – 03 Apr, 2016",
+      "cost_text": "15,85,02,000",
+      "cost_inr": 158502000,
+      "cost_type": "amount",
+      "source_row": 39
+    },
+    "21": {
+      "tour_n": 21,
+      "place": "Iran",
+      "period": "22 May – 23 May, 2016",
+      "cost_text": "IAF BBJ Aircraft",
+      "cost_inr": null,
+      "cost_type": "iaf",
+      "source_row": 38
+    },
+    "22": {
+      "tour_n": 22,
+      "place": "Afghanistan, Qatar, Switzerland, USA and Mexico",
+      "period": "4 June – 9 June, 2016",
+      "cost_text": "13,91,66,000",
+      "cost_inr": 139166000,
+      "cost_type": "amount",
+      "source_row": 37
+    },
+    "23": {
+      "tour_n": 23,
+      "place": "Uzbekistan",
+      "period": "23 June – 24 June, 2016",
+      "cost_text": "6,32,78,000",
+      "cost_inr": 63278000,
+      "cost_type": "amount",
+      "source_row": 36
+    },
+    "24": {
+      "tour_n": 24,
+      "place": "Mozambique, South Africa, Tanzania and Kenya",
+      "period": "7 July – 11 July, 2016",
+      "cost_text": "12,80,94,000",
+      "cost_inr": 128094000,
+      "cost_type": "amount",
+      "source_row": 35
+    },
+    "25": {
+      "tour_n": 25,
+      "place": "Vietnam and China",
+      "period": "2 Sept – 5 Sept, 2016",
+      "cost_text": "9,53,91,000",
+      "cost_inr": 95391000,
+      "cost_type": "amount",
+      "source_row": 34
+    },
+    "26": {
+      "tour_n": 26,
+      "place": "Laos",
+      "period": "7 Sept – 8 Sept, 2016",
+      "cost_text": "4,77,51,000",
+      "cost_inr": 47751000,
+      "cost_type": "amount",
+      "source_row": 33
+    },
+    "27": {
+      "tour_n": 27,
+      "place": "Japan",
+      "period": "10 Nov-12 Nov, 2016",
+      "cost_text": "13,05,86,000",
+      "cost_inr": 130586000,
+      "cost_type": "amount",
+      "source_row": 32
+    },
+    "28": {
+      "tour_n": 28,
+      "place": "Sri Lanka",
+      "period": "11 May-12 May, 2017",
+      "cost_text": "5,24,04,000",
+      "cost_inr": 52404000,
+      "cost_type": "amount",
+      "source_row": 31
+    },
+    "29": {
+      "tour_n": 29,
+      "place": "Germany, Spain, Russia & France",
+      "period": "29 May-3 June, 2017",
+      "cost_text": "16,51,95,000",
+      "cost_inr": 165195000,
+      "cost_type": "amount",
+      "source_row": 30
+    },
+    "30": {
+      "tour_n": 30,
+      "place": "Kazakhstan",
+      "period": "8 June-9 June, 2017",
+      "cost_text": "5,65,08,000",
+      "cost_inr": 56508000,
+      "cost_type": "amount",
+      "source_row": 29
+    },
+    "31": {
+      "tour_n": 31,
+      "place": "Portugal, USA and Netherlands",
+      "period": "24 June-27 June, 2017",
+      "cost_text": "13,82,81,000",
+      "cost_inr": 138281000,
+      "cost_type": "amount",
+      "source_row": 28
+    },
+    "32": {
+      "tour_n": 32,
+      "place": "Israel and Germany",
+      "period": "4 July-8 July, 2017",
+      "cost_text": "11,28,48,000",
+      "cost_inr": 112848000,
+      "cost_type": "amount",
+      "source_row": 27
+    },
+    "33": {
+      "tour_n": 33,
+      "place": "China and Myanmar",
+      "period": "3 Sept-7 Sept, 2017",
+      "cost_text": "13,87,80,000",
+      "cost_inr": 138780000,
+      "cost_type": "amount",
+      "source_row": 26
+    },
+    "34": {
+      "tour_n": 34,
+      "place": "Philippines",
+      "period": "12 Nov-14 Nov,2017",
+      "cost_text": "10,11,68,000",
+      "cost_inr": 101168000,
+      "cost_type": "amount",
+      "source_row": 25
+    },
+    "35": {
+      "tour_n": 35,
+      "place": "Switzerland",
+      "period": "22 Jan-23 Jan,2018",
+      "cost_text": "13,20,83,000",
+      "cost_inr": 132083000,
+      "cost_type": "amount",
+      "source_row": 24
+    },
+    "36": {
+      "tour_n": 36,
+      "place": "Jordan, Palestine, UAE & Oman",
+      "period": "09 Feb-12 Feb,2018",
+      "cost_text": "9,59,64,000",
+      "cost_inr": 95964000,
+      "cost_type": "amount",
+      "source_row": 23
+    },
+    "37": {
+      "tour_n": 37,
+      "place": "Sweden, UK & Germany",
+      "period": "16 April-20 April,2018",
+      "cost_text": "10,62,57,000",
+      "cost_inr": 106257000,
+      "cost_type": "amount",
+      "source_row": 22
+    },
+    "38": {
+      "tour_n": 38,
+      "place": "China",
+      "period": "26 April-28 April,2018",
+      "cost_text": "6,07,46,000",
+      "cost_inr": 60746000,
+      "cost_type": "amount",
+      "source_row": 21
+    },
+    "39": {
+      "tour_n": 39,
+      "place": "Nepal",
+      "period": "11 May-12 May,2018",
+      "cost_text": "1,61,09,298",
+      "cost_inr": 16109298,
+      "cost_type": "amount",
+      "source_row": 20
+    },
+    "40": {
+      "tour_n": 40,
+      "place": "Russia",
+      "period": "21 May-22 May,2018",
+      "cost_text": "7,26,38,000",
+      "cost_inr": 72638000,
+      "cost_type": "amount",
+      "source_row": 19
+    },
+    "41": {
+      "tour_n": 41,
+      "place": "Indonesia, Malaysia & Singapore",
+      "period": "29 May-2 June,2018",
+      "cost_text": "10,21,84,000",
+      "cost_inr": 102184000,
+      "cost_type": "amount",
+      "source_row": 18
+    },
+    "42": {
+      "tour_n": 42,
+      "place": "China",
+      "period": "09 June-10 June,2018",
+      "cost_text": "7,83,56,000",
+      "cost_inr": 78356000,
+      "cost_type": "amount",
+      "source_row": 17
+    },
+    "43": {
+      "tour_n": 43,
+      "place": "Rwanda, Uganda & South Africa",
+      "period": "23 July-28 July,2018",
+      "cost_text": "14,11,76,000",
+      "cost_inr": 141176000,
+      "cost_type": "amount",
+      "source_row": 16
+    },
+    "44": {
+      "tour_n": 44,
+      "place": "Nepal",
+      "period": "30 Aug – 31 Aug, 2018",
+      "cost_text": "IAF BBJ Aircraft",
+      "cost_inr": null,
+      "cost_type": "iaf",
+      "source_row": 15
+    },
+    "45": {
+      "tour_n": 45,
+      "place": "Japan",
+      "period": "27 Oct – 30 Oct, 2018",
+      "cost_text": "8,51,10,000",
+      "cost_inr": 85110000,
+      "cost_type": "amount",
+      "source_row": 14
+    },
+    "46": {
+      "tour_n": 46,
+      "place": "Singapore",
+      "period": "13 Nov – 15 Nov, 2018",
+      "cost_text": "5,20,40,000",
+      "cost_inr": 52040000,
+      "cost_type": "amount",
+      "source_row": 13
+    },
+    "47": {
+      "tour_n": 47,
+      "place": "Maldives",
+      "period": "17 Nov – 17 Nov, 2018",
+      "cost_text": "3,48,42,000",
+      "cost_inr": 34842000,
+      "cost_type": "amount",
+      "source_row": 12
+    },
+    "48": {
+      "tour_n": 48,
+      "place": "Argentina",
+      "period": "28 Nov – 3 Dec, 2018",
+      "cost_text": "15,59,83,000",
+      "cost_inr": 155983000,
+      "cost_type": "amount",
+      "source_row": 11
+    },
+    "49": {
+      "tour_n": 49,
+      "place": "South Korea",
+      "period": "21 Feb – 22 Feb, 2019",
+      "cost_text": "9,48,38,000",
+      "cost_inr": 94838000,
+      "cost_type": "amount",
+      "source_row": 10
+    },
+    "50": {
+      "tour_n": 50,
+      "place": "Maldives & Sri Lanka",
+      "period": "08 June – 09 June, 2019",
+      "cost_text": "IAF BBJ Aircraft",
+      "cost_inr": null,
+      "cost_type": "iaf",
+      "source_row": 9
+    },
+    "51": {
+      "tour_n": 51,
+      "place": "Kyrgyzstan",
+      "period": "13 June – 14 June, 2019",
+      "cost_text": "9,37,11,000",
+      "cost_inr": 93711000,
+      "cost_type": "amount",
+      "source_row": 8
+    },
+    "52": {
+      "tour_n": 52,
+      "place": "Japan",
+      "period": "27 June – 29 June, 2019",
+      "cost_text": "9,91,62,000",
+      "cost_inr": 99162000,
+      "cost_type": "amount",
+      "source_row": 7
+    },
+    "53": {
+      "tour_n": 53,
+      "place": "Bhutan",
+      "period": "17 August – 18 August, 2019",
+      "cost_text": "IAF BBJ Aircraft",
+      "cost_inr": null,
+      "cost_type": "iaf",
+      "source_row": 6
+    },
+    "54": {
+      "tour_n": 54,
+      "place": "France·United Arab Emirates·Bahrain·France",
+      "period": "22–23 August 2019",
+      "cost_text": "",
+      "cost_inr": null,
+      "cost_type": "unpublished",
+      "source_row": null,
+      "note": "Not listed on the previous-foreign-visits page."
+    },
+    "55": {
+      "tour_n": 55,
+      "place": "Russia",
+      "period": "04 September – 05 September , 2019",
+      "cost_text": "12,02,80,000",
+      "cost_inr": 120280000,
+      "cost_type": "amount",
+      "source_row": 5
+    },
+    "56": {
+      "tour_n": 56,
+      "place": "USA",
+      "period": "21 September – 28 September , 2019",
+      "cost_text": "23,27,09,000",
+      "cost_inr": 232709000,
+      "cost_type": "amount",
+      "source_row": 4
+    },
+    "57": {
+      "tour_n": 57,
+      "place": "Saudi Arabia",
+      "period": "28 October – 29 October, 2019",
+      "cost_text": "5,03,03,000",
+      "cost_inr": 50303000,
+      "cost_type": "amount",
+      "source_row": 3
+    },
+    "58": {
+      "tour_n": 58,
+      "place": "Thailand",
+      "period": "02 November- 04 November, 2019",
+      "cost_text": "6,68,34,000",
+      "cost_inr": 66834000,
+      "cost_type": "amount",
+      "source_row": 2
+    },
+    "59": {
+      "tour_n": 59,
+      "place": "Brazil",
+      "period": "13 November- 15 November, 2019",
+      "cost_text": "20,01,61,000",
+      "cost_inr": 200161000,
+      "cost_type": "amount",
+      "source_row": 1
+    },
+    "60": {
+      "tour_n": 60,
+      "place": "Bangladesh",
+      "period": "2021-03-26 to 2021-03-27",
+      "cost_text": "1,00,71,288",
+      "cost_inr": 10071288,
+      "cost_type": "amount",
+      "source_row": null,
+      "source": "MEA",
+      "components": [
+        {
+          "country": "Bangladesh",
+          "visit_dates": "2021-03-26 to 2021-03-27",
+          "cost_text": "1,00,71,288",
+          "cost_inr": 10071288,
+          "note": null
+        }
+      ]
+    },
+    "61": {
+      "tour_n": 61,
+      "place": "United States",
+      "period": "2021-09-22 to 2021-09-26",
+      "cost_text": "19,63,27,806",
+      "cost_inr": 196327806,
+      "cost_type": "amount",
+      "source_row": null,
+      "source": "MEA",
+      "components": [
+        {
+          "country": "United States of America",
+          "visit_dates": "2021-09-22 to 2021-09-26",
+          "cost_text": "19,63,27,806",
+          "cost_inr": 196327806,
+          "note": null
+        }
+      ]
+    },
+    "62": {
+      "tour_n": 62,
+      "place": "Italy·Vatican City·United Kingdom",
+      "period": "2021-10-29 to 2021-11-02",
+      "cost_text": "15,47,90,784",
+      "cost_inr": 154790784,
+      "cost_type": "amount",
+      "source_row": null,
+      "source": "MEA",
+      "components": [
+        {
+          "country": "Italy",
+          "visit_dates": "2021-10-29 to 2021-11-02",
+          "cost_text": "6,90,49,376",
+          "cost_inr": 69049376,
+          "note": null
+        },
+        {
+          "country": "United Kingdom",
+          "visit_dates": "2021-10-29 to 2021-11-02",
+          "cost_text": "8,57,41,408",
+          "cost_inr": 85741408,
+          "note": null
+        }
+      ]
+    },
+    "63": {
+      "tour_n": 63,
+      "place": "Germany·Denmark·France",
+      "period": "2022-05-02 to 2022-05-04",
+      "cost_text": "16,86,92,401",
+      "cost_inr": 168692401,
+      "cost_type": "amount",
+      "source_row": null,
+      "source": "MEA",
+      "components": [
+        {
+          "country": "Germany",
+          "visit_dates": "2022-05-02 to 2022-05-04",
+          "cost_text": "9,44,41,562",
+          "cost_inr": 94441562,
+          "note": null
+        },
+        {
+          "country": "Denmark",
+          "visit_dates": "2022-05-02 to 2022-05-04",
+          "cost_text": "5,47,46,921",
+          "cost_inr": 54746921,
+          "note": null
+        },
+        {
+          "country": "France",
+          "visit_dates": "2022-05-02 to 2022-05-04",
+          "cost_text": "1,95,03,918",
+          "cost_inr": 19503918,
+          "note": null
+        }
+      ]
+    },
+    "64": {
+      "tour_n": 64,
+      "place": "Nepal",
+      "period": "2022-05-16",
+      "cost_text": "80,01,483",
+      "cost_inr": 8001483,
+      "cost_type": "amount",
+      "source_row": null,
+      "source": "MEA",
+      "components": [
+        {
+          "country": "Nepal",
+          "visit_dates": "2022-05-16",
+          "cost_text": "80,01,483",
+          "cost_inr": 8001483,
+          "note": null
+        }
+      ]
+    },
+    "65": {
+      "tour_n": 65,
+      "place": "Japan",
+      "period": "2022-05-22 to 2022-05-25",
+      "cost_text": "8,68,99,372",
+      "cost_inr": 86899372,
+      "cost_type": "amount",
+      "source_row": null,
+      "source": "MEA",
+      "components": [
+        {
+          "country": "Japan",
+          "visit_dates": "2022-05-22 to 2022-05-25",
+          "cost_text": "8,68,99,372",
+          "cost_inr": 86899372,
+          "note": null
+        }
+      ]
+    },
+    "66": {
+      "tour_n": 66,
+      "place": "Germany·United Arab Emirates",
+      "period": "2022-06-26 to 2022-06-28",
+      "cost_text": "16,12,17,021",
+      "cost_inr": 161217021,
+      "cost_type": "amount",
+      "source_row": null,
+      "source": "MEA",
+      "components": [
+        {
+          "country": "Germany",
+          "visit_dates": "2022-06-26 to 2022-06-28",
+          "cost_text": "14,47,24,416",
+          "cost_inr": 144724416,
+          "note": null
+        },
+        {
+          "country": "UAE",
+          "visit_dates": "2022-06-26 to 2022-06-28",
+          "cost_text": "1,64,92,605",
+          "cost_inr": 16492605,
+          "note": null
+        }
+      ]
+    },
+    "67": {
+      "tour_n": 67,
+      "place": "Uzbekistan",
+      "period": "2022-09-15 to 2022-09-16",
+      "cost_text": "1,57,26,709",
+      "cost_inr": 15726709,
+      "cost_type": "amount",
+      "source_row": null,
+      "source": "MEA",
+      "components": [
+        {
+          "country": "Uzbekistan",
+          "visit_dates": "2022-09-15 to 2022-09-16",
+          "cost_text": "1,57,26,709",
+          "cost_inr": 15726709,
+          "note": null
+        }
+      ]
+    },
+    "68": {
+      "tour_n": 68,
+      "place": "Japan",
+      "period": "2022-09-26 to 2022-09-28",
+      "cost_text": "7,08,03,411",
+      "cost_inr": 70803411,
+      "cost_type": "amount",
+      "source_row": null,
+      "source": "MEA",
+      "components": [
+        {
+          "country": "Japan",
+          "visit_dates": "2022-09-26 to 2022-09-28",
+          "cost_text": "7,08,03,411",
+          "cost_inr": 70803411,
+          "note": null
+        }
+      ]
+    },
+    "69": {
+      "tour_n": 69,
+      "place": "Indonesia",
+      "period": "2022-11-14 to 2022-11-16",
+      "cost_text": "4,69,52,964",
+      "cost_inr": 46952964,
+      "cost_type": "amount",
+      "source_row": null,
+      "source": "MEA",
+      "components": [
+        {
+          "country": "Indonesia",
+          "visit_dates": "2022-11-14 to 2022-11-16",
+          "cost_text": "4,69,52,964",
+          "cost_inr": 46952964,
+          "note": null
+        }
+      ]
+    },
+    "70": {
+      "tour_n": 70,
+      "place": "Japan·Papua New Guinea·Australia",
+      "period": "2023-05-19 to 2023-05-25",
+      "cost_text": "31,84,30,090",
+      "cost_inr": 318430090,
+      "cost_type": "amount",
+      "source_row": null,
+      "source": "MEA",
+      "components": [
+        {
+          "country": "Japan",
+          "visit_dates": "2023-05-19 to 2023-05-25",
+          "cost_text": "17,19,33,356",
+          "cost_inr": 171933356,
+          "note": null
+        },
+        {
+          "country": "Australia",
+          "visit_dates": "2023-05-19 to 2023-05-25",
+          "cost_text": "6,06,92,057",
+          "cost_inr": 60692057,
+          "note": null
+        },
+        {
+          "country": "Papua New Guinea",
+          "visit_dates": "2023-05-19 to 2023-05-25",
+          "cost_text": "8,58,04,677",
+          "cost_inr": 85804677,
+          "note": null
+        }
+      ]
+    },
+    "71": {
+      "tour_n": 71,
+      "place": "United States·Egypt",
+      "period": "2023-06-19 to 2023-06-25",
+      "cost_text": "25,58,72,568",
+      "cost_inr": 255872568,
+      "cost_type": "amount",
+      "source_row": null,
+      "source": "MEA",
+      "components": [
+        {
+          "country": "United States of America",
+          "visit_dates": "2023-06-19 to 2023-06-25",
+          "cost_text": "22,89,68,509",
+          "cost_inr": 228968509,
+          "note": null
+        },
+        {
+          "country": "Egypt",
+          "visit_dates": "2023-06-19 to 2023-06-25",
+          "cost_text": "2,69,04,059",
+          "cost_inr": 26904059,
+          "note": null
+        }
+      ]
+    },
+    "72": {
+      "tour_n": 72,
+      "place": "France·United Arab Emirates",
+      "period": "2023-07-13 to 2023-07-15",
+      "cost_text": "15,19,88,495",
+      "cost_inr": 151988495,
+      "cost_type": "amount",
+      "source_row": null,
+      "source": "MEA",
+      "components": [
+        {
+          "country": "France",
+          "visit_dates": "2023-07-13 to 2023-07-15",
+          "cost_text": "13,74,81,530",
+          "cost_inr": 137481530,
+          "note": null
+        },
+        {
+          "country": "UAE",
+          "visit_dates": "2023-07-13 to 2023-07-15",
+          "cost_text": "1,45,06,965",
+          "cost_inr": 14506965,
+          "note": null
+        }
+      ]
+    },
+    "73": {
+      "tour_n": 73,
+      "place": "South Africa·Greece",
+      "period": "2023-08-22 to 2023-08-25",
+      "cost_text": "13,09,13,108",
+      "cost_inr": 130913108,
+      "cost_type": "amount",
+      "source_row": null,
+      "source": "MEA",
+      "components": [
+        {
+          "country": "South Africa",
+          "visit_dates": "2023-08-22 to 2023-08-25",
+          "cost_text": "6,11,37,355",
+          "cost_inr": 61137355,
+          "note": null
+        },
+        {
+          "country": "Greece",
+          "visit_dates": "2023-08-22 to 2023-08-25",
+          "cost_text": "6,97,75,753",
+          "cost_inr": 69775753,
+          "note": null
+        }
+      ]
+    },
+    "74": {
+      "tour_n": 74,
+      "place": "Indonesia",
+      "period": "2023-09-06 to 2023-09-07",
+      "cost_text": "3,62,21,843",
+      "cost_inr": 36221843,
+      "cost_type": "amount",
+      "source_row": null,
+      "source": "MEA",
+      "components": [
+        {
+          "country": "Indonesia",
+          "visit_dates": "2023-09-06 to 2023-09-07",
+          "cost_text": "3,62,21,843",
+          "cost_inr": 36221843,
+          "note": null
+        }
+      ]
+    },
+    "75": {
+      "tour_n": 75,
+      "place": "United Arab Emirates",
+      "period": "2023-11-30 to 2023-12-01",
+      "cost_text": "4,28,88,197",
+      "cost_inr": 42888197,
+      "cost_type": "amount",
+      "source_row": null,
+      "source": "MEA",
+      "components": [
+        {
+          "country": "UAE",
+          "visit_dates": "2023-11-30 to 2023-12-01",
+          "cost_text": "4,28,88,197",
+          "cost_inr": 42888197,
+          "note": null
+        }
+      ]
+    },
+    "76": {
+      "tour_n": 76,
+      "place": "United Arab Emirates·Qatar",
+      "period": "2024-02-13 to 2024-02-15",
+      "cost_text": "8,46,26,092",
+      "cost_inr": 84626092,
+      "cost_type": "amount",
+      "source_row": null,
+      "source": "MEA",
+      "components": [
+        {
+          "country": "UAE",
+          "visit_dates": "2024-02-13 to 2024-02-15",
+          "cost_text": "5,31,95,485",
+          "cost_inr": 53195485,
+          "note": null
+        },
+        {
+          "country": "Qatar",
+          "visit_dates": "2024-02-13 to 2024-02-15",
+          "cost_text": "3,14,30,607",
+          "cost_inr": 31430607,
+          "note": null
+        }
+      ]
+    },
+    "77": {
+      "tour_n": 77,
+      "place": "Bhutan",
+      "period": "2024-03-22 to 2024-03-23",
+      "cost_text": "4,50,27,271",
+      "cost_inr": 45027271,
+      "cost_type": "amount",
+      "source_row": null,
+      "source": "MEA",
+      "components": [
+        {
+          "country": "Bhutan",
+          "visit_dates": "2024-03-22 to 2024-03-23",
+          "cost_text": "4,50,27,271",
+          "cost_inr": 45027271,
+          "note": null
+        }
+      ]
+    },
+    "78": {
+      "tour_n": 78,
+      "place": "Italy",
+      "period": "2024-06-13 to 2024-06-14",
+      "cost_text": "14,36,55,289",
+      "cost_inr": 143655289,
+      "cost_type": "amount",
+      "source_row": null,
+      "source": "MEA",
+      "components": [
+        {
+          "country": "Italy",
+          "visit_dates": "2024-06-13 to 2024-06-14",
+          "cost_text": "14,36,55,289",
+          "cost_inr": 143655289,
+          "note": null
+        }
+      ]
+    },
+    "79": {
+      "tour_n": 79,
+      "place": "Russia·Austria",
+      "period": "2024-07-08 to 2024-07-10",
+      "cost_text": "9,70,07,491",
+      "cost_inr": 97007491,
+      "cost_type": "amount",
+      "source_row": null,
+      "source": "MEA",
+      "components": [
+        {
+          "country": "Russia",
+          "visit_dates": "2024-07-08 to 2024-07-10",
+          "cost_text": "5,34,71,726",
+          "cost_inr": 53471726,
+          "note": null
+        },
+        {
+          "country": "Austria",
+          "visit_dates": "2024-07-08 to 2024-07-10",
+          "cost_text": "4,35,35,765",
+          "cost_inr": 43535765,
+          "note": null
+        }
+      ]
+    },
+    "80": {
+      "tour_n": 80,
+      "place": "Poland·Ukraine",
+      "period": "2024-08-21 to 2024-08-23",
+      "cost_text": "12,62,19,855",
+      "cost_inr": 126219855,
+      "cost_type": "amount",
+      "source_row": null,
+      "source": "MEA",
+      "components": [
+        {
+          "country": "Poland",
+          "visit_dates": "2024-08-21 to 2024-08-23",
+          "cost_text": "10,10,18,686",
+          "cost_inr": 101018686,
+          "note": null
+        },
+        {
+          "country": "Ukraine",
+          "visit_dates": "2024-08-21 to 2024-08-23",
+          "cost_text": "2,52,01,169",
+          "cost_inr": 25201169,
+          "note": null
+        }
+      ]
+    },
+    "81": {
+      "tour_n": 81,
+      "place": "Brunei·Singapore",
+      "period": "2024-09-03 to 2024-09-05",
+      "cost_text": "12,77,68,739",
+      "cost_inr": 127768739,
+      "cost_type": "amount",
+      "source_row": null,
+      "source": "MEA",
+      "components": [
+        {
+          "country": "Brunei Darussalam",
+          "visit_dates": "2024-09-03 to 2024-09-05",
+          "cost_text": "5,02,47,410",
+          "cost_inr": 50247410,
+          "note": null
+        },
+        {
+          "country": "Singapore",
+          "visit_dates": "2024-09-03 to 2024-09-05",
+          "cost_text": "7,75,21,329",
+          "cost_inr": 77521329,
+          "note": null
+        }
+      ]
+    },
+    "82": {
+      "tour_n": 82,
+      "place": "United States",
+      "period": "2024-09-21 to 2024-09-23",
+      "cost_text": "15,33,76,348",
+      "cost_inr": 153376348,
+      "cost_type": "amount",
+      "source_row": null,
+      "source": "MEA",
+      "components": [
+        {
+          "country": "United States of America",
+          "visit_dates": "2024-09-21 to 2024-09-23",
+          "cost_text": "15,33,76,348",
+          "cost_inr": 153376348,
+          "note": null
+        }
+      ]
+    },
+    "83": {
+      "tour_n": 83,
+      "place": "Laos",
+      "period": "2024-10-10 to 2024-10-11",
+      "cost_text": "3,00,73,096",
+      "cost_inr": 30073096,
+      "cost_type": "amount",
+      "source_row": null,
+      "source": "MEA",
+      "components": [
+        {
+          "country": "Lao PDR",
+          "visit_dates": "2024-10-10 to 2024-10-11",
+          "cost_text": "3,00,73,096",
+          "cost_inr": 30073096,
+          "note": null
+        }
+      ]
+    },
+    "84": {
+      "tour_n": 84,
+      "place": "Russia",
+      "period": "2024-10-22 to 2024-10-23",
+      "cost_text": "10,74,99,171",
+      "cost_inr": 107499171,
+      "cost_type": "amount",
+      "source_row": null,
+      "source": "MEA",
+      "components": [
+        {
+          "country": "Russia",
+          "visit_dates": "2024-10-22 to 2024-10-23",
+          "cost_text": "10,74,99,171",
+          "cost_inr": 107499171,
+          "note": null
+        }
+      ]
+    },
+    "85": {
+      "tour_n": 85,
+      "place": "Nigeria·Brazil·Guyana",
+      "period": "2024-11-16 to 2024-11-21",
+      "cost_text": "15,43,87,727",
+      "cost_inr": 154387727,
+      "cost_type": "amount",
+      "source_row": null,
+      "source": "MEA",
+      "components": [
+        {
+          "country": "Nigeria",
+          "visit_dates": "2024-11-16 to 2024-11-21",
+          "cost_text": "4,46,09,640",
+          "cost_inr": 44609640,
+          "note": null
+        },
+        {
+          "country": "Brazil",
+          "visit_dates": "2024-11-16 to 2024-11-21",
+          "cost_text": "5,51,86,592",
+          "cost_inr": 55186592,
+          "note": null
+        },
+        {
+          "country": "Guyana",
+          "visit_dates": "2024-11-16 to 2024-11-21",
+          "cost_text": "5,45,91,495",
+          "cost_inr": 54591495,
+          "note": null
+        }
+      ]
+    },
+    "86": {
+      "tour_n": 86,
+      "place": "Kuwait",
+      "period": "2024-12-21 to 2024-12-22",
+      "cost_text": "2,54,59,263",
+      "cost_inr": 25459263,
+      "cost_type": "amount",
+      "source_row": null,
+      "source": "MEA",
+      "components": [
+        {
+          "country": "Kuwait",
+          "visit_dates": "2024-12-21 to 2024-12-22",
+          "cost_text": "2,54,59,263",
+          "cost_inr": 25459263,
+          "note": null
+        }
+      ]
+    },
+    "87": {
+      "tour_n": 87,
+      "place": "France·United States",
+      "period": "2025-02-10 to 2025-02-13",
+      "cost_text": "42,14,67,204",
+      "cost_inr": 421467204,
+      "cost_type": "amount",
+      "source_row": null,
+      "source": "MEA",
+      "components": [
+        {
+          "country": "France",
+          "visit_dates": "2025-02-10 to 2025-02-13",
+          "cost_text": "25,59,82,902",
+          "cost_inr": 255982902,
+          "note": null
+        },
+        {
+          "country": "United States of America",
+          "visit_dates": "2025-02-10 to 2025-02-13",
+          "cost_text": "16,54,84,302",
+          "cost_inr": 165484302,
+          "note": null
+        }
+      ]
+    },
+    "88": {
+      "tour_n": 88,
+      "place": "Mauritius",
+      "period": "2025-03-11 to 2025-03-12",
+      "cost_text": "3,06,31,866",
+      "cost_inr": 30631866,
+      "cost_type": "amount",
+      "source_row": null,
+      "source": "MEA",
+      "components": [
+        {
+          "country": "Mauritius",
+          "visit_dates": "2025-03-11 to 2025-03-12",
+          "cost_text": "3,06,31,866",
+          "cost_inr": 30631866,
+          "note": null
+        }
+      ]
+    },
+    "89": {
+      "tour_n": 89,
+      "place": "Thailand·Sri Lanka",
+      "period": "2025-04-03 to 2025-04-06",
+      "cost_text": "9,39,02,898",
+      "cost_inr": 93902898,
+      "cost_type": "amount",
+      "source_row": null,
+      "source": "MEA",
+      "components": [
+        {
+          "country": "Thailand",
+          "visit_dates": "2025-04-03 to 2025-04-06",
+          "cost_text": "4,92,81,208",
+          "cost_inr": 49281208,
+          "note": null
+        },
+        {
+          "country": "Sri Lanka",
+          "visit_dates": "2025-04-03 to 2025-04-06",
+          "cost_text": "4,46,21,690",
+          "cost_inr": 44621690,
+          "note": null
+        }
+      ]
+    },
+    "90": {
+      "tour_n": 90,
+      "place": "Saudi Arabia",
+      "period": "2025-04-22 to 2025-04-23",
+      "cost_text": "15,54,03,792.47",
+      "cost_inr": 155403792.47,
+      "cost_type": "amount",
+      "source_row": null,
+      "source": "MEA",
+      "components": [
+        {
+          "country": "Saudi Arabia",
+          "visit_dates": "2025-04-22 to 2025-04-23",
+          "cost_text": "15,54,03,792.47",
+          "cost_inr": 155403792.47,
+          "note": null
+        }
+      ]
+    },
+    "91": {
+      "tour_n": 91,
+      "place": "Cyprus·Canada·Croatia",
+      "period": "2025-06-15 to 2025-06-19",
+      "cost_text": "17,13,88,003",
+      "cost_inr": 171388003,
+      "cost_type": "amount",
+      "source_row": null,
+      "source": "MEA",
+      "components": [
+        {
+          "country": "Cyprus",
+          "visit_dates": "2025-06-15 to 2025-06-19",
+          "cost_text": "7,18,24,847",
+          "cost_inr": 71824847,
+          "note": null
+        },
+        {
+          "country": "Canada",
+          "visit_dates": "2025-06-15 to 2025-06-19",
+          "cost_text": "5,31,02,671",
+          "cost_inr": 53102671,
+          "note": null
+        },
+        {
+          "country": "Croatia",
+          "visit_dates": "2025-06-15 to 2025-06-19",
+          "cost_text": "4,64,60,485",
+          "cost_inr": 46460485,
+          "note": null
+        }
+      ]
+    },
+    "92": {
+      "tour_n": 92,
+      "place": "Ghana·Trinidad and Tobago·Argentina·Brazil·Namibia",
+      "period": "2025-07-02 to 2025-07-09",
+      "cost_text": "22,11,39,305.7",
+      "cost_inr": 221139305.7,
+      "cost_type": "amount",
+      "source_row": null,
+      "source": "MEA",
+      "components": [
+        {
+          "country": "Ghana",
+          "visit_dates": "2025-07-02 to 2025-07-09",
+          "cost_text": "4,69,04,976",
+          "cost_inr": 46904976,
+          "note": null
+        },
+        {
+          "country": "Trinidad & Tobago",
+          "visit_dates": "2025-07-02 to 2025-07-09",
+          "cost_text": "4,80,00,229.7",
+          "cost_inr": 48000229.7,
+          "note": null
+        },
+        {
+          "country": "Argentina",
+          "visit_dates": "2025-07-02 to 2025-07-09",
+          "cost_text": "6,64,64,031",
+          "cost_inr": 66464031,
+          "note": null
+        },
+        {
+          "country": "Brazil",
+          "visit_dates": "2025-07-02 to 2025-07-09",
+          "cost_text": "1,77,22,144",
+          "cost_inr": 17722144,
+          "note": null
+        },
+        {
+          "country": "Namibia",
+          "visit_dates": "2025-07-02 to 2025-07-09",
+          "cost_text": "4,20,47,925",
+          "cost_inr": 42047925,
+          "note": null
+        }
+      ]
+    },
+    "93": {
+      "tour_n": 93,
+      "place": "United Kingdom·Maldives",
+      "period": "2025-07-23 to 2025-07-26",
+      "cost_text": "18,54,60,397.39",
+      "cost_inr": 185460397.39,
+      "cost_type": "amount",
+      "source_row": null,
+      "source": "MEA",
+      "components": [
+        {
+          "country": "United Kingdom",
+          "visit_dates": "2025-07-23 to 2025-07-26",
+          "cost_text": "9,91,55,061.39",
+          "cost_inr": 99155061.39,
+          "note": null
+        },
+        {
+          "country": "Maldives",
+          "visit_dates": "2025-07-23 to 2025-07-26",
+          "cost_text": "8,63,05,336",
+          "cost_inr": 86305336,
+          "note": null
+        }
+      ]
+    },
+    "94": {
+      "tour_n": 94,
+      "place": "Japan·China",
+      "period": "2025-08-29 to 2025-09-01",
+      "cost_text": "19,15,32,487",
+      "cost_inr": 191532487,
+      "cost_type": "amount",
+      "source_row": null,
+      "source": "MEA",
+      "components": [
+        {
+          "country": "China",
+          "visit_dates": "2025-08-29 to 2025-09-01",
+          "cost_text": "10,59,90,561",
+          "cost_inr": 105990561,
+          "note": null
+        },
+        {
+          "country": "Japan",
+          "visit_dates": "2025-08-29 to 2025-09-01",
+          "cost_text": "8,55,41,926",
+          "cost_inr": 85541926,
+          "note": null
+        }
+      ]
+    },
+    "95": {
+      "tour_n": 95,
+      "place": "Bhutan",
+      "period": "2025-11-11 to 2025-11-12",
+      "cost_text": "4,44,94,827",
+      "cost_inr": 44494827,
+      "cost_type": "amount",
+      "source_row": null,
+      "source": "MEA",
+      "components": [
+        {
+          "country": "Bhutan",
+          "visit_dates": "2025-11-11 to 2025-11-12",
+          "cost_text": "4,44,94,827",
+          "cost_inr": 44494827,
+          "note": "MEA source prints 'Rs. 4,44,94827/-'; interpreted as Rs. 4,44,94,827"
+        }
+      ],
+      "note": "Bhutan: MEA source prints 'Rs. 4,44,94827/-'; interpreted as Rs. 4,44,94,827"
+    },
+    "96": {
+      "tour_n": 96,
+      "place": "South Africa",
+      "period": "2025-11-21 to 2025-11-23",
+      "cost_text": "7,70,19,477",
+      "cost_inr": 77019477,
+      "cost_type": "amount",
+      "source_row": null,
+      "source": "MEA",
+      "components": [
+        {
+          "country": "South Africa",
+          "visit_dates": "2025-11-21 to 2025-11-23",
+          "cost_text": "7,70,19,477",
+          "cost_inr": 77019477,
+          "note": null
+        }
+      ]
+    },
+    "97": {
+      "tour_n": 97,
+      "place": "Jordan·Ethiopia·Oman",
+      "period": "2025-12-15 to 2025-12-18",
+      "cost_text": "12,64,02,082",
+      "cost_inr": 126402082,
+      "cost_type": "amount",
+      "source_row": null,
+      "source": "MEA",
+      "components": [
+        {
+          "country": "Jordan",
+          "visit_dates": "2025-12-15 to 2025-12-18",
+          "cost_text": "4,94,70,170",
+          "cost_inr": 49470170,
+          "note": null
+        },
+        {
+          "country": "Oman",
+          "visit_dates": "2025-12-15 to 2025-12-18",
+          "cost_text": "4,57,88,643",
+          "cost_inr": 45788643,
+          "note": null
+        },
+        {
+          "country": "Ethiopia",
+          "visit_dates": "2025-12-15 to 2025-12-18",
+          "cost_text": "3,11,43,269",
+          "cost_inr": 31143269,
+          "note": null
+        }
+      ]
+    },
+    "98": {
+      "tour_n": 98,
+      "place": "Malaysia",
+      "period": "2026-02-07 to 2026-02-08",
+      "cost_text": "5,57,17,369",
+      "cost_inr": 55717369,
+      "cost_type": "amount",
+      "source_row": null,
+      "source": "MEA",
+      "components": [
+        {
+          "country": "Malaysia",
+          "visit_dates": "2026-02-07 to 2026-02-08",
+          "cost_text": "5,57,17,369",
+          "cost_inr": 55717369,
+          "note": null
+        }
+      ]
+    },
+    "99": {
+      "tour_n": 99,
+      "place": "Israel",
+      "period": "2026-02-25 to 2026-02-26",
+      "cost_text": "11,92,25,938",
+      "cost_inr": 119225938,
+      "cost_type": "amount",
+      "source_row": null,
+      "source": "MEA",
+      "components": [
+        {
+          "country": "Israel",
+          "visit_dates": "2026-02-25 to 2026-02-26",
+          "cost_text": "11,92,25,938",
+          "cost_inr": 119225938,
+          "note": null
+        }
+      ]
+    },
+    "100": {
+      "tour_n": 100,
+      "place": "United Arab Emirates·Netherlands·Sweden·Norway·Italy",
+      "period": "2026-05-15 to 2026-05-20",
+      "cost_text": "33,60,96,762",
+      "cost_inr": 336096762,
+      "cost_type": "amount",
+      "source_row": null,
+      "source": "MEA",
+      "components": [
+        {
+          "country": "UAE",
+          "visit_dates": "2026-05-15 to 2026-05-20",
+          "cost_text": "1,97,67,864",
+          "cost_inr": 19767864,
+          "note": "Final figure pending settlement of bills"
+        },
+        {
+          "country": "Netherlands",
+          "visit_dates": "2026-05-15 to 2026-05-20",
+          "cost_text": "3,59,99,358",
+          "cost_inr": 35999358,
+          "note": null
+        },
+        {
+          "country": "Sweden",
+          "visit_dates": "2026-05-15 to 2026-05-20",
+          "cost_text": "6,32,90,593",
+          "cost_inr": 63290593,
+          "note": "Final figure pending settlement of bills"
+        },
+        {
+          "country": "Norway",
+          "visit_dates": "2026-05-15 to 2026-05-20",
+          "cost_text": "17,46,50,390",
+          "cost_inr": 174650390,
+          "note": "Final figure pending settlement of bills"
+        },
+        {
+          "country": "Italy",
+          "visit_dates": "2026-05-15 to 2026-05-20",
+          "cost_text": "4,23,88,557",
+          "cost_inr": 42388557,
+          "note": "Final figure pending settlement of bills"
+        }
+      ],
+      "provisional": true,
+      "note": "UAE: Final figure pending settlement of bills Sweden: Final figure pending settlement of bills Norway: Final figure pending settlement of bills Italy: Final figure pending settlement of bills"
+    },
+    "101": {
+      "tour_n": 101,
+      "place": "France·Slovakia·France",
+      "period": "2026-06-13 to 2026-06-18",
+      "cost_text": "4,77,43,080",
+      "cost_inr": 47743080,
+      "cost_type": "amount",
+      "source_row": null,
+      "source": "MEA",
+      "components": [
+        {
+          "country": "Slovak Republic",
+          "visit_dates": "2026-06-13 to 2026-06-18",
+          "cost_text": "4,77,43,080",
+          "cost_inr": 47743080,
+          "note": "Final figure pending settlement of bills"
+        },
+        {
+          "country": "France",
+          "visit_dates": "2026-06-13 to 2026-06-18",
+          "cost_text": "",
+          "cost_inr": null,
+          "note": "Compilation of bills still underway; no expenditure disclosed"
+        }
+      ],
+      "partial": true,
+      "provisional": true,
+      "note": "Slovak Republic: Final figure pending settlement of bills France: Compilation of bills still underway; no expenditure disclosed"
+    },
+    "102": {
+      "tour_n": 102,
+      "place": "Seychelles",
+      "period": "2026-06-27 to 2026-06-29",
+      "cost_text": "8,22,03,329",
+      "cost_inr": 82203329,
+      "cost_type": "amount",
+      "source_row": null,
+      "source": "MEA",
+      "components": [
+        {
+          "country": "Seychelles",
+          "visit_dates": "2026-06-27 to 2026-06-29",
+          "cost_text": "8,22,03,329",
+          "cost_inr": 82203329,
+          "note": "Final figure pending settlement of bills"
+        }
+      ],
+      "provisional": true,
+      "note": "Seychelles: Final figure pending settlement of bills"
+    },
+    "103": {
+      "tour_n": 103,
+      "place": "Indonesia·Australia·New Zealand",
+      "period": "2026-07-06 to 2026-07-11",
+      "cost_text": "10,49,07,319",
+      "cost_inr": 104907319,
+      "cost_type": "amount",
+      "source_row": null,
+      "source": "MEA",
+      "components": [
+        {
+          "country": "Indonesia",
+          "visit_dates": "2026-07-06 to 2026-07-11",
+          "cost_text": "3,87,13,468",
+          "cost_inr": 38713468,
+          "note": "Final figure pending settlement of bills"
+        },
+        {
+          "country": "Australia",
+          "visit_dates": "2026-07-06 to 2026-07-11",
+          "cost_text": "1,18,30,810",
+          "cost_inr": 11830810,
+          "note": "Final figure pending settlement of bills"
+        },
+        {
+          "country": "New Zealand",
+          "visit_dates": "2026-07-06 to 2026-07-11",
+          "cost_text": "5,43,63,041",
+          "cost_inr": 54363041,
+          "note": "Final figure pending settlement of bills"
+        }
+      ],
+      "provisional": true,
+      "note": "Indonesia: Final figure pending settlement of bills Australia: Final figure pending settlement of bills New Zealand: Final figure pending settlement of bills"
+    },
+    "104": {
+      "tour_n": 104,
+      "place": "Uzbekistan·Kyrgyzstan",
+      "period": "29–30 August 2026",
+      "cost_text": "",
+      "cost_inr": null,
+      "cost_type": "unpublished",
+      "source_row": null,
+      "note": "No expenditure figure provided in the MEA dataset (2021–2026)."
+    }
+  }
+}
