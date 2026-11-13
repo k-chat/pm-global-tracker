@@ -29,7 +29,7 @@
 <div class="stats"><div><b id="sT">0</b><span>Tours</span></div><div><b id="sC">0</b><span>Countries</span></div><div><b id="sK">0</b><span id="sKL">Km flown</span></div></div></div>
 <div id="story"></div>
 <div class="carousel-nav" role="group" aria-label="Tour carousel"><button id="carPrev" type="button" aria-label="Previous tour" title="Previous tour"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5 8 12l7 7"/></svg></button><button id="carNext" type="button" aria-label="Next tour" title="Next tour"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg></button></div>
-<div class="tl-wrap"><div class="country-legend" title="Toggle country highlights on the globe"><button id="hlOnce" type="button" class="hl-toggle" aria-pressed="true" aria-label="Toggle first-visit country highlights on the globe"><i class="sw-once"></i>first visit</button><button id="hlTwice" type="button" class="hl-toggle" aria-pressed="true" aria-label="Toggle repeat-visit country highlights on the globe"><i class="sw-twice"></i>repeat visit</button></div><div class="tl-head"><span class="tl-kicker">Timeline</span><b id="tlMetric">Chartered-flight cost</b><span id="tlScale"></span><span id="tlReadout"></span><span class="tl-legend"><i class="sw-pub"></i>published <i class="sw-na"></i>not published</span></div><div class="tl" id="tl"></div></div><div id="exploreHint" role="status">Free exploration · drag to rotate · scroll or pinch to zoom · click a place to reopen its tour · esc to exit</div><button id="exploreExit" type="button" aria-label="Exit free exploration" title="Exit free exploration (Esc)">✕ Exit</button><button id="carbonToggle" type="button" aria-label="Cycle timeline and counter view" aria-pressed="true">TL: ₹ COST</button><button id="play">▶ AUTOPLAY</button>
+<div class="tl-wrap"><div class="country-legend" title="Toggle country highlights on the globe"><button id="hlOnce" type="button" class="hl-toggle" aria-pressed="true" aria-label="Toggle first-visit country highlights on the globe"><i class="sw-once"></i>first visit</button><button id="hlTwice" type="button" class="hl-toggle" aria-pressed="true" aria-label="Toggle repeat-visit country highlights on the globe"><i class="sw-twice"></i>repeat visit</button></div><div class="tl-head"><span class="tl-kicker">Timeline</span><b id="tlMetric">Chartered-flight cost</b><span id="tlScale"></span><span id="tlReadout"></span><span class="tl-legend"><i class="sw-pub"></i>published <i class="sw-na"></i>not published</span></div><div class="tl" id="tl"></div></div><div id="exploreHint" role="status">Free exploration · drag to rotate · scroll or pinch to zoom · tap a place to reopen its tour · Esc or ✕ Exit to leave</div><button id="exploreExit" type="button" aria-label="Exit free exploration" title="Exit free exploration (Esc)">✕ Exit</button><button id="carbonToggle" type="button" aria-label="Cycle timeline and counter view" aria-pressed="true">TL: ₹ COST</button><button id="play">▶ AUTOPLAY</button>
 <button id="exploreBtn" type="button" aria-label="Explore the globe freely" aria-expanded="false" aria-controls="labels"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><ellipse cx="12" cy="12" rx="4.2" ry="9"/><path d="M3.2 9h17.6M3.2 15h17.6"/></svg>Explore</button>
 <button id="theme" type="button" aria-label="Switch to light mode" aria-pressed="false"><span id="themeIcon">☀</span><span id="themeLabel">LIGHT</span></button>
 <script src="vendor/three.min.js"></script>
@@ -543,8 +543,10 @@ function markProgrammaticScroll(){
 function goToStory(i,behavior='smooth'){
  const sec=secs[i+1];if(!sec)return;
  // Choosing a specific tour (label, timeline, arrow or autoplay) leaves free
- // exploration without restoring the card exploration started from.
- if(exploreMode){exploreReturnIdx=null;exitExplore()}
+ // exploration without restoring the card exploration started from. Apply the
+ // target state straight away: the rail may not move at all (opening the card
+ // the reader started from), so no scroll event would arrive to set it.
+ if(exploreMode){exploreReturnIdx=null;exitExplore();setActive(i,true)}
  if(isCarouselMode()){
   const left=Math.max(0,sec.offsetLeft-(st.clientWidth-sec.offsetWidth)/2);
   markProgrammaticScroll();
