@@ -27,7 +27,10 @@
 <svg width="0" height="0" style="position:absolute;overflow:hidden" aria-hidden="true" focusable="false"><symbol id="plane-glyph" viewBox="0 0 512 448"><path fill="currentColor" d="M480 192H365.71L260.61 8.06A16.014 16.014 0 0 0 246.71 0h-32.5c-10.28 0-18.44 9.75-16.02 19.75L223.2 192H117.99l-34.9-46.86A16.003 16.003 0 0 0 70.46 138H45.69c-9.01 0-15.82 8.28-14.02 17.12L48 224l-16.33 68.88C29.87 301.72 36.68 310 45.69 310h24.77c5.12 0 9.94-2.44 12.99-6.56L117.99 256H223.2l-25.01 172.25C195.77 438.25 203.93 448 214.21 448h32.5a16.014 16.014 0 0 0 13.9-8.06L365.71 256H480c17.67 0 32-14.33 32-32s-14.33-32-32-32z"/></symbol></svg>
 <div class="hud"><div class="brand">Prime Minister’s Global Tracker<small>Foreign tours · 2014 – 2026</small></div>
 <div class="stats"><div><b id="sT">0</b><span>Tours</span></div><div><b id="sC">0</b><span>Countries</span></div><div><b id="sK">0</b><span id="sKL">Km flown</span></div></div></div>
-<div id="story"></div><div class="tl-wrap"><div class="country-legend" title="Toggle country highlights on the globe"><button id="hlOnce" type="button" class="hl-toggle" aria-pressed="true" aria-label="Toggle first-visit country highlights on the globe"><i class="sw-once"></i>first visit</button><button id="hlTwice" type="button" class="hl-toggle" aria-pressed="true" aria-label="Toggle repeat-visit country highlights on the globe"><i class="sw-twice"></i>repeat visit</button></div><div class="tl-head"><span class="tl-kicker">Timeline</span><b id="tlMetric">Chartered-flight cost</b><span id="tlScale"></span><span id="tlReadout"></span><span class="tl-legend"><i class="sw-pub"></i>published <i class="sw-na"></i>not published</span></div><div class="tl" id="tl"></div></div><div id="exploreHint" role="status">Free exploration · drag to rotate · scroll or pinch to zoom · click a place to reopen its tour · esc to exit</div><button id="exploreExit" type="button" aria-label="Exit free exploration" title="Exit free exploration (Esc)">✕ Exit</button><button id="carbonToggle" type="button" aria-label="Cycle timeline and counter view" aria-pressed="true">TL: ₹ COST</button><button id="play">▶ AUTOPLAY</button>
+<div id="story"></div>
+<div class="carousel-nav" role="group" aria-label="Tour carousel"><button id="carPrev" type="button" aria-label="Previous tour" title="Previous tour"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5 8 12l7 7"/></svg></button><button id="carNext" type="button" aria-label="Next tour" title="Next tour"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg></button></div>
+<div class="tl-wrap"><div class="country-legend" title="Toggle country highlights on the globe"><button id="hlOnce" type="button" class="hl-toggle" aria-pressed="true" aria-label="Toggle first-visit country highlights on the globe"><i class="sw-once"></i>first visit</button><button id="hlTwice" type="button" class="hl-toggle" aria-pressed="true" aria-label="Toggle repeat-visit country highlights on the globe"><i class="sw-twice"></i>repeat visit</button></div><div class="tl-head"><span class="tl-kicker">Timeline</span><b id="tlMetric">Chartered-flight cost</b><span id="tlScale"></span><span id="tlReadout"></span><span class="tl-legend"><i class="sw-pub"></i>published <i class="sw-na"></i>not published</span></div><div class="tl" id="tl"></div></div><div id="exploreHint" role="status">Free exploration · drag to rotate · scroll or pinch to zoom · click a place to reopen its tour · esc to exit</div><button id="exploreExit" type="button" aria-label="Exit free exploration" title="Exit free exploration (Esc)">✕ Exit</button><button id="carbonToggle" type="button" aria-label="Cycle timeline and counter view" aria-pressed="true">TL: ₹ COST</button><button id="play">▶ AUTOPLAY</button>
+<button id="exploreBtn" type="button" aria-label="Explore the globe freely" aria-expanded="false" aria-controls="labels"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><ellipse cx="12" cy="12" rx="4.2" ry="9"/><path d="M3.2 9h17.6M3.2 15h17.6"/></svg>Explore</button>
 <button id="theme" type="button" aria-label="Switch to light mode" aria-pressed="false"><span id="themeIcon">☀</span><span id="themeLabel">LIGHT</span></button>
 <script src="vendor/three.min.js"></script>
 <script src="vendor/d3.min.js"></script>
@@ -427,8 +430,8 @@ function placeScreenLabels(items){
 // card and switches to free exploration: every place the aircraft has landed
 // gets a label, the globe can be dragged freely, and clicking a label scrolls
 // back to that visit's card (repeated clicks cycle through repeat visits).
-let exploreMode=false,exploreEls=null,exploreViewQ=null,exploreViewD=0,exploreStaggerT=null,exploreHintT=null;
-const exploreHint=$('#exploreHint'),exploreExit=$('#exploreExit'),finalSec=secs[secs.length-1],ZMIN=1.6,ZMAX=7;
+let exploreMode=false,exploreEls=null,exploreViewQ=null,exploreViewD=0,exploreStaggerT=null,exploreHintT=null,exploreReturnIdx=null;
+const exploreHint=$('#exploreHint'),exploreExit=$('#exploreExit'),exploreBtn=$('#exploreBtn'),finalSec=secs[secs.length-1],ZMIN=1.6,ZMAX=7;
 const _ew=new THREE.Vector3(),_en=new THREE.Vector3(),_ec=new THREE.Vector3(),_ep=new THREE.Vector3();
 function buildExploreLabels(){
  if(exploreEls)return;
@@ -453,8 +456,17 @@ function buildExploreLabels(){
  })
 }
 function enterExplore(){
- if(exploreMode||idx<N)return;
+ if(exploreMode)return;
+ // Remember the card the reader came from so Exit (or a label click that
+ // stays put) can hand them back to it on phones, where the rail is hidden.
+ exploreReturnIdx=idx;
+ // Exploration was built around the closing view (all destinations painted,
+ // no in-flight animation steering the camera). The mobile button can start
+ // it from any card, so move to that view first; exitExplore() restores it.
+ if(idx<N)setActive(N,true);
  exploreMode=true;
+ exploreBtn.hidden=true;
+ exploreBtn.setAttribute('aria-expanded','true');
  tgt.spin=false;tgt.d=3.5; // stop the showcase spin and pull in for a closer look
  cv.style.touchAction='none'; // drag and pinch own the canvas now, not page scroll
  buildExploreLabels();
@@ -470,7 +482,10 @@ function enterExplore(){
 }
 function exitExplore(){
  if(!exploreMode)return;
- exploreMode=false;exploreViewQ=null;cv.style.touchAction='';
+ const restore=exploreReturnIdx;
+ exploreMode=false;exploreReturnIdx=null;exploreViewQ=null;cv.style.touchAction='';
+ exploreBtn.hidden=false;
+ exploreBtn.setAttribute('aria-expanded','false');
  if(exploreStaggerT){clearTimeout(exploreStaggerT);exploreStaggerT=null}
  if(exploreHintT){clearTimeout(exploreHintT);exploreHintT=null}
  if(exploreEls)exploreEls.forEach(it=>{it.el.style.transitionDelay='';it.el.style.opacity=0;it.el.style.visibility='hidden'});
@@ -480,9 +495,13 @@ function exitExplore(){
  exploreHint.classList.remove('on');
  if(idx>=N){tgt.d=4.2;tgt.q.copy(qFor(ll(15,60)));spin=0} // restore framing and the upright showcase axis
  tgt.spin=idx>=N;
+ // Re-open the card exploration started from (unless a label click already
+ // chose a different tour, in which case exploreReturnIdx was cleared).
+ if(restore!=null&&restore>=-1&&restore<=N)setActive(restore,true);
 }
 addEventListener('keydown',e=>{if(e.key==='Escape'&&exploreMode)exitExplore()});
 exploreExit.onclick=()=>{exitExplore();exploreExit.blur()};
+exploreBtn.onclick=()=>{enterExplore();exploreBtn.blur()};
 function clearCur(){if(!cur)return;cur.legs.forEach(o=>{G.remove(o.tube);o.tube.geometry.dispose()});cur.rings.forEach(r=>G.remove(r.m));cur.labs.forEach(l=>l.el.remove());if(cur.legEls)cur.legEls.forEach(el=>el.classList.remove('on','flown'));cur=null;head.visible=false;headRot=null}
 function buildCur(t,i){clearCur();const legs=[],rings=[],labs=[],seen=new Set();
  t.L.forEach((l,j)=>{const P=palette(),c=curve(l),tg=c.userData.track?Math.min(240,Math.max(96,c.points.length*2)):64,g=new THREE.TubeGeometry(c,tg,.0032,5,false);const tube=new THREE.Mesh(g,new THREE.MeshBasicMaterial({color:j?P.route:P.routeLead,transparent:true,opacity:j?P.routeOpacity:P.leadOpacity,blending:P.additive?THREE.AdditiveBlending:THREE.NormalBlending,depthWrite:false}));tube.userData.themeRole=j?'route':'routeLead';G.add(tube);g.setDrawRange(0,0);legs.push({c,tube,n:g.index.count});
@@ -494,7 +513,7 @@ function buildCur(t,i){clearCur();const legs=[],rings=[],labs=[],seen=new Set();
 function aim(t){const m=new THREE.Vector3();t.L.forEach(l=>m.add(ll(l[2],l[3])).add(ll(l[0],l[1])));if(m.length()<.3)m.copy(ll(t.L[0][2],t.L[0][3]));m.normalize();let s=0;t.L.forEach(l=>{s=Math.max(s,m.angleTo(ll(l[2],l[3])),m.angleTo(ll(l[0],l[1])))});
  return{v:m,s}}
 function qFor(v){const a=-Math.atan2(v.x,v.z),h=Math.hypot(v.x,v.z),b=Math.atan2(v.y,h);return new THREE.Quaternion().setFromAxisAngle(new THREE.Vector3(1,0,0),b).multiply(new THREE.Quaternion().setFromAxisAngle(new THREE.Vector3(0,1,0),a))}
-function setActive(i,force){if(i===idx&&!force)return;idx=i;if(exploreMode&&i<N)exitExplore();const k=Math.max(-1,Math.min(i,N-1));
+function setActive(i,force){if(i===idx&&!force)return;idx=i;if(exploreMode&&i<N){exploreReturnIdx=null;exitExplore()}const k=Math.max(-1,Math.min(i,N-1));
  if(i>=0&&i<N)loadWikipediaTourNotes(D[i].y);
  $('#sT').textContent=k<0?N:k+1;$('#sC').textContent=k<0?cumC[N-1]:cumC[k];
  if(metricMode==='cost'){$('#sK').textContent=k<0?fmtInr(cumCost[N-1]):fmtInr(cumCost[k]);$('#sKL').textContent='Chartered-flight cost (published)'}
@@ -507,6 +526,7 @@ function setActive(i,force){if(i===idx&&!force)return;idx=i;if(exploreMode&&i<N)
 drawCountryHighlight(i);
 if(i<N&&orbitPointer!==null)orbitPointer=null;
 cv.style.cursor=orbitPointer!==null?'grabbing':i>=N?'grab':'';
+syncCarouselNav();
 }
 // scroll detection
 // Desktop: vertical sections drive the story via the viewport observer.
@@ -522,6 +542,9 @@ function markProgrammaticScroll(){
 }
 function goToStory(i,behavior='smooth'){
  const sec=secs[i+1];if(!sec)return;
+ // Choosing a specific tour (label, timeline, arrow or autoplay) leaves free
+ // exploration without restoring the card exploration started from.
+ if(exploreMode){exploreReturnIdx=null;exitExplore()}
  if(isCarouselMode()){
   const left=Math.max(0,sec.offsetLeft-(st.clientWidth-sec.offsetWidth)/2);
   markProgrammaticScroll();
@@ -530,6 +553,17 @@ function goToStory(i,behavior='smooth'){
   }else st.scrollTo({left,behavior:'smooth'});
  }else sec.scrollIntoView({behavior,block:'center'});
 }
+// Phone-only arrows step through the same rail the swipe gesture moves. They
+// mirror setActive(), so swipes, autoplay and timeline jumps keep them in sync.
+const carPrev=$('#carPrev'),carNext=$('#carNext');
+function syncCarouselNav(){
+ carPrev.disabled=idx<=-1;
+ carNext.disabled=idx>=N;
+ carPrev.setAttribute('aria-disabled',idx<=-1?'true':'false');
+ carNext.setAttribute('aria-disabled',idx>=N?'true':'false');
+}
+carPrev.onclick=()=>{if(idx>-1)goToStory(Math.max(-1,idx-1))};
+carNext.onclick=()=>{if(idx<N)goToStory(Math.min(N,idx+1))};
 // A touch on the rail means the next scroll is the reader's, not autoplay's.
 st.addEventListener('pointerdown',()=>{if(isCarouselMode())carouselProgrammatic=false},{passive:true});
 // Wait for the rail to settle before changing tours, so a smooth jump across

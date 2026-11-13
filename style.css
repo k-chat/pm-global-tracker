@@ -875,6 +875,12 @@ section.on .card { opacity: 1; transform: none; }
 #theme:hover { border-color: var(--acc2); color: var(--acc2); }
 #theme svg { width: 12px; height: 12px; flex: 0 0 auto; }
 
+/* Mobile-only controls: the carousel arrows and the free-exploration button.
+   Both are hidden on wider screens, where the story scrolls and the globe is
+   already directly draggable. */
+.carousel-nav { display: none; }
+#exploreBtn { display: none; }
+
 /* ---------- Small screens: compact card carousel ---------- */
 /* On phones the story leaves the vertical scroll flow: cards sit in a fixed,
    swipeable horizontal rail above the timeline while the globe stays put.
@@ -993,36 +999,106 @@ section.on .card { opacity: 1; transform: none; }
     left: 12px;
     bottom: calc(104px + env(safe-area-inset-bottom, 0px));
   }
+
+  /* Arrows for stepping through the card rail. They sit in the card gutters,
+     vertically centred on the rail, and are disabled at either end. */
+  .carousel-nav {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: calc(136px + env(safe-area-inset-bottom, 0px));
+    height: clamp(220px, 42vh, 340px);
+    height: clamp(220px, 42dvh, 340px);
+    z-index: 6;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 3px;
+    pointer-events: none;
+    transition: opacity .3s ease;
+  }
+  .carousel-nav button {
+    pointer-events: auto;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 34px;
+    height: 34px;
+    padding: 0;
+    border-radius: 50%;
+    border: 1px solid var(--button-border);
+    background: var(--card);
+    color: var(--cink);
+    cursor: pointer;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    transition: border-color .2s ease, color .2s ease, opacity .2s ease;
+    -webkit-tap-highlight-color: transparent;
+  }
+  .carousel-nav button:hover,
+  .carousel-nav button:focus-visible { border-color: var(--acc2); color: var(--acc2); }
+  .carousel-nav button:disabled {
+    opacity: .26;
+    cursor: default;
+    border-color: var(--button-border);
+    color: var(--cink);
+  }
+  .carousel-nav button svg {
+    width: 14px;
+    height: 14px;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    pointer-events: none;
+  }
+  /* The rail is hidden while exploring, so the arrows go with it. */
+  #story.exploring + .carousel-nav,
+  #story.exploring + .carousel-nav button {
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  #exploreBtn {
+    position: fixed;
+    left: 12px;
+    top: calc(122px + env(safe-area-inset-top, 0px));
+    z-index: 6;
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    padding: 9px 14px 8px;
+    border-radius: 3px;
+    border: 1px solid var(--button-border);
+    background: var(--card);
+    color: var(--cink);
+    font: 600 9.5px 'Inter Tight', sans-serif;
+    letter-spacing: .16em;
+    text-transform: uppercase;
+    cursor: pointer;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    transition: border-color .25s, color .25s, background-color .5s;
+    -webkit-tap-highlight-color: transparent;
+  }
+  #exploreBtn svg {
+    width: 12px;
+    height: 12px;
+    flex: 0 0 auto;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 1.4;
+  }
+  #exploreBtn:hover,
+  #exploreBtn:focus-visible { border-color: var(--acc2); color: var(--acc2); }
+  #exploreBtn[hidden] { display: none; }
 }
 
 /* ---------- Editorial instrumentation ---------- */
-:root[data-theme="dark"] .brand,
-:root[data-theme="dark"] .stats b,
-:root[data-theme="dark"] .card h2,
-:root[data-theme="dark"] .hero h1 {
-  font-family: 'Inter Tight', system-ui, sans-serif;
-}
-
-:root[data-theme="dark"] .brand {
-  font-weight: 500;
-  letter-spacing: -.025em;
-}
-
-:root[data-theme="dark"] .stats b {
-  font-size: 23px;
-  font-weight: 400;
-}
-
-:root[data-theme="dark"] .brand small,
-:root[data-theme="dark"] .credit,
-:root[data-theme="dark"] .stats span,
-:root[data-theme="dark"] .tag,
-:root[data-theme="dark"] .meta,
-:root[data-theme="dark"] .tl-head,
-:root[data-theme="dark"] .lbl {
-  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
-}
-
+/* Typography is shared across themes: same families, weights and sizes in
+   light and dark. Only surface treatments (backgrounds, borders, radii)
+   change with the theme. */
 :root[data-theme="dark"] .card {
   border-radius: 0;
   border-left-width: 1px;
@@ -1032,19 +1108,14 @@ section.on .card { opacity: 1; transform: none; }
   -webkit-backdrop-filter: blur(9px);
 }
 
-:root[data-theme="dark"] .card h2,
-:root[data-theme="dark"] .hero h1 {
-  font-weight: 400;
-  letter-spacing: -.045em;
-}
-
 :root[data-theme="dark"] .chip,
 :root[data-theme="dark"] .explore-tip,
 :root[data-theme="dark"] #exploreHint,
 :root[data-theme="dark"] #exploreExit,
 :root[data-theme="dark"] #play,
 :root[data-theme="dark"] #carbonToggle,
-:root[data-theme="dark"] #theme {
+:root[data-theme="dark"] #theme,
+:root[data-theme="dark"] #exploreBtn {
   border-radius: 0;
 }
 
