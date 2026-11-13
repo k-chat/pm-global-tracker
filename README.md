@@ -1,5 +1,7 @@
 # Prime Minister's Global Tracker
 
+**Live: https://k-chat.github.io/pm-global-tracker/**
+
 An interactive 3D globe of the Prime Minister's foreign tours (2014–2026): every
 flight leg, country visit, chartered-flight cost, and estimated carbon footprint.
 
