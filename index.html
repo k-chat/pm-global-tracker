@@ -432,6 +432,11 @@ function placeScreenLabels(items){
 // back to that visit's card (repeated clicks cycle through repeat visits).
 let exploreMode=false,exploreEls=null,exploreViewQ=null,exploreViewD=0,exploreStaggerT=null,exploreHintT=null,exploreReturnIdx=null;
 const exploreHint=$('#exploreHint'),exploreExit=$('#exploreExit'),exploreBtn=$('#exploreBtn'),finalSec=secs[secs.length-1],ZMIN=1.6,ZMAX=7;
+// Labels belong to the hemisphere facing the camera. A label must be well onto
+// that face before it appears and only drops once it turns past the limb, so
+// labels do not flicker as the globe rotates. The cap keeps dense regions from
+// becoming a wall of text; the labels nearest the centre of the face win.
+const EXPLORE_SHOW=.45,EXPLORE_HIDE=.28;
 const _ew=new THREE.Vector3(),_en=new THREE.Vector3(),_ec=new THREE.Vector3(),_ep=new THREE.Vector3();
 function buildExploreLabels(){
  if(exploreEls)return;
@@ -452,7 +457,7 @@ function buildExploreLabels(){
   el.style.opacity=0;el.style.visibility='hidden';
   el.onclick=()=>{const at=p.pick||0;p.pick=(at+1)%p.visits.length;goToStory(p.visits[at])};
   lab.appendChild(el);
-  return{el,v:p.v,x:0,y:0,kind:'place',stagger:n}
+  return{el,v:p.v,x:0,y:0,kind:'place',stagger:n,shown:false,face:-1}
  })
 }
 function enterExplore(){
@@ -755,12 +760,25 @@ function frame(now){requestAnimationFrame(frame);const dt=Math.min(.05,(now-last
  // free exploration: keep the destination labels glued to the globe. Placement
  // is re-solved only when the view actually moved, so an idle globe costs nothing.
  if(exploreMode&&exploreEls){
-  const cp=cam.position,gp=G.position,vis=[];
+  const cp=cam.position,gp=G.position,cands=[];
   for(let n=0;n<exploreEls.length;n++){
    const it=exploreEls[n];
    _ew.copy(it.v).applyQuaternion(G.quaternion).add(gp);
    _en.copy(_ew).sub(gp).normalize();_ec.copy(cp).sub(_ew).normalize();
-   if(_en.dot(_ec)>.2){_ep.copy(_ew).project(cam);it.x=(_ep.x*.5+.5)*innerWidth;it.y=(-_ep.y*.5+.5)*innerHeight;it.el.style.visibility='visible';vis.push(it)}
+   const face=_en.dot(_ec);it.face=face;
+   it.shown=it.shown?face>EXPLORE_HIDE:face>EXPLORE_SHOW;
+   if(!it.shown)continue;
+   _ep.copy(_ew).project(cam);
+   it.x=(_ep.x*.5+.5)*innerWidth;it.y=(-_ep.y*.5+.5)*innerHeight;
+   cands.push(it);
+  }
+  // Only the labels most squarely facing the camera are placed; the rest stay
+  // hidden until the globe turns them onto the visible face.
+  cands.sort((a,b)=>b.face-a.face);
+  const vis=cands.slice(0,innerWidth<821?12:18),shown=new Set(vis);
+  for(let n=0;n<exploreEls.length;n++){
+   const it=exploreEls[n];
+   if(shown.has(it))it.el.style.visibility='visible';
    else{it.el.style.visibility='hidden';it.el.style.opacity=0}
   }
   if(vis.length&&(exploreViewQ===null||exploreViewQ.angleTo(viewQ)>.004||Math.abs(cam.position.z-exploreViewD)>.004)){
